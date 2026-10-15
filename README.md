@@ -47,6 +47,5 @@ These come from development dependencies and are safe to ignore for local develo
 ├── index.html        # App entry HTML
 ├── src/              # Vue app: components, views, router, content and styles
 ├── public/           # Static assets served as-is
-├── vite.config.js    # Vite config (registers <tableau-viz> as a custom element)
-└── plantcare/        # Separate React app; see plantcare/README.md
+└── vite.config.js    # Vite config (registers <tableau-viz> as a custom element)
 ```
