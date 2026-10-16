@@ -34,6 +34,8 @@
 
   /* Layout */
   --nav-h: 60px;
+  --side-w: 264px;
+  --side-w-collapsed: 72px;
   --page-max: 1180px;
   --gutter: clamp(16px, 4vw, 32px);
 }
@@ -46,7 +48,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: calc(var(--nav-h) + 16px);
+  scroll-padding-top: 16px;
   -webkit-text-size-adjust: 100%;
 }
 
@@ -125,4 +127,81 @@ a:hover {
     transition: none !important;
     animation: none !important;
   }
+}
+
+/* ========================================================================
+   Page building blocks shared by every view
+   ======================================================================== */
+
+.page {
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: clamp(28px, 5vw, 56px) var(--gutter) 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.page-head {
+  margin-bottom: 8px;
+}
+
+.page-eyebrow {
+  font-size: 13px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--wheat);
+}
+
+.page-eyebrow a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.page-eyebrow a:hover {
+  color: var(--forest);
+  text-decoration: underline;
+}
+
+.page-title {
+  margin-top: 8px;
+  font-size: clamp(32px, 4.5vw, 48px);
+}
+
+.page-intro {
+  margin-top: 12px;
+  max-width: 68ch;
+  font-size: 18px;
+  color: var(--ink-soft);
+}
+
+.panel {
+  padding: clamp(24px, 4vw, 44px);
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.prose {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.note {
+  font-size: 15px;
+  font-style: italic;
+  color: var(--ink-muted);
+}
+
+.is-placeholder {
+  border-left-color: var(--line-strong) !important;
+}
+
+.is-placeholder .placeholder-text {
+  font-weight: 400;
+  font-style: italic;
+  color: var(--ink-muted);
 }

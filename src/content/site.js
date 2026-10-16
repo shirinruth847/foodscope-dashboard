@@ -13,31 +13,31 @@ export const SITE = {
     'An interactive look at food self-sufficiency and food supply across 178 countries from 2010 to 2023, and where Singapore fits in the global picture.',
   team: ['Anjali', 'Anumitaa', 'Shirin', 'Shree', 'Sreya'],
   stats: [
-    { value: '178', label: 'Countries' },
-    { value: '2010–2023', label: 'Years covered' },
     { value: 'FAOSTAT', label: 'Primary data source' },
   ],
 }
 
-/** Top navigation. Each `id` must match a section's id on the page. */
+/**
+ * Side navigation, one entry per page. `summary` is shown on the home page cards.
+ * The Explore Dashboards entry gets a sub-link per item in DASHBOARDS.items.
+ */
 export const NAV = [
-  { id: 'home', label: 'Home' },
-  { id: 'problem', label: 'Problem' },
-  { id: 'findings', label: 'Key Findings' },
-  { id: 'dashboards', label: 'Explore Dashboards' },
-  { id: 'recommendations', label: 'Recommendations' },
+  { id: 'home', label: 'Home', path: '/' },
+  { id: 'problem', label: 'Problem', path: '/problem', summary: 'Why producing more food at home doesn’t automatically mean more food available.' },
+  { id: 'findings', label: 'Key Findings', path: '/findings', summary: 'Headline insights from 178 countries, 2010–2023.' },
+  { id: 'dashboards', label: 'Explore Dashboards', path: '/dashboards', summary: 'Six interactive Tableau dashboards to explore the data yourself.' },
+  { id: 'recommendations', label: 'Recommendations', path: '/recommendations', summary: 'What the findings suggest for policymakers and planners.' },
 ]
 
 export const PROBLEM = {
   title: 'Problem',
   paragraphs: [
-    'Self-sufficiency has long been seen as a way to safeguard national food availability, but the idea is contested (Clapp, 2017). Much of the world’s food crosses borders. In 2023, about 46% of global vegetable oil production, 34% of fish and seafood, 26% of pulses and 20% of cereals were exported (FAO, 2025). What a country has to eat depends heavily on trade, not only on what it grows.',
-    'Singapore is a natural test case. Local farms supplied about 8% of fibre and 25% of protein consumption in 2025 (SFA, 2026), yet the country has a consistently high and diverse food supply. In November 2025 it replaced its “30 by 30” goal with Singapore Food Story 2, which targets 20% of fibre and 30% of protein from local production by 2035 (MSE, 2025).',
+    'Governments have long treated domestic food production as a safeguard for national food availability. But food supply doesn’t stop at the border: a large share of the world’s cereals, fish and oils is traded. Whether countries that produce more of their own food really have more food available per person is rarely checked, and the data sits in separate FAOSTAT tables that governments and policy analysts cannot easily compare. Without a consistent way to do so over time, it’s hard to tell whether growing more food at home actually puts more food on the table.'
   ],
   question:
     'Is a higher share of domestically produced food associated with greater food availability per person, and how does Singapore compare?',
   scope:
-    'Scope: this study looks at national food availability (is enough food available in the country?), not how food is distributed within a population.',
+    'Scope: This study looks at national food availability (whether enough food is available in the country), not how food is distributed within a population.',
 }
 
 /**
@@ -60,18 +60,19 @@ export const FINDINGS = {
 /**
  * Dashboards. To embed a published Tableau Public view, set `src` to its link
  * in the form https://public.tableau.com/views/WorkbookName/SheetName
- * Leave `src` empty to show a placeholder.
+ * Leave `src` empty to show a placeholder. Each dashboard gets its own page
+ * at /dashboards/<slug>.
  */
 export const DASHBOARDS = {
   title: 'Explore Dashboards',
   intro: 'Interactive Tableau dashboards. Hover, filter and click to explore the data.',
   items: [
-    { id: 'dashboard-1', title: 'Dashboard 1', description: '', src: 'https://public.tableau.com/views/testing-dashboard/Dashboard1', height: '820px' },
-    { id: 'dashboard-2', title: 'Dashboard 2', description: '', src: '', height: '820px' },
-    { id: 'dashboard-3', title: 'Dashboard 3', description: '', src: '', height: '820px' },
-    { id: 'dashboard-4', title: 'Dashboard 4', description: '', src: '', height: '820px' },
-    { id: 'dashboard-5', title: 'Dashboard 5', description: '', src: '', height: '820px' },
-    { id: 'dashboard-6', title: 'Dashboard 6', description: '', src: '', height: '820px' },
+    { slug: '1', title: 'Dashboard 1', description: '', src: 'https://public.tableau.com/views/testing-dashboard/Dashboard1', height: '820px' },
+    { slug: '2', title: 'Dashboard 2', description: '', src: '', height: '820px' },
+    { slug: '3', title: 'Dashboard 3', description: '', src: '', height: '820px' },
+    { slug: '4', title: 'Dashboard 4', description: '', src: '', height: '820px' },
+    { slug: '5', title: 'Dashboard 5', description: '', src: '', height: '820px' },
+    { slug: '6', title: 'Dashboard 6', description: '', src: '', height: '820px' },
   ],
 }
 
@@ -83,8 +84,6 @@ export const RECOMMENDATIONS = {
     { title: 'Recommendation 2', text: 'To be added once the findings are final.', placeholder: true },
     { title: 'Recommendation 3', text: 'To be added once the findings are final.', placeholder: true },
   ],
-  caveat:
-    'The relationship between self-sufficiency and food availability is not consistent across countries. Our results describe associations, not causes.',
 }
 
 export const REFERENCES = [
