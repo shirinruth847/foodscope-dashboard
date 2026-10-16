@@ -1,47 +1,18 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import AppShell from './components/AppShell.vue'
+import HomeView from './views/HomeView.vue'
 
-// Web history for clean URLs during development.
+// Single-page narrative: sections are reached by hash (#problem, #dashboards…).
 // TASK 5 decision: for static hosts without rewrite rules, switch to
-// createMemoryHistory()/hash history or add a 404.html fallback (see brief §7).
-const history = createWebHistory()
-
-const routes = [
-  {
-    path: '/',
-    name: 'intro',
-    component: AppShell,
-  },
-  {
-    path: '/self-sufficiency',
-    name: 'self-sufficiency',
-    component: AppShell,
-  },
-  {
-    path: '/availability',
-    name: 'availability',
-    component: AppShell,
-  },
-  {
-    path: '/singapore',
-    name: 'singapore',
-    component: AppShell,
-  },
-  {
-    path: '/about',
-    name: 'about',
-    component: AppShell,
-  },
-  {
-    path: '/:pathMatch(.*)*',
-    redirect: '/',
-  },
-]
-
+// createWebHashHistory() or add a 404.html fallback (see brief §7).
 export default createRouter({
-  history,
-  routes,
-  scrollBehavior() {
+  history: createWebHistory(),
+  routes: [
+    { path: '/', name: 'home', component: HomeView },
+    { path: '/:pathMatch(.*)*', redirect: '/' },
+  ],
+  scrollBehavior(to, from, savedPosition) {
+    if (savedPosition) return savedPosition
+    if (to.hash) return { el: to.hash, top: 76, behavior: 'smooth' }
     return { top: 0 }
   },
 })
