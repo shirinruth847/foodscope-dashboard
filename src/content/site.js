@@ -31,6 +31,14 @@ export const NAV = [
 
 export const PROBLEM = {
   title: 'Problem',
+  banner: {
+    src: '/images/problem-rice-paddy.png',
+    alt: 'Two farmers working in a flooded green rice paddy. One bends over the seedlings while the other shakes mud from a bundle of uprooted rice plants.',
+  },
+  photo: {
+    src: '/images/problem-harvest.png',
+    alt: 'A farmer in a straw hat walks along a dirt path beside a cornfield, carrying a bucket and a basket of freshly picked corn on a shoulder pole.',
+  },
   paragraphs: [
     'Governments have long treated domestic food production as a safeguard for national food availability. But food supply doesn’t stop at the border: a large share of the world’s cereals, fish and oils is traded. Whether countries that produce more of their own food really have more food available per person is rarely checked, and the data sits in separate FAOSTAT tables that governments and policy analysts cannot easily compare. Without a consistent way to do so over time, it’s hard to tell whether growing more food at home actually puts more food on the table.'
   ],
