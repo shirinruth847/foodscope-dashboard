@@ -69,18 +69,19 @@ export const FINDINGS = {
  * Dashboards. To embed a published Tableau Public view, set `src` to its link
  * in the form https://public.tableau.com/views/WorkbookName/SheetName
  * Leave `src` empty to show a placeholder. Each dashboard gets its own page
- * at /dashboards/<slug>.
+ * at /dashboards/<slug>. Set `width` to the published size for fixed-size
+ * dashboards (the width in Tableau's embed code).
  */
 export const DASHBOARDS = {
   title: 'Explore Dashboards',
   intro: 'Interactive Tableau dashboards. Hover, filter and click to explore the data.',
   items: [
-    { slug: '1', title: 'Dashboard 1', description: '', src: 'https://public.tableau.com/views/testing-dashboard/Dashboard1', height: '820px' },
+    { slug: '1', title: 'Dashboard 1', description: '', src: '', height: '820px' },
     { slug: '2', title: 'Dashboard 2', description: '', src: '', height: '820px' },
     { slug: '3', title: 'Dashboard 3', description: '', src: '', height: '820px' },
     { slug: '4', title: 'Dashboard 4', description: '', src: '', height: '820px' },
-    { slug: '5', title: 'Dashboard 5', description: '', src: '', height: '820px' },
-    { slug: '6', title: 'Dashboard 6', description: '', src: '', height: '820px' },
+    { slug: '5', title: 'Dashboard 5', description: '', src: 'https://public.tableau.com/views/VASelfSufficiencyAnalysis-Dashboard5/Dashboard5', width: '1200px', height: '827px' },
+    { slug: '6', title: 'Dashboard 6', description: '', src: 'https://public.tableau.com/views/VASelfSufficiencyAnalysis-Dashboard6/Dashboard6', width: '1200px', height: '827px' },
   ],
 }
 

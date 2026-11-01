@@ -1,5 +1,14 @@
 <script setup>
 import { DASHBOARDS } from '../content/site'
+
+// Tableau Public serves a static image for every published view, filed under
+// the first two letters of the workbook name.
+function previewUrl(src) {
+  const match = src.match(/^https:\/\/public\.tableau\.com\/views\/([^/]+)\/([^/?#]+)/)
+  if (!match) return null
+  const [, workbook, sheet] = match
+  return `https://public.tableau.com/static/images/${workbook.slice(0, 2)}/${workbook}/${sheet}/1.png`
+}
 </script>
 
 <template>
@@ -18,6 +27,14 @@ import { DASHBOARDS } from '../content/site'
               <rect x="6" y="8" width="36" height="32" rx="3" stroke="currentColor" stroke-width="1.5" />
               <path d="M14 32v-8M22 32V18M30 32v-11M38 32v-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
             </svg>
+            <img
+              v-if="previewUrl(d.src)"
+              class="tile__preview"
+              :src="previewUrl(d.src)"
+              alt=""
+              loading="lazy"
+              @error="$event.target.style.display = 'none'"
+            />
           </span>
           <span class="tile__body">
             <span class="tile__num">{{ String(i + 1).padStart(2, '0') }}</span>
@@ -61,14 +78,25 @@ import { DASHBOARDS } from '../content/site'
 }
 
 .tile__thumb {
+  position: relative;
   display: grid;
   place-items: center;
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 3 / 2;
   background:
     repeating-linear-gradient(135deg, transparent 0 14px, rgba(176, 138, 62, 0.06) 14px 15px),
     var(--cream-deep);
   color: var(--ink-muted);
   border-bottom: 1px solid var(--line);
+}
+
+.tile__preview {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  background: #fff;
 }
 
 .tile__body {

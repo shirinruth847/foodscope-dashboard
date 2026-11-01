@@ -143,6 +143,11 @@ a:hover {
   gap: 24px;
 }
 
+/* Fits a 1200px Tableau dashboard plus the embed's 1px border on each side. */
+.page--wide {
+  max-width: calc(1202px + 2 * var(--gutter));
+}
+
 .page-head {
   margin-bottom: 8px;
 }

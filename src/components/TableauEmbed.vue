@@ -33,6 +33,8 @@ const props = defineProps({
   /** Published view URL, e.g. https://public.tableau.com/views/Workbook/Sheet */
   src: { type: String, required: true },
   height: { type: String, default: '820px' },
+  /** Set to the published size for fixed-size dashboards; narrower screens then scroll sideways. */
+  width: { type: String, default: '100%' },
   /** 'top' | 'bottom' | 'hidden' */
   toolbar: { type: String, default: 'bottom' },
   hideTabs: { type: Boolean, default: true },
@@ -124,7 +126,7 @@ watch(
 
 <template>
   <div class="embed" :style="{ minHeight: height }">
-    <div ref="host" class="embed__host" :aria-label="title" :class="{ 'is-hidden': status === 'error' }" />
+    <div ref="host" class="embed__host" :style="{ width }" :aria-label="title" :class="{ 'is-hidden': status === 'error' }" />
 
     <div v-if="status === 'idle' || status === 'loading'" class="embed__overlay" aria-live="polite">
       <span class="embed__spinner" aria-hidden="true" />
@@ -146,11 +148,16 @@ watch(
   background: #fff;
   border: 1px solid var(--line);
   border-radius: var(--radius-sm);
-  overflow: hidden;
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 
 .embed__host {
   width: 100%;
+}
+
+.embed__host :deep(tableau-viz) {
+  display: block;
 }
 
 .embed__host.is-hidden {

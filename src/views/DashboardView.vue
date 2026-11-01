@@ -11,7 +11,7 @@ const dashboard = computed(() => DASHBOARDS.items.find((d) => d.slug === props.s
 </script>
 
 <template>
-  <main v-if="dashboard" class="page">
+  <main v-if="dashboard" class="page page--wide">
     <header class="page-head">
       <p class="page-eyebrow">
         <RouterLink to="/dashboards">{{ DASHBOARDS.title }}</RouterLink>
@@ -25,6 +25,7 @@ const dashboard = computed(() => DASHBOARDS.items.find((d) => d.slug === props.s
       :key="dashboard.slug"
       :src="dashboard.src"
       :height="dashboard.height"
+      :width="dashboard.width"
       :title="dashboard.title"
     />
 
