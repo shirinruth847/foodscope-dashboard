@@ -77,7 +77,7 @@ export const DASHBOARDS = {
   intro: 'Interactive Tableau dashboards. Hover, filter and click to explore the data.',
   items: [
     { slug: '1', title: 'Dashboard 1', description: '', src: '', height: '820px' },
-    { slug: '2', title: 'Dashboard 2', description: '', src: '', height: '820px' },
+    { slug: '2', title: 'Dashboard 2', description: '', src: 'https://public.tableau.com/views/Dashboard2_17935305135460/Dashboard', width: '1000px', height: '827px' },
     { slug: '3', title: 'Dashboard 3', description: '', src: '', height: '820px' },
     { slug: '4', title: 'Dashboard 4', description: '', src: '', height: '820px' },
     { slug: '5', title: 'Dashboard 5', description: '', src: 'https://public.tableau.com/views/VASelfSufficiencyAnalysis-Dashboard5/Dashboard5', width: '1200px', height: '827px' },

@@ -154,6 +154,7 @@ watch(
 
 .embed__host {
   width: 100%;
+  margin-inline: auto;
 }
 
 .embed__host :deep(tableau-viz) {
