@@ -46,9 +46,11 @@ const emit = defineEmits(['load', 'error'])
 const host = ref(null)
 const status = ref('idle') // idle | loading | ready | error
 const errorMessage = ref('')
+const isResetting = ref(false)
 
 let viz = null
 let observer = null
+let loadTimeout = null
 
 async function embed() {
   dispose()
@@ -68,12 +70,23 @@ async function embed() {
     viz.addEventListener('firstinteractive', onReady)
     viz.addEventListener('vizloaderror', onError)
     host.value.appendChild(viz)
+
+    // Tableau Cloud redirects viewers who are not authorised to its sign-in
+    // page, which does not always emit vizloaderror. Do not leave visitors
+    // looking at a permanent loading state in that case.
+    loadTimeout = window.setTimeout(() => {
+      if (status.value === 'loading') {
+        fail('Tableau did not finish loading. This Cloud view may require the visitor to sign in, or embedding may not be allowed for this site.')
+      }
+    }, 25000)
   } catch (e) {
     fail(e?.message ?? String(e))
   }
 }
 
 function onReady() {
+  window.clearTimeout(loadTimeout)
+  loadTimeout = null
   status.value = 'ready'
   console.info('[Tableau] Viz loaded:', props.src)
   emit('load', { viz })
@@ -84,13 +97,30 @@ function onError(e) {
 }
 
 function fail(message) {
+  window.clearTimeout(loadTimeout)
+  loadTimeout = null
   status.value = 'error'
   errorMessage.value = message
   console.error('[Tableau] Viz failed to load:', props.src, message)
   emit('error', { message })
 }
 
+async function resetDashboard() {
+  if (!viz || status.value !== 'ready') return
+
+  isResetting.value = true
+  try {
+    await viz.workbook.revertAllAsync()
+  } catch (e) {
+    fail(e?.message ?? 'The dashboard could not be reset.')
+  } finally {
+    isResetting.value = false
+  }
+}
+
 function dispose() {
+  window.clearTimeout(loadTimeout)
+  loadTimeout = null
   if (!viz) return
   viz.removeEventListener('firstinteractive', onReady)
   viz.removeEventListener('vizloaderror', onError)
@@ -126,6 +156,12 @@ watch(
 
 <template>
   <div class="embed" :style="{ minHeight: height }">
+    <div v-if="status === 'ready'" class="embed__controls">
+      <p>Explore the visualisation using its filters, map controls, and tooltips.</p>
+      <button type="button" class="embed__reset" :disabled="isResetting" @click="resetDashboard">
+        {{ isResetting ? 'Resetting…' : 'Reset dashboard' }}
+      </button>
+    </div>
     <div ref="host" class="embed__host" :style="{ width }" :aria-label="title" :class="{ 'is-hidden': status === 'error' }" />
 
     <div v-if="status === 'idle' || status === 'loading'" class="embed__overlay" aria-live="polite">
@@ -136,7 +172,8 @@ watch(
     <div v-else-if="status === 'error'" class="embed__overlay embed__overlay--error" role="alert">
       <p class="embed__error-title">This dashboard couldn’t be loaded.</p>
       <p class="embed__error-detail">{{ errorMessage }}</p>
-      <a :href="src" target="_blank" rel="noopener">Open it on Tableau Public →</a>
+      <a :href="src" target="_blank" rel="noopener">Open in Tableau →</a>
+      <button type="button" class="embed__retry" @click="embed">Try again</button>
     </div>
   </div>
 </template>
@@ -155,6 +192,45 @@ watch(
 .embed__host {
   width: 100%;
   margin-inline: auto;
+}
+
+.embed__controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--line);
+  background: var(--cream-deep);
+}
+
+.embed__controls p {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 13px;
+}
+
+.embed__reset {
+  flex: 0 0 auto;
+  border: 1px solid var(--forest);
+  border-radius: 999px;
+  padding: 6px 12px;
+  background: var(--forest);
+  color: #fff;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.embed__reset:hover:not(:disabled),
+.embed__reset:focus-visible:not(:disabled) {
+  background: var(--forest-deep);
+}
+
+.embed__reset:disabled {
+  cursor: wait;
+  opacity: 0.7;
 }
 
 .embed__host :deep(tableau-viz) {
@@ -196,6 +272,21 @@ watch(
   max-width: 48ch;
 }
 
+.embed__retry {
+  border: 1px solid var(--forest);
+  border-radius: 999px;
+  padding: 7px 14px;
+  background: transparent;
+  color: var(--forest);
+  font: inherit;
+  cursor: pointer;
+}
+
+.embed__retry:hover,
+.embed__retry:focus-visible {
+  background: var(--sage-tint);
+}
+
 .embed__spinner {
   width: 28px;
   height: 28px;
@@ -208,6 +299,13 @@ watch(
 @keyframes spin {
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 560px) {
+  .embed__controls {
+    align-items: flex-start;
+    flex-direction: column;
   }
 }
 </style>
