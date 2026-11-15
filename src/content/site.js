@@ -124,7 +124,7 @@ export const DASHBOARDS = {
       title: "Dashboard 1",
       description:
         "Compare how far countries meet their food needs through domestic production. This global view helps reveal where food availability relies more heavily on local supply or imports.",
-      src: "https://public.tableau.com/shared/B4K98B659?:showVizHome=no",
+      src: "https://public.tableau.com/views/Dashboard1_17935574978110/Dashboard1-Globaloverview",
       width: "1200px",
       height: "827px",
       guide: {
