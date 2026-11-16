@@ -137,7 +137,7 @@ const ICONS = {
                 class="side__sublink"
                 active-class="is-active"
               >
-                {{ d.title }}
+                {{ d.navTitle || d.title }}
               </RouterLink>
             </li>
           </ul>

@@ -121,28 +121,62 @@ export const DASHBOARDS = {
   items: [
     {
       slug: "1",
-      title: "Dashboard 1",
+      navTitle: "Dashboard 1",
+      title: "Global food self-sufficiency",
       description:
-        "Compare how far countries meet their food needs through domestic production. This global view helps reveal where food availability relies more heavily on local supply or imports.",
+        "See how much of each country’s food supply was produced domestically, then compare its position with countries at both ends of the global range.",
       src: "https://public.tableau.com/views/Dashboard1_17935574978110/Dashboard1-Globaloverview",
       width: "1200px",
       height: "827px",
-      guide: {
-        title: "How to explore this dashboard",
+      overview: {
+        eyebrow: "Dashboard 01 · Global overview",
+        meta: ["178 countries", "2010–2023", "National food availability"],
+      },
+      navigation: [
+        {
+          title: "Choose a year",
+          text: "Use the year control to compare the global picture over time.",
+        },
+        {
+          title: "Select a country",
+          text: "Choose a country or click the map to update its profile.",
+        },
+        {
+          title: "Compare the extremes",
+          text: "Compare the ranking with 100%, where production equals domestic supply.",
+        },
+        {
+          title: "Hover for detail",
+          text: "Hover for exact values. Use Reset dashboard to clear selections.",
+        },
+      ],
+      analysis: {
+        intro:
+          "Use the three views together to locate, compare and understand each country.",
         items: [
           {
-            title: "Hover for detail",
-            text: "Move over a mark, country, or chart element to reveal its exact values and supporting context.",
+            label: "01 · World map",
+            title: "Regional patterns",
+            text: "Colour shows the share produced domestically. Use it to spot patterns—not to judge food availability.",
           },
           {
-            title: "Filter your view",
-            text: "Use the dashboard's filter controls to focus on the countries, years, or food categories most relevant to your question.",
+            label: "02 · Top and bottom 15",
+            title: "Extremes around 100%",
+            text: "Above 100% means production exceeds domestic supply; lower values suggest greater import reliance. This shows extremes, not food-security rankings.",
           },
           {
-            title: "Compare thoughtfully",
-            text: "Higher self-sufficiency means a greater share of food supply is met domestically. This measures national availability, not whether food is equally distributed within a country.",
+            label: "03 · Country profile",
+            title: "Context for one country",
+            text: "Compare the ratio with import dependency, calories, GDP and income group. Treat patterns as associations, not causes.",
           },
         ],
+        takeaway:
+          "Self-sufficiency describes where food comes from, not whether a country’s supply is sufficient, diverse or evenly distributed.",
+      },
+      significance: {
+        title: "Why the global overview matters",
+        text: "Trade helps explain why self-sufficiency and food availability can differ. In 2023, exports equalled about 20% of cereal production and 46% of vegetable oil production. Read the map alongside trade and supply measures.",
+        source: "FAO Food Balance Sheets, 2023",
       },
     },
     {
