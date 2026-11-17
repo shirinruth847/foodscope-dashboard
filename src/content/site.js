@@ -227,19 +227,119 @@ export const DASHBOARDS = {
     },
     {
       slug: "5",
-      title: "Dashboard 5",
-      description: "",
+      navTitle: "Dashboard 5",
+      title: "Does income explain self-sufficiency?",
+      description:
+        "Wealthier countries can afford to import, so any link between producing your own food and having enough of it might simply reflect national income. These four views hold income constant.",
       src: "https://public.tableau.com/views/VASelfSufficiencyAnalysis-Dashboard5/Dashboard5",
       width: "1200px",
       height: "827px",
+      overview: {
+        eyebrow: "Dashboard 05 · Income comparison",
+        meta: ["2023 snapshot", "By World Bank income group"],
+      },
+      navigation: [
+        {
+          title: "Start with the correlations",
+          text: "The top chart states the finding. Right of zero is positive, left is negative.",
+        },
+        {
+          title: "Select an income group",
+          text: "Click a bar to highlight that group across the other three views.",
+        },
+        {
+          title: "Trace a single country",
+          text: "Click a point in the scatter to find the same country elsewhere.",
+        },
+        {
+          title: "Hover for detail",
+          text: "Hover for exact values. Use Reset dashboard to clear selections.",
+        },
+      ],
+      analysis: {
+        intro:
+          "Read the correlations first, then use the other three views to check what lies behind them.",
+        items: [
+          {
+            label: "01 · Correlation by income group",
+            title: "Where the link holds",
+            text: "Moderate in low-income countries (+0.44), near zero in the middle bands. Self-sufficiency matters most where food is scarce.",
+          },
+          {
+            label: "02 · Supply vs self-sufficiency",
+            title: "Four panels, four slopes",
+            text: "Each band trends differently, yet supply clusters near 3,000 kcal per person per day across the whole range.",
+          },
+          {
+            label: "03 · Self-sufficiency against GDP",
+            title: "Wealth doesn’t predict it",
+            text: "A near-flat line across two orders of magnitude of GDP. Income does not determine self-sufficiency in either direction.",
+          },
+          {
+            label: "04 · Distribution by income group",
+            title: "Spread within every band",
+            text: "Self-sufficiency varies widely inside each group. If income set it, these boxes would be narrow and sit apart.",
+          },
+        ],
+        takeaway:
+          "Income shapes how easily a country imports, but it does not determine how much of its own food it grows.",
+      },
     },
     {
       slug: "6",
-      title: "Dashboard 6",
-      description: "",
+      navTitle: "Dashboard 6",
+      title: "Is Singapore on track for its 2035 targets?",
+      description:
+        "Singapore imports more than 90% of its food. Under Singapore Food Story 2, local farms are meant to supply 20% of its fibre and 30% of its protein by 2035.",
       src: "https://public.tableau.com/views/VASelfSufficiencyAnalysis-Dashboard6/Dashboard6",
       width: "1200px",
       height: "827px",
+      note: "'Others' covers licensed food farms outside the four named categories. SFA does not itemise it; the group has fallen from 8 farms in 2019 to 3 in 2025.",
+      overview: {
+        eyebrow: "Dashboard 06 · Singapore progress",
+        meta: ["Singapore", "2015–2025", "Local production vs 2035 targets"],
+      },
+      navigation: [
+        {
+          title: "Start with the targets",
+          text: "The bars show current local share against the 2035 goal.",
+        },
+        {
+          title: "Select a category",
+          text: "Click Fibre or Protein to filter production and highlight the farms behind it.",
+        },
+        {
+          title: "Narrow the years",
+          text: "Use the production slider to focus the trend on a shorter window.",
+        },
+        {
+          title: "Hover for detail",
+          text: "Hover for exact values. Use Reset dashboard to clear selections.",
+        },
+      ],
+      analysis: {
+        intro:
+          "Start with the gap to each target, then read the trends that explain why they differ.",
+        items: [
+          {
+            label: "01 · Progress to 2035 targets",
+            title: "Two targets, two distances",
+            text: "Protein sits at 25% against a 30% goal; fibre at 8% against 20%. Reference lines mark each target.",
+          },
+          {
+            label: "02 · Local production, 2015–2025",
+            title: "Opposite directions",
+            text: "Eggs have grown across the decade; vegetables fell by roughly a third since 2021. Each panel has its own scale.",
+          },
+          {
+            label: "03 · Licensed farms by type",
+            title: "A shift, not a decline",
+            text: "Sea-based farms fell from 110 to 67 since 2019 while land-based doubled. Fewer farms need not mean less output.",
+          },
+        ],
+        takeaway:
+          "The protein target rests largely on eggs, while the fibre target requires reversing a multi-year fall in vegetable production.",
+      },
     },
   ],
 };

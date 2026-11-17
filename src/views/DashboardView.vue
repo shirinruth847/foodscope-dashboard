@@ -84,6 +84,7 @@ const navigationSteps = computed(() => dashboard.value?.navigation ?? defaultNav
       <div v-else class="placeholder" role="img" :aria-label="`${dashboard.title}: coming soon`">
         <p>Dashboard coming soon</p>
       </div>
+      <p v-if="dashboard.note" class="note dashboard-note">Note: {{ dashboard.note }}</p>
     </section>
 
     <section v-if="dashboard.slug === '3'" id="faces" class="dashboard-section" aria-labelledby="faces-title">
@@ -344,6 +345,11 @@ const navigationSteps = computed(() => dashboard.value?.navigation ?? defaultNav
 .significance__source {
   font-size: 13px;
   font-style: italic;
+}
+
+.dashboard-note {
+  max-width: 80ch;
+  margin-top: 14px;
 }
 
 .placeholder {
