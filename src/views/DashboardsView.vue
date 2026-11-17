@@ -40,9 +40,7 @@ function previewUrl(src) {
             <span class="tile__num">{{ String(i + 1).padStart(2, '0') }}</span>
             <span class="tile__title">{{ d.title }}</span>
             <span v-if="d.description" class="tile__desc">{{ d.description }}</span>
-            <span class="tile__status" :class="{ 'is-live': d.src }">
-              {{ d.src ? 'Live' : 'Coming soon' }}
-            </span>
+            <span v-if="!d.src" class="tile__status">Coming soon</span>
           </span>
         </RouterLink>
       </li>
@@ -134,11 +132,6 @@ function previewUrl(src) {
   text-transform: uppercase;
   color: var(--ink-muted);
   background: var(--cream-deep);
-}
-
-.tile__status.is-live {
-  color: var(--forest);
-  background: var(--sage-tint);
 }
 
 @media (max-width: 1000px) {

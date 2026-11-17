@@ -54,7 +54,7 @@ const navigationSteps = computed(() => dashboard.value?.navigation ?? defaultNav
       <div class="section-heading">
         <p class="section-kicker">02 · Navigate</p>
         <h2 id="how-to-use-title">How to navigate the dashboard</h2>
-        <p>Follow this sequence for a clear comparison without losing track of your selections.</p>
+        <p>{{ dashboard.navigationIntro || 'Follow this sequence for a clear comparison without losing track of your selections.' }}</p>
       </div>
       <ol class="navigation-steps">
         <li v-for="(step, index) in navigationSteps" :key="step.title">
@@ -107,6 +107,16 @@ const navigationSteps = computed(() => dashboard.value?.navigation ?? defaultNav
           <p class="analysis-card__label">{{ item.label }}</p>
           <h3>{{ item.title }}</h3>
           <p>{{ item.text }}</p>
+          <div v-if="item.callout" class="analysis-callout">
+            <h4>{{ item.callout.title }}</h4>
+            <dl class="analysis-callout__sides">
+              <div v-for="side in item.callout.sides" :key="side.label">
+                <dt>{{ side.label }}</dt>
+                <dd>{{ side.text }}</dd>
+              </div>
+            </dl>
+            <p v-if="item.callout.takeaway" class="analysis-callout__takeaway">{{ item.callout.takeaway }}</p>
+          </div>
         </article>
       </div>
       <article v-else class="analysis-card analysis-card--single">
@@ -173,8 +183,8 @@ const navigationSteps = computed(() => dashboard.value?.navigation ?? defaultNav
 }
 
 .dashboard-intro h1 {
-  max-width: 15ch;
   margin-top: 8px;
+  text-wrap: balance;
   font-size: clamp(40px, 5.5vw, 68px);
 }
 
@@ -295,6 +305,56 @@ const navigationSteps = computed(() => dashboard.value?.navigation ?? defaultNav
 
 .analysis-card--single {
   max-width: 800px;
+}
+
+/* Sizes against its own width, since the card can be a narrow third of the row. */
+.analysis-callout {
+  container-type: inline-size;
+  margin-top: 16px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--cream-deep);
+}
+
+.analysis-callout h4 {
+  font-size: 17px;
+}
+
+.analysis-callout__sides {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin: 12px 0 0;
+}
+
+.analysis-callout dt {
+  color: var(--forest);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.analysis-callout dd {
+  margin: 4px 0 0;
+  color: var(--ink-soft);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.analysis-card .analysis-callout__takeaway {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line-strong);
+  color: var(--forest);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+@container (max-width: 300px) {
+  .analysis-callout__sides {
+    grid-template-columns: 1fr;
+  }
 }
 
 .takeaway {
