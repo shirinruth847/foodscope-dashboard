@@ -195,7 +195,7 @@ export const DASHBOARDS = {
       src: "https://public.tableau.com/views/Dashboard3_17947413071250/Dashboard1",
       width: "1200px",
       height: "900px",
-      overview: {  eyebrow: 'Dashboard overview',
+      overview: {  eyebrow: 'Dashboard 03 · Breaking down self-sufficiency ratios',
         meta: ['FAOSTAT Food Balances', '2010–2023', '11 food groups', 'Calorie-weighted SSR'],
       },
       navigation: [
@@ -214,7 +214,7 @@ export const DASHBOARDS = {
           { label: 'View 3', title: 'Table and faces vs the median',
             text: 'The table gives exact values and the ratio to the world median. The face turns those ratios into features: bigger, higher or more upturned means above the median. A low ratio means a country imports that food, not that it goes without.' },
         ],
-        takeaway: 'A high national ratio can hide large gaps. A country can be a surplus producer overall and still import most of its cereals, sugar or fish.',
+        takeaway: 'A high national self-sufficiency ratio can hide large gaps. A country can be a surplus producer overall and still import most of its cereals, sugar or any other food group.',
       },
     },
     {
