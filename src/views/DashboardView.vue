@@ -79,6 +79,7 @@ const navigationSteps = computed(() => dashboard.value?.navigation ?? defaultNav
         :src="dashboard.src"
         :height="dashboard.height"
         :width="dashboard.width"
+        :mobile-height="dashboard.mobileHeight"
         :title="dashboard.title"
       />
       <div v-else class="placeholder" role="img" :aria-label="`${dashboard.title}: coming soon`">

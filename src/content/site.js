@@ -281,11 +281,13 @@ export const DASHBOARDS = {
     },
     {
       slug: "4",
-      title: "Dashboard 4",
+      navTitle: "Dashboard 4",
+      title: "If a country doesn’t grow its food, where does its food supply come from?",
       description: "",
-      src: "https://public.tableau.com/views/Dashboard4_17947411557540/Dashboard1",
-      width: "1024px",
-      height: "795px",
+      src: "https://public.tableau.com/views/D4_17949258250760/Dashboard2",
+      width: "1000px",
+      height: "827px",
+      mobileHeight: "1127px",
     },
     {
       slug: "5",

@@ -27,7 +27,7 @@ function loadEmbeddingApi(src) {
 </script>
 
 <script setup>
-import { onMounted, onBeforeUnmount, ref, watch } from 'vue'
+import { computed, onMounted, onBeforeUnmount, ref, watch } from 'vue'
 
 const props = defineProps({
   /** Published view URL, e.g. https://public.tableau.com/views/Workbook/Sheet */
@@ -35,6 +35,8 @@ const props = defineProps({
   height: { type: String, default: '820px' },
   /** Set to the published size for fixed-size dashboards; narrower screens then scroll sideways. */
   width: { type: String, default: '100%' },
+  /** Optional full-width layout for containers at most 500px wide. */
+  mobileHeight: { type: String, default: '' },
   /** 'top' | 'bottom' | 'hidden' */
   toolbar: { type: String, default: 'bottom' },
   hideTabs: { type: Boolean, default: true },
@@ -43,13 +45,19 @@ const props = defineProps({
 
 const emit = defineEmits(['load', 'error'])
 
+const container = ref(null)
 const host = ref(null)
+const containerWidth = ref(Infinity)
+const isMobile = computed(() => Boolean(props.mobileHeight) && containerWidth.value <= 500)
+const displayWidth = computed(() => isMobile.value ? '100%' : props.width)
+const displayHeight = computed(() => isMobile.value ? props.mobileHeight : props.height)
 const status = ref('idle') // idle | loading | ready | error
 const errorMessage = ref('')
 const isResetting = ref(false)
 
 let viz = null
 let observer = null
+let resizeObserver = null
 let loadTimeout = null
 
 async function embed() {
@@ -66,7 +74,7 @@ async function embed() {
     viz.setAttribute('toolbar', props.toolbar)
     if (props.hideTabs) viz.setAttribute('hide-tabs', '')
     viz.setAttribute('width', '100%')
-    viz.setAttribute('height', props.height)
+    viz.setAttribute('height', displayHeight.value)
     viz.addEventListener('firstinteractive', onReady)
     viz.addEventListener('vizloaderror', onError)
     host.value.appendChild(viz)
@@ -131,6 +139,13 @@ function dispose() {
 // Only load a view once it scrolls near the viewport, so six dashboards
 // don't all start loading on first paint.
 onMounted(() => {
+  if (props.mobileHeight) {
+    containerWidth.value = container.value.getBoundingClientRect().width
+    resizeObserver = new ResizeObserver(([entry]) => {
+      containerWidth.value = entry.contentRect.width
+    })
+    resizeObserver.observe(container.value)
+  }
   observer = new IntersectionObserver(
     (entries) => {
       if (entries.some((e) => e.isIntersecting)) {
@@ -145,24 +160,29 @@ onMounted(() => {
 
 onBeforeUnmount(() => {
   observer?.disconnect()
+  resizeObserver?.disconnect()
   dispose()
 })
 
 watch(
-  () => [props.src, props.height, props.toolbar, props.hideTabs],
+  () => [props.src, props.toolbar, props.hideTabs],
   () => { if (status.value !== 'idle') embed() },
 )
+
+watch(displayHeight, (height) => {
+  viz?.setAttribute('height', height)
+})
 </script>
 
 <template>
-  <div class="embed" :style="{ minHeight: height }">
+  <div ref="container" class="embed" :style="{ minHeight: displayHeight }">
     <div v-if="status === 'ready'" class="embed__controls">
       <p>Explore the visualisation using its filters, map controls, and tooltips.</p>
       <button type="button" class="embed__reset" :disabled="isResetting" @click="resetDashboard">
         {{ isResetting ? 'Resetting…' : 'Reset dashboard' }}
       </button>
     </div>
-    <div ref="host" class="embed__host" :style="{ width }" :aria-label="title" :class="{ 'is-hidden': status === 'error' }" />
+    <div ref="host" class="embed__host" :style="{ width: displayWidth }" :aria-label="title" :class="{ 'is-hidden': status === 'error' }" />
 
     <div v-if="status === 'idle' || status === 'loading'" class="embed__overlay" aria-live="polite">
       <span class="embed__spinner" aria-hidden="true" />
