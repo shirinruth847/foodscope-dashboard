@@ -1,13 +1,16 @@
 <script setup>
 import { computed } from 'vue'
+import { useRoute } from 'vue-router'
 import { DASHBOARDS } from '../content/site'
 import TableauEmbed from '../components/TableauEmbed.vue'
 import TradeContextChart from '../components/TradeContextChart.vue'
+import Dashboard3Embed from '../components/Dashboard3Embed.vue'
 
 const props = defineProps({
   slug: { type: String, required: true },
 })
 
+const route = useRoute()
 const dashboard = computed(() => DASHBOARDS.items.find((d) => d.slug === props.slug))
 const isGlobalOverview = computed(() => props.slug === '1')
 
@@ -81,6 +84,15 @@ const navigationSteps = computed(() => dashboard.value?.navigation ?? defaultNav
       <div v-else class="placeholder" role="img" :aria-label="`${dashboard.title}: coming soon`">
         <p>Dashboard coming soon</p>
       </div>
+    </section>
+
+    <section v-if="dashboard.slug === '3'" id="faces" class="dashboard-section" aria-labelledby="faces-title">
+      <div class="section-heading">
+        <p class="section-kicker">Companion view</p>
+        <h2 id="faces-title">The selected country at a glance</h2>
+        <p>Hover a row in the key to highlight that feature on the faces.</p>
+      </div>
+      <Dashboard3Embed />
     </section>
 
     <section id="analysis" class="dashboard-section" aria-labelledby="analysis-title">
