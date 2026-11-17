@@ -1,145 +1,142 @@
 <script setup>
-import { SITE, DASHBOARDS, PROBLEM } from '../content/site'
-import TableauEmbed from '../components/TableauEmbed.vue'
-import TradeContextChart from '../components/TradeContextChart.vue'
+import { SITE, PROBLEM } from '../content/site'
 
-const navigationSteps = [
-  { number: '01', title: 'Start with the question', text: 'Read the context and scope before interpreting the visuals.' },
-  { number: '02', title: 'Explore the dashboard', text: 'Use filters, hover states and the reset button to test your own comparisons.' },
-  { number: '03', title: 'Read the analysis', text: 'Use the notes below the visual to connect each view back to the central question.' },
+const storySteps = [
+  { number: '01', path: '/dashboards/1', label: 'Global view', title: 'Map self-sufficiency' },
+  { number: '02', path: '/dashboards/2', label: 'Relationship', title: 'Compare food supply' },
+  { number: '03', path: '/dashboards/3', label: 'Food groups', title: 'Look inside the ratio' },
+  { number: '04', path: '/dashboards/4', label: 'Singapore', title: 'Examine food imports' },
+  { number: '05', path: '/dashboards/5', label: 'Income', title: 'Compare by income' },
+  { number: '06', path: '/dashboards/6', label: '2035 targets', title: 'Track local production' },
 ]
 
-const analyses = [
-  {
-    number: '01',
-    title: 'Global overview',
-    text: 'Use the map and headline measures to see how much of a country’s food supply is associated with domestic production. Start broad, then select a country or category for a closer look.',
-  },
-  {
-    number: '02',
-    title: 'Change over time',
-    text: 'The trend view helps you distinguish a one-year snapshot from a sustained pattern. Compare the same country, category and measure from 2010 to 2023.',
-  },
-  {
-    number: '03',
-    title: 'Food categories',
-    text: 'Food self-sufficiency is not one uniform story. Category-level views show where domestic production is stronger and where supply depends more on imports.',
-  },
-  {
-    number: '04',
-    title: 'Self-sufficiency and availability',
-    text: 'Read the comparison as an association, not a causal claim. A higher domestic share does not automatically mean higher food supply per person because trade also shapes availability.',
-  },
-  {
-    number: '05',
-    title: 'Country comparison',
-    text: 'Compare countries with similar filters to understand how their food-supply structures differ. Keep the units and selected year consistent before drawing a conclusion.',
-  },
-  {
-    number: '06',
-    title: 'Singapore and 2035',
-    text: 'Singapore is a useful test case: local production is low relative to its food needs, while diversified imports support availability. Compare the local-production measures with the 2035 targets, noting that the newer fibre and protein definitions are narrower than the former “30 by 30” framing.',
-  },
+const readingPrinciples = [
+  { title: 'Origin ≠ adequacy', text: 'SSR shows where supply comes from.' },
+  { title: 'Association ≠ causation', text: 'Patterns do not prove cause.' },
+  { title: 'Availability ≠ access', text: 'National supply does not show distribution.' },
 ]
 </script>
 
 <template>
-  <main class="dashboard-page">
-    <section id="overview" class="dashboard-hero" aria-labelledby="hero-title">
-      <p class="dashboard-hero__eyebrow">{{ SITE.eyebrow }}</p>
+  <main class="home-page">
+    <section class="hero" aria-labelledby="hero-title">
+      <p class="hero__eyebrow">{{ SITE.eyebrow }}</p>
       <h1 id="hero-title">{{ SITE.title }}</h1>
-      <p class="dashboard-hero__lede">{{ SITE.lede }}</p>
-      <div class="dashboard-hero__meta">
+      <p class="hero__lede">{{ SITE.lede }}</p>
+
+      <div class="hero__meta" aria-label="Project scope">
         <span>178 countries</span>
         <span>2010–2023</span>
         <span>FAOSTAT</span>
       </div>
+
+      <div class="hero__actions">
+        <RouterLink to="/dashboards" class="button button--primary">
+          Explore the dashboards
+          <span aria-hidden="true">→</span>
+        </RouterLink>
+        <RouterLink to="/problem" class="button button--secondary">About the project</RouterLink>
+      </div>
+
+      <p class="hero__team">By {{ SITE.team.join(', ') }}</p>
     </section>
 
-    <section id="how-to-use" class="dashboard-section" aria-labelledby="how-to-use-title">
+    <section class="home-section" aria-labelledby="question-title">
       <div class="section-heading">
-        <p class="section-heading__eyebrow">01 / Orientation</p>
-        <h2 id="how-to-use-title">How to navigate this page</h2>
-        <p>Move from context to evidence, then use the analysis to interpret what you see.</p>
+        <p class="section-eyebrow">01 / The question</p>
+        <h2 id="question-title">Does producing more at home mean having more to eat?</h2>
       </div>
-      <ol class="navigation-steps">
-        <li v-for="step in navigationSteps" :key="step.number">
-          <span class="navigation-steps__number">{{ step.number }}</span>
-          <div>
+
+      <div class="focus-grid">
+        <figure class="focus-image">
+          <img :src="PROBLEM.banner.src" :alt="PROBLEM.banner.alt" />
+          <figcaption>Domestic production is only one part of food availability.</figcaption>
+        </figure>
+
+        <blockquote class="research-question">
+          <span>Our research question</span>
+          <p>{{ PROBLEM.question }}</p>
+          <RouterLink to="/problem">Read the context <span aria-hidden="true">→</span></RouterLink>
+        </blockquote>
+      </div>
+    </section>
+
+    <section class="home-section" aria-labelledby="story-title">
+      <div class="section-heading section-heading--row">
+        <div>
+          <p class="section-eyebrow">02 / The story</p>
+          <h2 id="story-title">Explore six connected views</h2>
+        </div>
+        <RouterLink to="/dashboards" class="section-link">View all dashboards <span aria-hidden="true">→</span></RouterLink>
+      </div>
+
+      <ol class="story-grid">
+        <li v-for="step in storySteps" :key="step.number">
+          <RouterLink :to="step.path" class="story-card">
+            <div class="story-card__top">
+              <span class="story-card__number">{{ step.number }}</span>
+              <span class="story-card__arrow" aria-hidden="true">↗</span>
+            </div>
+            <div class="story-card__mark" aria-hidden="true">
+              <span></span><span></span><span></span><span></span>
+            </div>
+            <p>{{ step.label }}</p>
             <h3>{{ step.title }}</h3>
-            <p>{{ step.text }}</p>
-          </div>
+          </RouterLink>
         </li>
       </ol>
     </section>
 
-    <section id="dashboard" class="dashboard-section" aria-labelledby="dashboard-title">
-      <div class="section-heading">
-        <p class="section-heading__eyebrow">02 / Explore</p>
-        <h2 id="dashboard-title">The dashboard</h2>
-        <p>{{ DASHBOARDS.items[0].description }}</p>
+    <section class="reading-guide" aria-labelledby="guide-title">
+      <div>
+        <p class="section-eyebrow">03 / Read with care</p>
+        <h2 id="guide-title">Three distinctions matter</h2>
       </div>
-      <TableauEmbed
-        :src="DASHBOARDS.items[0].src"
-        :height="DASHBOARDS.items[0].height"
-        :width="DASHBOARDS.items[0].width"
-        :title="DASHBOARDS.items[0].title"
-      />
-    </section>
-
-    <section id="trade-context" class="dashboard-section dashboard-section--split" aria-labelledby="trade-title">
-      <div class="section-heading">
-        <p class="section-heading__eyebrow">03 / Context</p>
-        <h2 id="trade-title">Availability is shaped by trade too</h2>
-        <p>Domestic production is only one part of national food availability. This chart adds a compact view of how much production was exported in 2023 across four major food groups.</p>
-      </div>
-      <div class="chart-card">
-        <TradeContextChart />
-      </div>
-    </section>
-
-    <section id="analysis" class="dashboard-section" aria-labelledby="analysis-title">
-      <div class="section-heading">
-        <p class="section-heading__eyebrow">04 / Interpret</p>
-        <h2 id="analysis-title">How to read each dashboard</h2>
-        <p>These notes keep the six-view story connected to the central question and make the limits of the comparison explicit.</p>
-      </div>
-      <ol class="analysis-grid">
-        <li v-for="analysis in analyses" :key="analysis.number" class="analysis-card">
-          <span class="analysis-card__number">{{ analysis.number }}</span>
-          <h3>{{ analysis.title }}</h3>
-          <p>{{ analysis.text }}</p>
+      <ul>
+        <li v-for="principle in readingPrinciples" :key="principle.title">
+          <strong>{{ principle.title }}</strong>
+          <span>{{ principle.text }}</span>
         </li>
-      </ol>
-    </section>
-
-    <section id="question" class="question-card" aria-labelledby="question-title">
-      <p class="section-heading__eyebrow">Keep this in view</p>
-      <h2 id="question-title">{{ PROBLEM.question }}</h2>
-      <p>{{ PROBLEM.scope }}</p>
+      </ul>
     </section>
   </main>
 </template>
 
 <style scoped>
-.dashboard-page {
+.home-page {
   width: 100%;
   max-width: 1180px;
   margin: 0 auto;
   padding: clamp(20px, 4vw, 48px) var(--gutter) 72px;
 }
 
-.dashboard-hero {
-  padding: clamp(30px, 5vw, 64px);
+.hero {
+  position: relative;
+  overflow: hidden;
+  padding: clamp(34px, 6vw, 72px);
   border-radius: var(--radius);
   color: var(--cream);
   background:
-    radial-gradient(100% 100% at 100% 0%, rgba(176, 138, 62, 0.24), transparent 58%),
+    radial-gradient(100% 110% at 100% 0%, rgba(176, 138, 62, 0.26), transparent 58%),
+    radial-gradient(75% 85% at 0% 100%, rgba(111, 143, 114, 0.24), transparent 62%),
     linear-gradient(155deg, #24452f, var(--forest-deep));
 }
 
-.dashboard-hero__eyebrow,
-.section-heading__eyebrow {
+.hero::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(115deg, transparent 0 26px, rgba(246, 241, 230, 0.025) 26px 27px);
+  pointer-events: none;
+}
+
+.hero > * {
+  position: relative;
+  z-index: 1;
+}
+
+.hero__eyebrow,
+.section-eyebrow {
   margin: 0;
   color: var(--wheat);
   font-size: 12px;
@@ -148,167 +145,358 @@ const analyses = [
   text-transform: uppercase;
 }
 
-.dashboard-hero__eyebrow {
+.hero__eyebrow {
   color: #d9c79c;
 }
 
-.dashboard-hero h1 {
+.hero h1 {
   max-width: 18ch;
   margin-top: 14px;
   color: var(--cream);
-  font-size: clamp(34px, 5vw, 58px);
+  font-size: clamp(36px, 5.5vw, 64px);
+  line-height: 1.02;
 }
 
-.dashboard-hero__lede {
-  max-width: 66ch;
-  margin-top: 20px;
+.hero__lede {
+  max-width: 65ch;
+  margin-top: 22px;
   color: rgba(246, 241, 230, 0.82);
   font-size: clamp(17px, 1.8vw, 20px);
 }
 
-.dashboard-hero__meta {
+.hero__meta {
   display: flex;
   flex-wrap: wrap;
   gap: 10px 24px;
   margin-top: 28px;
   color: #d9c79c;
-  font-size: 14px;
-  letter-spacing: 0.08em;
+  font-size: 13px;
+  letter-spacing: 0.09em;
   text-transform: uppercase;
 }
 
-.dashboard-section {
-  padding-top: clamp(48px, 7vw, 84px);
-  scroll-margin-top: 24px;
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 34px;
+}
+
+.hero__team {
+  margin-top: 28px;
+  color: rgba(246, 241, 230, 0.62);
+  font-size: 14px;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 44px;
+  padding: 10px 18px;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: transform 0.15s ease, background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.button:hover {
+  transform: translateY(-1px);
+}
+
+.button--primary {
+  background: var(--cream);
+  color: var(--forest-deep);
+}
+
+.button--primary:hover {
+  background: #fff;
+  color: var(--forest-deep);
+}
+
+.button--secondary {
+  border-color: rgba(246, 241, 230, 0.35);
+  color: var(--cream);
+}
+
+.button--secondary:hover {
+  border-color: rgba(246, 241, 230, 0.7);
+  color: var(--cream);
+}
+
+.home-section {
+  padding-top: clamp(50px, 7vw, 82px);
 }
 
 .section-heading {
-  max-width: 760px;
+  max-width: 780px;
   margin-bottom: 24px;
 }
 
-.section-heading h2 {
-  margin-top: 7px;
+.section-heading h2,
+.reading-guide h2 {
+  margin-top: 8px;
   font-size: clamp(28px, 3.5vw, 42px);
 }
 
-.section-heading > p:last-child {
-  margin-top: 12px;
-  color: var(--ink-soft);
-  font-size: 18px;
+.section-heading--row {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 24px;
+  max-width: none;
 }
 
-.navigation-steps,
-.analysis-grid {
+.section-link {
+  flex: none;
+  padding-bottom: 4px;
+  color: var(--forest);
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.focus-grid {
   display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(320px, 0.85fr);
+  min-height: 370px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--paper);
+  box-shadow: var(--shadow);
+}
+
+.focus-image {
+  position: relative;
+  min-height: 320px;
+  margin: 0;
+  overflow: hidden;
+}
+
+.focus-image::after {
+  content: '';
+  position: absolute;
+  inset: 45% 0 0;
+  background: linear-gradient(transparent, rgba(20, 48, 33, 0.88));
+}
+
+.focus-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.focus-image figcaption {
+  position: absolute;
+  right: 28px;
+  bottom: 24px;
+  left: 28px;
+  z-index: 1;
+  max-width: 28ch;
+  color: var(--cream);
+  font-family: var(--font-display);
+  font-size: clamp(19px, 2vw, 25px);
+  line-height: 1.25;
+}
+
+.research-question {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  padding: clamp(28px, 4vw, 46px);
+  border-left: 4px solid var(--wheat);
+  background: var(--wheat-tint);
+}
+
+.research-question > span {
+  color: #8a6a2a;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.research-question > p {
+  margin-top: 14px;
+  color: var(--forest);
+  font-family: var(--font-display);
+  font-size: clamp(23px, 2.7vw, 32px);
+  line-height: 1.3;
+}
+
+.research-question a {
+  align-self: flex-start;
+  margin-top: 24px;
+  color: var(--forest);
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.story-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 14px;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.navigation-steps {
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.navigation-steps li,
-.analysis-card,
-.chart-card {
+.story-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 200px;
+  height: 100%;
   padding: 22px;
   border: 1px solid var(--line);
   border-radius: var(--radius-sm);
   background: var(--paper);
+  color: var(--ink);
+  text-decoration: none;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
 }
 
-.navigation-steps li {
+.story-card:hover {
+  border-color: var(--sage);
+  box-shadow: var(--shadow);
+  color: var(--ink);
+  transform: translateY(-2px);
+}
+
+.story-card__top {
   display: flex;
-  gap: 14px;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.navigation-steps__number,
-.analysis-card__number {
-  flex: none;
+.story-card__number {
   color: var(--wheat);
   font-family: var(--font-display);
   font-weight: 600;
 }
 
-.navigation-steps h3,
-.analysis-card h3 {
-  font-size: 20px;
+.story-card__arrow {
+  color: var(--sage);
+  font-size: 18px;
 }
 
-.navigation-steps p,
-.analysis-card p {
+.story-card__mark {
+  display: flex;
+  align-items: end;
+  gap: 4px;
+  height: 36px;
+  margin: 20px 0 18px;
+}
+
+.story-card__mark span {
+  width: 9px;
+  border-radius: 2px 2px 0 0;
+  background: var(--sage);
+}
+
+.story-card__mark span:nth-child(1) { height: 45%; opacity: 0.55; }
+.story-card__mark span:nth-child(2) { height: 80%; opacity: 0.75; }
+.story-card__mark span:nth-child(3) { height: 58%; opacity: 0.65; }
+.story-card__mark span:nth-child(4) { height: 100%; }
+
+.story-card p {
+  color: var(--ink-muted);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.story-card h3 {
   margin-top: 6px;
-  color: var(--ink-soft);
-  font-size: 15px;
-  line-height: 1.5;
+  color: var(--forest);
+  font-size: 21px;
 }
 
-.dashboard-section--split {
+.reading-guide {
   display: grid;
-  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
-  gap: 28px;
-  align-items: start;
+  grid-template-columns: minmax(220px, 0.7fr) minmax(0, 1.3fr);
+  gap: 32px;
+  align-items: center;
+  margin-top: clamp(50px, 7vw, 82px);
+  padding: clamp(26px, 4vw, 40px);
+  border-radius: var(--radius);
+  background: var(--sage-tint);
 }
 
-.dashboard-section--split .section-heading {
-  margin-top: 20px;
+.reading-guide ul {
+  display: grid;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-.chart-card {
-  box-shadow: var(--shadow);
+.reading-guide li {
+  display: grid;
+  grid-template-columns: minmax(170px, 0.8fr) 1fr;
+  gap: 18px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(36, 69, 47, 0.18);
 }
 
-.analysis-grid {
-  grid-template-columns: repeat(3, 1fr);
+.reading-guide li:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
 }
 
-.analysis-card {
-  min-height: 190px;
+.reading-guide strong {
+  color: var(--forest);
+  font-family: var(--font-display);
+  font-size: 17px;
 }
 
-.analysis-card__number {
-  display: block;
-  margin-bottom: 14px;
-}
-
-.question-card {
-  margin-top: clamp(48px, 7vw, 84px);
-  padding: clamp(24px, 4vw, 40px);
-  border-left: 3px solid var(--wheat);
-  border-radius: 0 var(--radius) var(--radius) 0;
-  background: var(--wheat-tint);
-  scroll-margin-top: 24px;
-}
-
-.question-card h2 {
-  max-width: 34ch;
-  margin-top: 8px;
-  font-size: clamp(24px, 3vw, 34px);
-}
-
-.question-card > p:last-child {
-  margin-top: 14px;
+.reading-guide span {
   color: var(--ink-soft);
+  font-size: 14px;
 }
 
 @media (max-width: 850px) {
-  .navigation-steps,
-  .analysis-grid {
+  .focus-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .research-question {
+    border-top: 4px solid var(--wheat);
+    border-left: 0;
+  }
+
+  .story-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .dashboard-section--split {
+  .reading-guide {
     grid-template-columns: 1fr;
   }
 }
 
-@media (max-width: 560px) {
-  .navigation-steps,
-  .analysis-grid {
+@media (max-width: 620px) {
+  .section-heading--row {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .story-grid {
     grid-template-columns: 1fr;
+  }
+
+  .story-card {
+    min-height: 170px;
+  }
+
+  .reading-guide li {
+    grid-template-columns: 1fr;
+    gap: 4px;
   }
 }
 </style>
