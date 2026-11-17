@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#1f3d2b" />
+    <title>Follow the food · Dashboard 4 · FoodScope</title>
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./d4_story.css" />
+    <script type="module" src="./d4_story.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to the story</a>
+    <header class="site-header">
+      <a class="brand" href="/">♧ FoodScope</a>
+      <span class="prototype-label">Dashboard 04 · Story experiment</span>
+      <a href="/dashboards/4">Original dashboard ↗</a>
+    </header>
+
+    <main id="main">
+      <section class="hero section-shell" aria-labelledby="page-title">
+        <p class="eyebrow">Follow the food</p>
+        <h1 id="page-title">If a country doesn’t grow its food, where does its food supply come from?</h1>
+        <p class="lede">Follow Singapore’s imports, from familiar foods to surprising suppliers. Make three guesses, explore the map, then see what changed over time.</p>
+        <nav class="journey-nav" aria-label="On this page">
+          <a href="#quiz"><span>01</span> Guess first</a>
+          <a href="#story"><span>02</span> Follow the story</a>
+          <a href="#comparison"><span>03</span> See what changed</a>
+        </nav>
+        <div class="hero-meta"><span>7 foods</span><span>2010–2023</span><span>Singapore’s imports</span></div>
+      </section>
+
+      <section id="quiz" class="section-shell quiz-section" aria-labelledby="quiz-title">
+        <div class="section-heading">
+          <div><p class="eyebrow">01 / A little food for thought</p><h2 id="quiz-title">Guess before you explore.</h2></div>
+          <a class="skip-quiz" href="#story">Skip quiz ↓</a>
+        </div>
+        <div id="quiz-panel" class="quiz-panel"><p role="status">Preparing the questions…</p></div>
+        <p id="quiz-announcement" class="sr-only" aria-live="polite" aria-atomic="true"></p>
+      </section>
+
+      <section id="story" class="story-section" aria-labelledby="story-title">
+        <div class="section-heading section-shell">
+          <div><p class="eyebrow">02 / Follow the deliveries</p><h2 id="story-title">Many origins. A few big suppliers.</h2></div>
+          <p class="section-note">Choose a step to update the explanation and dashboard together.</p>
+        </div>
+        <div class="section-shell">
+          <div class="story-guide">
+            <div id="story-steps" class="story-steps" role="group" aria-label="Choose a food sourcing story"></div>
+            <div id="story-explanation" class="story-explanation" aria-live="polite" aria-atomic="true"><p>Loading the story…</p></div>
+          </div>
+          <aside id="dashboard-panel" class="dashboard-panel" aria-label="Interactive Tableau dashboard">
+            <div class="dashboard-toolbar">
+              <div><p class="eyebrow">Explore the evidence</p><p id="dashboard-selection">Vegetables · 2023</p></div>
+              <a class="dashboard-back" href="#quiz">Back to quiz ↑</a>
+            </div>
+            <p id="dashboard-status" class="dashboard-status" role="status" aria-live="polite">Loading Tableau… You can use the quiz and read the story while it loads.</p>
+            <div id="viz-scroll" class="viz-scroll" tabindex="0" role="region" aria-label="Tableau dashboard; scroll horizontally if needed">
+              <tableau-viz id="d4-viz" width="1200" height="800" toolbar="bottom" hide-tabs aria-label="Singapore’s food import suppliers and supplier concentration"></tableau-viz>
+            </div>
+            <div id="dashboard-error" class="dashboard-error" hidden>
+              <h3>The interactive dashboard couldn’t load.</h3>
+              <p>The quiz, story and comparison chart still work. You can also open the original view in Tableau.</p>
+              <a id="tableau-link" href="https://public.tableau.com/views/D4_17949258250760/Dashboard2" target="_blank" rel="noopener">Open in Tableau ↗</a>
+              <button id="retry-dashboard" type="button">Reload this page</button>
+            </div>
+            <p class="dashboard-hint">Use the map and charts directly too. The frame scrolls sideways on smaller screens.</p>
+          </aside>
+        </div>
+        <p class="story-takeaway section-shell">Count the suppliers, but check their shares too. <a href="#comparison">See which foods became less dependent on one supplier ↓</a></p>
+        <p class="source-note section-shell">Source: FAOSTAT Detailed Trade Matrix, import quantities reported by Singapore, 2010–2023. Excludes locally produced food and seafood. Live chickens counted by head; other foods by weight.</p>
+      </section>
+
+      <section id="comparison" class="section-shell comparison-section" aria-labelledby="comparison-title">
+        <div class="section-heading"><div><p class="eyebrow">03 / The longer view</p><h2 id="comparison-title">Which foods became less dependent on one supplier?</h2></div></div>
+        <p class="comparison-intro">Share of Singapore’s imports from its largest supplier, 2010 vs 2023.</p>
+        <div class="chart-legend" aria-label="Chart key">
+          <span><i class="legend-dot dot-2010"></i>2010</span>
+          <span><i class="legend-dot dot-diversified"></i>2023 · More diversified</span>
+          <span><i class="legend-dot dot-concentrated"></i>2023 · More concentrated</span>
+          <span><i class="legend-dot dot-unchanged"></i>2023 · Little change</span>
+        </div>
+        <p class="chart-instruction">Hover or focus a row for details. Select it to explore that food on the dashboard. On small screens, swipe across the chart.</p>
+        <div id="chart-region" class="chart-region" tabindex="0" role="region" aria-label="Supplier concentration chart; scroll horizontally if needed"><p>Preparing the comparison…</p></div>
+        <p id="chart-detail" class="chart-detail" aria-live="polite">Select a food to follow its imports.</p>
+        <div id="chart-table" class="sr-only"></div>
+        <p class="classification-note">“More diversified” means the largest supplier’s share fell by at least 5 percentage points; “more concentrated” means it rose by at least 5. Smaller changes are “little change”. This compares the largest share, not the full distribution of suppliers.</p>
+        <p class="source-note">Source: FAOSTAT Detailed Trade Matrix, import quantities reported by Singapore, 2010–2023. Excludes locally produced food and seafood. Live chickens counted by head; other foods by weight.</p>
+      </section>
+      <noscript><p class="section-shell">JavaScript is needed for these interactive features. <a href="https://public.tableau.com/views/D4_17949258250760/Dashboard2">Open the Tableau dashboard</a>.</p></noscript>
+    </main>
+    <footer class="site-footer section-shell"><span>FoodScope · Dashboard 4 experiment</span><a href="/dashboards/4">Return to the original Dashboard 4 →</a></footer>
+  </body>
+</html>

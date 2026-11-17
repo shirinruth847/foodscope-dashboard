@@ -1,0 +1,7824 @@
+{
+  "Chicken meat": {
+    "2010": [
+      {
+        "partner": "Brazil",
+        "share": 0.676
+      },
+      {
+        "partner": "United States",
+        "share": 0.2652
+      },
+      {
+        "partner": "Argentina",
+        "share": 0.0321
+      },
+      {
+        "partner": "Malaysia",
+        "share": 0.0113
+      },
+      {
+        "partner": "Chile",
+        "share": 0.0055
+      },
+      {
+        "partner": "Russia",
+        "share": 0.004
+      },
+      {
+        "partner": "France",
+        "share": 0.0012
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.0012
+      },
+      {
+        "partner": "Denmark",
+        "share": 0.0011
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0007
+      },
+      {
+        "partner": "Hong Kong SAR",
+        "share": 0.0005
+      },
+      {
+        "partner": "Switzerland",
+        "share": 0.0004
+      },
+      {
+        "partner": "Belgium",
+        "share": 0.0002
+      },
+      {
+        "partner": "Canada",
+        "share": 0.0002
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0.0002
+      },
+      {
+        "partner": "Australia",
+        "share": 0.0001
+      }
+    ],
+    "2011": [
+      {
+        "partner": "Brazil",
+        "share": 0.5616
+      },
+      {
+        "partner": "United States",
+        "share": 0.3138
+      },
+      {
+        "partner": "Argentina",
+        "share": 0.0924
+      },
+      {
+        "partner": "Denmark",
+        "share": 0.0107
+      },
+      {
+        "partner": "Chile",
+        "share": 0.0087
+      },
+      {
+        "partner": "Malaysia",
+        "share": 0.0079
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0.002
+      },
+      {
+        "partner": "Australia",
+        "share": 0.0009
+      },
+      {
+        "partner": "Belgium",
+        "share": 0.0007
+      },
+      {
+        "partner": "France",
+        "share": 0.0004
+      },
+      {
+        "partner": "Hong Kong SAR",
+        "share": 0.0002
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.0002
+      },
+      {
+        "partner": "Canada",
+        "share": 0.0002
+      },
+      {
+        "partner": "Switzerland",
+        "share": 0.0002
+      },
+      {
+        "partner": "Spain",
+        "share": 0.0001
+      }
+    ],
+    "2012": [
+      {
+        "partner": "Brazil",
+        "share": 0.6481
+      },
+      {
+        "partner": "United States",
+        "share": 0.2561
+      },
+      {
+        "partner": "Argentina",
+        "share": 0.0637
+      },
+      {
+        "partner": "Denmark",
+        "share": 0.0109
+      },
+      {
+        "partner": "Hong Kong SAR",
+        "share": 0.0071
+      },
+      {
+        "partner": "Malaysia",
+        "share": 0.0057
+      },
+      {
+        "partner": "Chile",
+        "share": 0.0046
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0.0013
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.0013
+      },
+      {
+        "partner": "Australia",
+        "share": 0.0005
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0004
+      },
+      {
+        "partner": "France",
+        "share": 0.0004
+      },
+      {
+        "partner": "Germany",
+        "share": 0
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0
+      },
+      {
+        "partner": "Spain",
+        "share": 0
+      }
+    ],
+    "2013": [
+      {
+        "partner": "Brazil",
+        "share": 0.6813
+      },
+      {
+        "partner": "United States",
+        "share": 0.2098
+      },
+      {
+        "partner": "Argentina",
+        "share": 0.0725
+      },
+      {
+        "partner": "Denmark",
+        "share": 0.0123
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.0113
+      },
+      {
+        "partner": "Malaysia",
+        "share": 0.004
+      },
+      {
+        "partner": "Chile",
+        "share": 0.0029
+      },
+      {
+        "partner": "Germany",
+        "share": 0.001
+      },
+      {
+        "partner": "France",
+        "share": 0.001
+      },
+      {
+        "partner": "Hong Kong SAR",
+        "share": 0.0008
+      },
+      {
+        "partner": "Thailand",
+        "share": 0.0006
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0.0004
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0.0004
+      },
+      {
+        "partner": "Australia",
+        "share": 0.0004
+      },
+      {
+        "partner": "Canada",
+        "share": 0.0002
+      },
+      {
+        "partner": "Barbados",
+        "share": 0.0002
+      },
+      {
+        "partner": "Belgium",
+        "share": 0.0002
+      },
+      {
+        "partner": "Paraguay",
+        "share": 0.0002
+      },
+      {
+        "partner": "Poland",
+        "share": 0.0002
+      },
+      {
+        "partner": "Norway",
+        "share": 0.0001
+      },
+      {
+        "partner": "Indonesia",
+        "share": 0.0001
+      },
+      {
+        "partner": "Spain",
+        "share": 0
+      }
+    ],
+    "2014": [
+      {
+        "partner": "Brazil",
+        "share": 0.7074
+      },
+      {
+        "partner": "United States",
+        "share": 0.2045
+      },
+      {
+        "partner": "Argentina",
+        "share": 0.0448
+      },
+      {
+        "partner": "Denmark",
+        "share": 0.0122
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.0076
+      },
+      {
+        "partner": "Malaysia",
+        "share": 0.0069
+      },
+      {
+        "partner": "Thailand",
+        "share": 0.0035
+      },
+      {
+        "partner": "Chile",
+        "share": 0.0031
+      },
+      {
+        "partner": "France",
+        "share": 0.0026
+      },
+      {
+        "partner": "Finland",
+        "share": 0.0018
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0.0017
+      },
+      {
+        "partner": "Belgium",
+        "share": 0.001
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0.0008
+      },
+      {
+        "partner": "Norway",
+        "share": 0.0005
+      },
+      {
+        "partner": "Hong Kong SAR",
+        "share": 0.0005
+      },
+      {
+        "partner": "United Arab Emirates",
+        "share": 0.0002
+      },
+      {
+        "partner": "Germany",
+        "share": 0.0002
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0.0002
+      },
+      {
+        "partner": "Slovenia",
+        "share": 0.0002
+      },
+      {
+        "partner": "Australia",
+        "share": 0.0002
+      }
+    ],
+    "2015": [
+      {
+        "partner": "Brazil",
+        "share": 0.6917
+      },
+      {
+        "partner": "United States",
+        "share": 0.2302
+      },
+      {
+        "partner": "Argentina",
+        "share": 0.0268
+      },
+      {
+        "partner": "Malaysia",
+        "share": 0.0211
+      },
+      {
+        "partner": "Denmark",
+        "share": 0.0172
+      },
+      {
+        "partner": "Thailand",
+        "share": 0.0044
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.0025
+      },
+      {
+        "partner": "France",
+        "share": 0.0017
+      },
+      {
+        "partner": "Australia",
+        "share": 0.0012
+      },
+      {
+        "partner": "Belgium",
+        "share": 0.0011
+      },
+      {
+        "partner": "Poland",
+        "share": 0.0004
+      },
+      {
+        "partner": "Chile",
+        "share": 0.0004
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0.0004
+      },
+      {
+        "partner": "Belize",
+        "share": 0.0002
+      },
+      {
+        "partner": "Finland",
+        "share": 0.0002
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0.0002
+      },
+      {
+        "partner": "Norway",
+        "share": 0.0002
+      },
+      {
+        "partner": "Italy",
+        "share": 0
+      }
+    ],
+    "2016": [
+      {
+        "partner": "Brazil",
+        "share": 0.688
+      },
+      {
+        "partner": "United States",
+        "share": 0.2159
+      },
+      {
+        "partner": "Argentina",
+        "share": 0.0355
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.0158
+      },
+      {
+        "partner": "Denmark",
+        "share": 0.0151
+      },
+      {
+        "partner": "Malaysia",
+        "share": 0.0148
+      },
+      {
+        "partner": "France",
+        "share": 0.0051
+      },
+      {
+        "partner": "Thailand",
+        "share": 0.0035
+      },
+      {
+        "partner": "Belgium",
+        "share": 0.0024
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0.001
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0.0007
+      },
+      {
+        "partner": "Saudi Arabia",
+        "share": 0.0005
+      },
+      {
+        "partner": "Hong Kong SAR",
+        "share": 0.0005
+      },
+      {
+        "partner": "Australia",
+        "share": 0.0005
+      },
+      {
+        "partner": "Spain",
+        "share": 0.0003
+      },
+      {
+        "partner": "Georgia",
+        "share": 0.0002
+      },
+      {
+        "partner": "Chile",
+        "share": 0.0002
+      },
+      {
+        "partner": "Hungary",
+        "share": 0.0001
+      },
+      {
+        "partner": "Italy",
+        "share": 0
+      },
+      {
+        "partner": "Germany",
+        "share": 0
+      },
+      {
+        "partner": "Ireland",
+        "share": 0
+      }
+    ],
+    "2017": [
+      {
+        "partner": "Brazil",
+        "share": 0.6983
+      },
+      {
+        "partner": "United States",
+        "share": 0.1843
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.0399
+      },
+      {
+        "partner": "Argentina",
+        "share": 0.026
+      },
+      {
+        "partner": "Denmark",
+        "share": 0.0152
+      },
+      {
+        "partner": "Malaysia",
+        "share": 0.0094
+      },
+      {
+        "partner": "Hong Kong SAR",
+        "share": 0.008
+      },
+      {
+        "partner": "France",
+        "share": 0.0068
+      },
+      {
+        "partner": "Thailand",
+        "share": 0.0039
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0.0026
+      },
+      {
+        "partner": "Poland",
+        "share": 0.0023
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0.0018
+      },
+      {
+        "partner": "Germany",
+        "share": 0.0004
+      },
+      {
+        "partner": "Canada",
+        "share": 0.0002
+      },
+      {
+        "partner": "Belgium",
+        "share": 0.0002
+      },
+      {
+        "partner": "Australia",
+        "share": 0.0002
+      },
+      {
+        "partner": "South Korea",
+        "share": 0.0002
+      },
+      {
+        "partner": "Sweden",
+        "share": 0.0002
+      },
+      {
+        "partner": "Hungary",
+        "share": 0.0001
+      },
+      {
+        "partner": "Spain",
+        "share": 0
+      },
+      {
+        "partner": "Ireland",
+        "share": 0
+      }
+    ],
+    "2018": [
+      {
+        "partner": "Brazil",
+        "share": 0.707
+      },
+      {
+        "partner": "United States",
+        "share": 0.1874
+      },
+      {
+        "partner": "Argentina",
+        "share": 0.0405
+      },
+      {
+        "partner": "Denmark",
+        "share": 0.0182
+      },
+      {
+        "partner": "Malaysia",
+        "share": 0.0129
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.0096
+      },
+      {
+        "partner": "Hong Kong SAR",
+        "share": 0.0064
+      },
+      {
+        "partner": "Thailand",
+        "share": 0.0061
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0.0028
+      },
+      {
+        "partner": "France",
+        "share": 0.0027
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0.0019
+      },
+      {
+        "partner": "Germany",
+        "share": 0.0011
+      },
+      {
+        "partner": "Poland",
+        "share": 0.001
+      },
+      {
+        "partner": "Belgium",
+        "share": 0.0008
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0.0005
+      },
+      {
+        "partner": "Ukraine",
+        "share": 0.0004
+      },
+      {
+        "partner": "Hungary",
+        "share": 0.0003
+      },
+      {
+        "partner": "Australia",
+        "share": 0.0002
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0.0002
+      },
+      {
+        "partner": "South Korea",
+        "share": 0.0002
+      },
+      {
+        "partner": "Indonesia",
+        "share": 0
+      },
+      {
+        "partner": "New Zealand",
+        "share": 0
+      }
+    ],
+    "2019": [
+      {
+        "partner": "Brazil",
+        "share": 0.7159
+      },
+      {
+        "partner": "United States",
+        "share": 0.1968
+      },
+      {
+        "partner": "Argentina",
+        "share": 0.0311
+      },
+      {
+        "partner": "Denmark",
+        "share": 0.0198
+      },
+      {
+        "partner": "Malaysia",
+        "share": 0.0087
+      },
+      {
+        "partner": "Thailand",
+        "share": 0.0063
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0.0048
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.0043
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0.0027
+      },
+      {
+        "partner": "France",
+        "share": 0.0023
+      },
+      {
+        "partner": "Poland",
+        "share": 0.0018
+      },
+      {
+        "partner": "Germany",
+        "share": 0.0014
+      },
+      {
+        "partner": "Ukraine",
+        "share": 0.0011
+      },
+      {
+        "partner": "Hong Kong SAR",
+        "share": 0.0009
+      },
+      {
+        "partner": "Spain",
+        "share": 0.0004
+      },
+      {
+        "partner": "South Korea",
+        "share": 0.0003
+      },
+      {
+        "partner": "United Arab Emirates",
+        "share": 0.0003
+      },
+      {
+        "partner": "Belgium",
+        "share": 0.0003
+      },
+      {
+        "partner": "Australia",
+        "share": 0.0003
+      },
+      {
+        "partner": "Seychelles",
+        "share": 0.0002
+      },
+      {
+        "partner": "Chile",
+        "share": 0.0002
+      },
+      {
+        "partner": "Indonesia",
+        "share": 0
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0
+      },
+      {
+        "partner": "Hungary",
+        "share": 0
+      }
+    ],
+    "2020": [
+      {
+        "partner": "Brazil",
+        "share": 0.784
+      },
+      {
+        "partner": "United States",
+        "share": 0.0965
+      },
+      {
+        "partner": "Thailand",
+        "share": 0.037
+      },
+      {
+        "partner": "Argentina",
+        "share": 0.0315
+      },
+      {
+        "partner": "Denmark",
+        "share": 0.016
+      },
+      {
+        "partner": "Malaysia",
+        "share": 0.0145
+      },
+      {
+        "partner": "Ukraine",
+        "share": 0.0061
+      },
+      {
+        "partner": "Poland",
+        "share": 0.0032
+      },
+      {
+        "partner": "Australia",
+        "share": 0.0028
+      },
+      {
+        "partner": "France",
+        "share": 0.0026
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.0016
+      },
+      {
+        "partner": "Hong Kong SAR",
+        "share": 0.0011
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0.001
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0.0008
+      },
+      {
+        "partner": "Belgium",
+        "share": 0.0005
+      },
+      {
+        "partner": "Germany",
+        "share": 0.0003
+      },
+      {
+        "partner": "Gabon",
+        "share": 0.0002
+      },
+      {
+        "partner": "New Zealand",
+        "share": 0.0001
+      },
+      {
+        "partner": "Sweden",
+        "share": 0.0001
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0
+      },
+      {
+        "partner": "South Korea",
+        "share": 0
+      },
+      {
+        "partner": "Japan",
+        "share": 0
+      },
+      {
+        "partner": "Ireland",
+        "share": 0
+      }
+    ],
+    "2021": [
+      {
+        "partner": "Brazil",
+        "share": 0.7273
+      },
+      {
+        "partner": "United States",
+        "share": 0.1153
+      },
+      {
+        "partner": "Thailand",
+        "share": 0.0543
+      },
+      {
+        "partner": "Argentina",
+        "share": 0.0329
+      },
+      {
+        "partner": "Australia",
+        "share": 0.0298
+      },
+      {
+        "partner": "Denmark",
+        "share": 0.0227
+      },
+      {
+        "partner": "Ukraine",
+        "share": 0.0056
+      },
+      {
+        "partner": "Malaysia",
+        "share": 0.0042
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.0027
+      },
+      {
+        "partner": "Paraguay",
+        "share": 0.0015
+      },
+      {
+        "partner": "France",
+        "share": 0.0014
+      },
+      {
+        "partner": "Ireland",
+        "share": 0.0007
+      },
+      {
+        "partner": "Germany",
+        "share": 0.0005
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0.0003
+      },
+      {
+        "partner": "Poland",
+        "share": 0.0002
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0.0002
+      },
+      {
+        "partner": "South Africa",
+        "share": 0.0002
+      },
+      {
+        "partner": "New Zealand",
+        "share": 0.0001
+      },
+      {
+        "partner": "Uruguay",
+        "share": 0.0001
+      },
+      {
+        "partner": "South Korea",
+        "share": 0
+      }
+    ],
+    "2022": [
+      {
+        "partner": "Brazil",
+        "share": 0.7547
+      },
+      {
+        "partner": "United States",
+        "share": 0.105
+      },
+      {
+        "partner": "Argentina",
+        "share": 0.0442
+      },
+      {
+        "partner": "Thailand",
+        "share": 0.0289
+      },
+      {
+        "partner": "Ukraine",
+        "share": 0.0242
+      },
+      {
+        "partner": "Malaysia",
+        "share": 0.017
+      },
+      {
+        "partner": "Denmark",
+        "share": 0.0149
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.0033
+      },
+      {
+        "partner": "Australia",
+        "share": 0.0019
+      },
+      {
+        "partner": "Indonesia",
+        "share": 0.0016
+      },
+      {
+        "partner": "Hong Kong SAR",
+        "share": 0.0005
+      },
+      {
+        "partner": "New Zealand",
+        "share": 0.0005
+      },
+      {
+        "partner": "Romania",
+        "share": 0.0004
+      },
+      {
+        "partner": "France",
+        "share": 0.0004
+      },
+      {
+        "partner": "Russia",
+        "share": 0.0004
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0.0003
+      },
+      {
+        "partner": "Paraguay",
+        "share": 0.0003
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0.0003
+      },
+      {
+        "partner": "Uruguay",
+        "share": 0.0003
+      },
+      {
+        "partner": "Philippines",
+        "share": 0.0003
+      },
+      {
+        "partner": "Poland",
+        "share": 0.0001
+      },
+      {
+        "partner": "Turkey",
+        "share": 0.0001
+      },
+      {
+        "partner": "Sweden",
+        "share": 0.0001
+      },
+      {
+        "partner": "Germany",
+        "share": 0.0001
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0
+      },
+      {
+        "partner": "Ireland",
+        "share": 0
+      }
+    ],
+    "2023": [
+      {
+        "partner": "Brazil",
+        "share": 0.7507
+      },
+      {
+        "partner": "United States",
+        "share": 0.1284
+      },
+      {
+        "partner": "Thailand",
+        "share": 0.0409
+      },
+      {
+        "partner": "Denmark",
+        "share": 0.0188
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.0178
+      },
+      {
+        "partner": "Poland",
+        "share": 0.0114
+      },
+      {
+        "partner": "Argentina",
+        "share": 0.0111
+      },
+      {
+        "partner": "Malaysia",
+        "share": 0.0085
+      },
+      {
+        "partner": "Ukraine",
+        "share": 0.0036
+      },
+      {
+        "partner": "Indonesia",
+        "share": 0.0023
+      },
+      {
+        "partner": "Australia",
+        "share": 0.0014
+      },
+      {
+        "partner": "Uruguay",
+        "share": 0.0008
+      },
+      {
+        "partner": "India",
+        "share": 0.0008
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0.0006
+      },
+      {
+        "partner": "New Zealand",
+        "share": 0.0006
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0.0005
+      },
+      {
+        "partner": "France",
+        "share": 0.0004
+      },
+      {
+        "partner": "Paraguay",
+        "share": 0.0003
+      },
+      {
+        "partner": "Russia",
+        "share": 0.0003
+      },
+      {
+        "partner": "Germany",
+        "share": 0.0002
+      },
+      {
+        "partner": "Barbados",
+        "share": 0.0002
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0001
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0.0001
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0.0001
+      },
+      {
+        "partner": "United Arab Emirates",
+        "share": 0.0001
+      },
+      {
+        "partner": "Italy",
+        "share": 0.0001
+      },
+      {
+        "partner": "Spain",
+        "share": 0
+      }
+    ]
+  },
+  "Eggs": {
+    "2010": [
+      {
+        "partner": "Malaysia",
+        "share": 0.9475
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.0201
+      },
+      {
+        "partner": "South Korea",
+        "share": 0.0168
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0.0126
+      },
+      {
+        "partner": "New Zealand",
+        "share": 0.0015
+      },
+      {
+        "partner": "Thailand",
+        "share": 0.0011
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0.0002
+      },
+      {
+        "partner": "United States",
+        "share": 0.0001
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0001
+      }
+    ],
+    "2011": [
+      {
+        "partner": "Malaysia",
+        "share": 0.9605
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.023
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0.0138
+      },
+      {
+        "partner": "New Zealand",
+        "share": 0.0017
+      },
+      {
+        "partner": "Thailand",
+        "share": 0.0005
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0.0004
+      },
+      {
+        "partner": "South Korea",
+        "share": 0.0001
+      },
+      {
+        "partner": "United States",
+        "share": 0.0001
+      },
+      {
+        "partner": "Japan",
+        "share": 0
+      }
+    ],
+    "2012": [
+      {
+        "partner": "Malaysia",
+        "share": 0.996
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.0023
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0.0013
+      },
+      {
+        "partner": "New Zealand",
+        "share": 0.0002
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0.0001
+      },
+      {
+        "partner": "Thailand",
+        "share": 0.0001
+      },
+      {
+        "partner": "Indonesia",
+        "share": 0
+      }
+    ],
+    "2013": [
+      {
+        "partner": "Malaysia",
+        "share": 0.9619
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.0221
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0.0126
+      },
+      {
+        "partner": "New Zealand",
+        "share": 0.0019
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0.0008
+      },
+      {
+        "partner": "Thailand",
+        "share": 0.0006
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0001
+      },
+      {
+        "partner": "Brazil",
+        "share": 0
+      }
+    ],
+    "2014": [
+      {
+        "partner": "Malaysia",
+        "share": 0.9624
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.0196
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0.0148
+      },
+      {
+        "partner": "New Zealand",
+        "share": 0.0025
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0.0004
+      },
+      {
+        "partner": "Thailand",
+        "share": 0.0003
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0001
+      },
+      {
+        "partner": "Brazil",
+        "share": 0
+      },
+      {
+        "partner": "Indonesia",
+        "share": 0
+      },
+      {
+        "partner": "United States",
+        "share": 0
+      }
+    ],
+    "2015": [
+      {
+        "partner": "Malaysia",
+        "share": 0.913
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.0463
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0.0284
+      },
+      {
+        "partner": "New Zealand",
+        "share": 0.0095
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0.0014
+      },
+      {
+        "partner": "Thailand",
+        "share": 0.0008
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0006
+      },
+      {
+        "partner": "Indonesia",
+        "share": 0
+      },
+      {
+        "partner": "Belgium",
+        "share": 0
+      },
+      {
+        "partner": "Australia",
+        "share": 0
+      }
+    ],
+    "2016": [
+      {
+        "partner": "Malaysia",
+        "share": 0.9612
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.024
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0.0107
+      },
+      {
+        "partner": "New Zealand",
+        "share": 0.0027
+      },
+      {
+        "partner": "Thailand",
+        "share": 0.001
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0.0004
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0001
+      },
+      {
+        "partner": "United States",
+        "share": 0
+      }
+    ],
+    "2017": [
+      {
+        "partner": "Malaysia",
+        "share": 0.9462
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.0231
+      },
+      {
+        "partner": "Thailand",
+        "share": 0.0142
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0.0102
+      },
+      {
+        "partner": "New Zealand",
+        "share": 0.0034
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0.0018
+      },
+      {
+        "partner": "Australia",
+        "share": 0.0008
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0005
+      }
+    ],
+    "2018": [
+      {
+        "partner": "Malaysia",
+        "share": 0.9029
+      },
+      {
+        "partner": "Thailand",
+        "share": 0.0535
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.0181
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0.0151
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0.0046
+      },
+      {
+        "partner": "New Zealand",
+        "share": 0.0044
+      },
+      {
+        "partner": "Australia",
+        "share": 0.0012
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0003
+      },
+      {
+        "partner": "Indonesia",
+        "share": 0
+      }
+    ],
+    "2019": [
+      {
+        "partner": "Malaysia",
+        "share": 0.9052
+      },
+      {
+        "partner": "Thailand",
+        "share": 0.0267
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.0249
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0.0186
+      },
+      {
+        "partner": "Ukraine",
+        "share": 0.0121
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0.0052
+      },
+      {
+        "partner": "New Zealand",
+        "share": 0.0033
+      },
+      {
+        "partner": "Australia",
+        "share": 0.0016
+      },
+      {
+        "partner": "Spain",
+        "share": 0.0013
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0007
+      },
+      {
+        "partner": "South Korea",
+        "share": 0.0006
+      },
+      {
+        "partner": "Indonesia",
+        "share": 0
+      }
+    ],
+    "2020": [
+      {
+        "partner": "Malaysia",
+        "share": 0.7409
+      },
+      {
+        "partner": "Thailand",
+        "share": 0.0738
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.042
+      },
+      {
+        "partner": "Poland",
+        "share": 0.0355
+      },
+      {
+        "partner": "Ukraine",
+        "share": 0.0302
+      },
+      {
+        "partner": "New Zealand",
+        "share": 0.014
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0.0122
+      },
+      {
+        "partner": "South Korea",
+        "share": 0.0122
+      },
+      {
+        "partner": "Japan",
+        "share": 0.012
+      },
+      {
+        "partner": "Australia",
+        "share": 0.0113
+      },
+      {
+        "partner": "Spain",
+        "share": 0.0105
+      },
+      {
+        "partner": "Denmark",
+        "share": 0.0037
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0.0013
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0.0002
+      },
+      {
+        "partner": "Brunei",
+        "share": 0.0002
+      }
+    ],
+    "2021": [
+      {
+        "partner": "Malaysia",
+        "share": 0.9089
+      },
+      {
+        "partner": "Thailand",
+        "share": 0.0871
+      },
+      {
+        "partner": "Poland",
+        "share": 0.0028
+      },
+      {
+        "partner": "Ukraine",
+        "share": 0.0004
+      },
+      {
+        "partner": "Australia",
+        "share": 0.0003
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.0002
+      },
+      {
+        "partner": "Spain",
+        "share": 0.0001
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0.0001
+      },
+      {
+        "partner": "New Zealand",
+        "share": 0
+      },
+      {
+        "partner": "Japan",
+        "share": 0
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0
+      },
+      {
+        "partner": "Turkey",
+        "share": 0
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0
+      },
+      {
+        "partner": "Denmark",
+        "share": 0
+      },
+      {
+        "partner": "Germany",
+        "share": 0
+      },
+      {
+        "partner": "Ireland",
+        "share": 0
+      }
+    ],
+    "2022": [
+      {
+        "partner": "Malaysia",
+        "share": 0.6578
+      },
+      {
+        "partner": "Poland",
+        "share": 0.0961
+      },
+      {
+        "partner": "Thailand",
+        "share": 0.0931
+      },
+      {
+        "partner": "Ukraine",
+        "share": 0.0619
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.0454
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0.0161
+      },
+      {
+        "partner": "Australia",
+        "share": 0.0145
+      },
+      {
+        "partner": "Turkey",
+        "share": 0.0042
+      },
+      {
+        "partner": "Japan",
+        "share": 0.003
+      },
+      {
+        "partner": "New Zealand",
+        "share": 0.003
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0.0029
+      },
+      {
+        "partner": "South Korea",
+        "share": 0.0006
+      },
+      {
+        "partner": "Spain",
+        "share": 0.0006
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0.0003
+      },
+      {
+        "partner": "Denmark",
+        "share": 0.0002
+      },
+      {
+        "partner": "Germany",
+        "share": 0.0002
+      },
+      {
+        "partner": "Ireland",
+        "share": 0.0001
+      },
+      {
+        "partner": "Brunei",
+        "share": 0
+      }
+    ],
+    "2023": [
+      {
+        "partner": "Malaysia",
+        "share": 0.6012
+      },
+      {
+        "partner": "Thailand",
+        "share": 0.2135
+      },
+      {
+        "partner": "Ukraine",
+        "share": 0.074
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.0535
+      },
+      {
+        "partner": "Poland",
+        "share": 0.019
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0.0156
+      },
+      {
+        "partner": "Indonesia",
+        "share": 0.0065
+      },
+      {
+        "partner": "Australia",
+        "share": 0.0033
+      },
+      {
+        "partner": "Brunei",
+        "share": 0.0032
+      },
+      {
+        "partner": "New Zealand",
+        "share": 0.0026
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0024
+      },
+      {
+        "partner": "Turkey",
+        "share": 0.0023
+      },
+      {
+        "partner": "South Korea",
+        "share": 0.0011
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0.001
+      },
+      {
+        "partner": "Denmark",
+        "share": 0.0003
+      },
+      {
+        "partner": "Ireland",
+        "share": 0.0002
+      },
+      {
+        "partner": "Romania",
+        "share": 0.0002
+      },
+      {
+        "partner": "Germany",
+        "share": 0.0001
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0
+      },
+      {
+        "partner": "Italy",
+        "share": 0
+      }
+    ]
+  },
+  "Live chickens": {
+    "2010": [
+      {
+        "partner": "Malaysia",
+        "share": 0.9997
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0.0002
+      },
+      {
+        "partner": "France",
+        "share": 0.0001
+      }
+    ],
+    "2011": [
+      {
+        "partner": "Malaysia",
+        "share": 0.9996
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0.0004
+      },
+      {
+        "partner": "France",
+        "share": 0
+      }
+    ],
+    "2012": [
+      {
+        "partner": "Malaysia",
+        "share": 0.9997
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0.0002
+      },
+      {
+        "partner": "France",
+        "share": 0.0001
+      }
+    ],
+    "2013": [
+      {
+        "partner": "Malaysia",
+        "share": 0.9999
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0.0001
+      }
+    ],
+    "2014": [
+      {
+        "partner": "Malaysia",
+        "share": 0.9997
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0.0002
+      },
+      {
+        "partner": "France",
+        "share": 0.0001
+      }
+    ],
+    "2015": [
+      {
+        "partner": "Malaysia",
+        "share": 0.9999
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0.0001
+      }
+    ],
+    "2016": [
+      {
+        "partner": "Malaysia",
+        "share": 0.9999
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0.0001
+      }
+    ],
+    "2017": [
+      {
+        "partner": "Malaysia",
+        "share": 1
+      }
+    ],
+    "2018": [
+      {
+        "partner": "Malaysia",
+        "share": 1
+      }
+    ],
+    "2019": [
+      {
+        "partner": "Malaysia",
+        "share": 1
+      }
+    ],
+    "2020": [
+      {
+        "partner": "Malaysia",
+        "share": 1
+      }
+    ],
+    "2021": [
+      {
+        "partner": "Malaysia",
+        "share": 1
+      }
+    ],
+    "2022": [
+      {
+        "partner": "Malaysia",
+        "share": 0.989
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0.0081
+      },
+      {
+        "partner": "Indonesia",
+        "share": 0.0029
+      },
+      {
+        "partner": "India",
+        "share": 0
+      }
+    ],
+    "2023": [
+      {
+        "partner": "Malaysia",
+        "share": 0.972
+      },
+      {
+        "partner": "Indonesia",
+        "share": 0.0168
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0.0111
+      }
+    ]
+  },
+  "Pork": {
+    "2010": [
+      {
+        "partner": "Brazil",
+        "share": 0.3729
+      },
+      {
+        "partner": "Australia",
+        "share": 0.1784
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0.1118
+      },
+      {
+        "partner": "United States",
+        "share": 0.1114
+      },
+      {
+        "partner": "Canada",
+        "share": 0.0629
+      },
+      {
+        "partner": "France",
+        "share": 0.0492
+      },
+      {
+        "partner": "Denmark",
+        "share": 0.0307
+      },
+      {
+        "partner": "Chile",
+        "share": 0.0199
+      },
+      {
+        "partner": "Germany",
+        "share": 0.0166
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.0143
+      },
+      {
+        "partner": "Ireland",
+        "share": 0.0103
+      },
+      {
+        "partner": "Sweden",
+        "share": 0.0064
+      },
+      {
+        "partner": "Spain",
+        "share": 0.0055
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0.0048
+      },
+      {
+        "partner": "Finland",
+        "share": 0.0032
+      },
+      {
+        "partner": "Belgium",
+        "share": 0.0011
+      },
+      {
+        "partner": "Hungary",
+        "share": 0.0003
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0.0002
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0001
+      },
+      {
+        "partner": "New Zealand",
+        "share": 0
+      }
+    ],
+    "2011": [
+      {
+        "partner": "Brazil",
+        "share": 0.3419
+      },
+      {
+        "partner": "Australia",
+        "share": 0.1712
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0.1362
+      },
+      {
+        "partner": "United States",
+        "share": 0.1131
+      },
+      {
+        "partner": "France",
+        "share": 0.0571
+      },
+      {
+        "partner": "Denmark",
+        "share": 0.0317
+      },
+      {
+        "partner": "Canada",
+        "share": 0.031
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.0295
+      },
+      {
+        "partner": "Spain",
+        "share": 0.0196
+      },
+      {
+        "partner": "Chile",
+        "share": 0.0186
+      },
+      {
+        "partner": "Germany",
+        "share": 0.0172
+      },
+      {
+        "partner": "Belgium",
+        "share": 0.0073
+      },
+      {
+        "partner": "Sweden",
+        "share": 0.0068
+      },
+      {
+        "partner": "Ireland",
+        "share": 0.0059
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0.0057
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0.0029
+      },
+      {
+        "partner": "Finland",
+        "share": 0.0027
+      },
+      {
+        "partner": "Hungary",
+        "share": 0.0014
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0003
+      }
+    ],
+    "2012": [
+      {
+        "partner": "Brazil",
+        "share": 0.3746
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0.1517
+      },
+      {
+        "partner": "Australia",
+        "share": 0.1269
+      },
+      {
+        "partner": "United States",
+        "share": 0.1024
+      },
+      {
+        "partner": "France",
+        "share": 0.0427
+      },
+      {
+        "partner": "Denmark",
+        "share": 0.035
+      },
+      {
+        "partner": "Spain",
+        "share": 0.0342
+      },
+      {
+        "partner": "Canada",
+        "share": 0.0316
+      },
+      {
+        "partner": "Germany",
+        "share": 0.0269
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.0167
+      },
+      {
+        "partner": "Ireland",
+        "share": 0.0137
+      },
+      {
+        "partner": "Belgium",
+        "share": 0.0098
+      },
+      {
+        "partner": "Chile",
+        "share": 0.0092
+      },
+      {
+        "partner": "Poland",
+        "share": 0.0074
+      },
+      {
+        "partner": "Hungary",
+        "share": 0.007
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0.0033
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0.0032
+      },
+      {
+        "partner": "Sweden",
+        "share": 0.0025
+      },
+      {
+        "partner": "Argentina",
+        "share": 0.0004
+      },
+      {
+        "partner": "Mexico",
+        "share": 0.0003
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0003
+      },
+      {
+        "partner": "Italy",
+        "share": 0
+      }
+    ],
+    "2013": [
+      {
+        "partner": "Brazil",
+        "share": 0.4278
+      },
+      {
+        "partner": "Australia",
+        "share": 0.1309
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0.1297
+      },
+      {
+        "partner": "United States",
+        "share": 0.0867
+      },
+      {
+        "partner": "Canada",
+        "share": 0.0506
+      },
+      {
+        "partner": "Spain",
+        "share": 0.0407
+      },
+      {
+        "partner": "France",
+        "share": 0.0405
+      },
+      {
+        "partner": "Germany",
+        "share": 0.0209
+      },
+      {
+        "partner": "Denmark",
+        "share": 0.0151
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0.0121
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.0101
+      },
+      {
+        "partner": "Poland",
+        "share": 0.0082
+      },
+      {
+        "partner": "Hungary",
+        "share": 0.0082
+      },
+      {
+        "partner": "Belgium",
+        "share": 0.005
+      },
+      {
+        "partner": "Ireland",
+        "share": 0.0035
+      },
+      {
+        "partner": "Chile",
+        "share": 0.0033
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0.0024
+      },
+      {
+        "partner": "Sweden",
+        "share": 0.0022
+      },
+      {
+        "partner": "Finland",
+        "share": 0.0009
+      },
+      {
+        "partner": "Hong Kong SAR",
+        "share": 0.0007
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0005
+      },
+      {
+        "partner": "Italy",
+        "share": 0
+      },
+      {
+        "partner": "New Zealand",
+        "share": 0
+      }
+    ],
+    "2014": [
+      {
+        "partner": "Brazil",
+        "share": 0.3968
+      },
+      {
+        "partner": "Australia",
+        "share": 0.1373
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0.1351
+      },
+      {
+        "partner": "United States",
+        "share": 0.1105
+      },
+      {
+        "partner": "Spain",
+        "share": 0.0509
+      },
+      {
+        "partner": "France",
+        "share": 0.0376
+      },
+      {
+        "partner": "Canada",
+        "share": 0.0273
+      },
+      {
+        "partner": "Germany",
+        "share": 0.0273
+      },
+      {
+        "partner": "Denmark",
+        "share": 0.0223
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.0147
+      },
+      {
+        "partner": "Hungary",
+        "share": 0.0131
+      },
+      {
+        "partner": "Belgium",
+        "share": 0.0077
+      },
+      {
+        "partner": "Finland",
+        "share": 0.0049
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0.0042
+      },
+      {
+        "partner": "Ireland",
+        "share": 0.0039
+      },
+      {
+        "partner": "Poland",
+        "share": 0.0019
+      },
+      {
+        "partner": "Austria",
+        "share": 0.0012
+      },
+      {
+        "partner": "Sweden",
+        "share": 0.0011
+      },
+      {
+        "partner": "Chile",
+        "share": 0.0009
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0.0007
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0006
+      },
+      {
+        "partner": "Mexico",
+        "share": 0
+      },
+      {
+        "partner": "Malaysia",
+        "share": 0
+      }
+    ],
+    "2015": [
+      {
+        "partner": "Brazil",
+        "share": 0.3364
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0.1765
+      },
+      {
+        "partner": "Australia",
+        "share": 0.1676
+      },
+      {
+        "partner": "Spain",
+        "share": 0.078
+      },
+      {
+        "partner": "United States",
+        "share": 0.073
+      },
+      {
+        "partner": "Canada",
+        "share": 0.0502
+      },
+      {
+        "partner": "France",
+        "share": 0.0278
+      },
+      {
+        "partner": "Germany",
+        "share": 0.024
+      },
+      {
+        "partner": "Denmark",
+        "share": 0.0204
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.0103
+      },
+      {
+        "partner": "Hungary",
+        "share": 0.0089
+      },
+      {
+        "partner": "Austria",
+        "share": 0.0076
+      },
+      {
+        "partner": "Belgium",
+        "share": 0.0066
+      },
+      {
+        "partner": "Malaysia",
+        "share": 0.0062
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0.0021
+      },
+      {
+        "partner": "Ireland",
+        "share": 0.0011
+      },
+      {
+        "partner": "Sweden",
+        "share": 0.001
+      },
+      {
+        "partner": "Finland",
+        "share": 0.0009
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0009
+      },
+      {
+        "partner": "Poland",
+        "share": 0.0003
+      },
+      {
+        "partner": "Laos",
+        "share": 0.0001
+      },
+      {
+        "partner": "Italy",
+        "share": 0
+      },
+      {
+        "partner": "Mexico",
+        "share": 0
+      }
+    ],
+    "2016": [
+      {
+        "partner": "Brazil",
+        "share": 0.4248
+      },
+      {
+        "partner": "Australia",
+        "share": 0.1699
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0.1518
+      },
+      {
+        "partner": "Spain",
+        "share": 0.0847
+      },
+      {
+        "partner": "Germany",
+        "share": 0.033
+      },
+      {
+        "partner": "United States",
+        "share": 0.027
+      },
+      {
+        "partner": "Canada",
+        "share": 0.0253
+      },
+      {
+        "partner": "France",
+        "share": 0.0152
+      },
+      {
+        "partner": "Austria",
+        "share": 0.0131
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0.0105
+      },
+      {
+        "partner": "Malaysia",
+        "share": 0.0101
+      },
+      {
+        "partner": "Denmark",
+        "share": 0.0098
+      },
+      {
+        "partner": "Hungary",
+        "share": 0.0094
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.006
+      },
+      {
+        "partner": "Belgium",
+        "share": 0.0047
+      },
+      {
+        "partner": "Ireland",
+        "share": 0.0012
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0011
+      },
+      {
+        "partner": "Sweden",
+        "share": 0.001
+      },
+      {
+        "partner": "Finland",
+        "share": 0.0009
+      },
+      {
+        "partner": "Chile",
+        "share": 0.0003
+      },
+      {
+        "partner": "Ukraine",
+        "share": 0.0001
+      },
+      {
+        "partner": "Poland",
+        "share": 0
+      },
+      {
+        "partner": "Italy",
+        "share": 0
+      },
+      {
+        "partner": "New Zealand",
+        "share": 0
+      },
+      {
+        "partner": "Mexico",
+        "share": 0
+      },
+      {
+        "partner": "Thailand",
+        "share": 0
+      }
+    ],
+    "2017": [
+      {
+        "partner": "Brazil",
+        "share": 0.4115
+      },
+      {
+        "partner": "Australia",
+        "share": 0.1698
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0.1321
+      },
+      {
+        "partner": "Spain",
+        "share": 0.0917
+      },
+      {
+        "partner": "United States",
+        "share": 0.0434
+      },
+      {
+        "partner": "Canada",
+        "share": 0.042
+      },
+      {
+        "partner": "Germany",
+        "share": 0.025
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0.0155
+      },
+      {
+        "partner": "Denmark",
+        "share": 0.015
+      },
+      {
+        "partner": "France",
+        "share": 0.0134
+      },
+      {
+        "partner": "Austria",
+        "share": 0.0131
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.0061
+      },
+      {
+        "partner": "Ireland",
+        "share": 0.0046
+      },
+      {
+        "partner": "Belgium",
+        "share": 0.0042
+      },
+      {
+        "partner": "Hungary",
+        "share": 0.0033
+      },
+      {
+        "partner": "Malaysia",
+        "share": 0.0033
+      },
+      {
+        "partner": "Finland",
+        "share": 0.0018
+      },
+      {
+        "partner": "Sweden",
+        "share": 0.0013
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0012
+      },
+      {
+        "partner": "Hong Kong SAR",
+        "share": 0.001
+      },
+      {
+        "partner": "Malta",
+        "share": 0.0003
+      },
+      {
+        "partner": "Mexico",
+        "share": 0.0003
+      },
+      {
+        "partner": "Italy",
+        "share": 0
+      },
+      {
+        "partner": "Thailand",
+        "share": 0
+      },
+      {
+        "partner": "Poland",
+        "share": 0
+      }
+    ],
+    "2018": [
+      {
+        "partner": "Brazil",
+        "share": 0.4832
+      },
+      {
+        "partner": "Australia",
+        "share": 0.1572
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0.1489
+      },
+      {
+        "partner": "Spain",
+        "share": 0.0688
+      },
+      {
+        "partner": "Germany",
+        "share": 0.0311
+      },
+      {
+        "partner": "United States",
+        "share": 0.022
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0.0163
+      },
+      {
+        "partner": "Austria",
+        "share": 0.0134
+      },
+      {
+        "partner": "Denmark",
+        "share": 0.013
+      },
+      {
+        "partner": "Canada",
+        "share": 0.0123
+      },
+      {
+        "partner": "France",
+        "share": 0.009
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.0086
+      },
+      {
+        "partner": "Belgium",
+        "share": 0.0023
+      },
+      {
+        "partner": "Mexico",
+        "share": 0.0022
+      },
+      {
+        "partner": "Hong Kong SAR",
+        "share": 0.0021
+      },
+      {
+        "partner": "Sweden",
+        "share": 0.0021
+      },
+      {
+        "partner": "Malaysia",
+        "share": 0.0018
+      },
+      {
+        "partner": "Finland",
+        "share": 0.0017
+      },
+      {
+        "partner": "Ireland",
+        "share": 0.0015
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0012
+      },
+      {
+        "partner": "Hungary",
+        "share": 0.0008
+      },
+      {
+        "partner": "Italy",
+        "share": 0.0003
+      },
+      {
+        "partner": "Poland",
+        "share": 0
+      }
+    ],
+    "2019": [
+      {
+        "partner": "Brazil",
+        "share": 0.4745
+      },
+      {
+        "partner": "Australia",
+        "share": 0.1405
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0.125
+      },
+      {
+        "partner": "Spain",
+        "share": 0.0916
+      },
+      {
+        "partner": "Germany",
+        "share": 0.0451
+      },
+      {
+        "partner": "United States",
+        "share": 0.0394
+      },
+      {
+        "partner": "Canada",
+        "share": 0.0226
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0.0149
+      },
+      {
+        "partner": "Austria",
+        "share": 0.0116
+      },
+      {
+        "partner": "France",
+        "share": 0.0082
+      },
+      {
+        "partner": "Denmark",
+        "share": 0.0079
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0.005
+      },
+      {
+        "partner": "Mexico",
+        "share": 0.0041
+      },
+      {
+        "partner": "Sweden",
+        "share": 0.0026
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0021
+      },
+      {
+        "partner": "Finland",
+        "share": 0.0016
+      },
+      {
+        "partner": "Chile",
+        "share": 0.0012
+      },
+      {
+        "partner": "Malaysia",
+        "share": 0.0009
+      },
+      {
+        "partner": "Ireland",
+        "share": 0.0003
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.0003
+      },
+      {
+        "partner": "Sri Lanka",
+        "share": 0.0003
+      },
+      {
+        "partner": "Italy",
+        "share": 0.0002
+      },
+      {
+        "partner": "Argentina",
+        "share": 0.0001
+      },
+      {
+        "partner": "Indonesia",
+        "share": 0
+      }
+    ],
+    "2020": [
+      {
+        "partner": "Brazil",
+        "share": 0.4779
+      },
+      {
+        "partner": "Australia",
+        "share": 0.1254
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0.1161
+      },
+      {
+        "partner": "Spain",
+        "share": 0.1055
+      },
+      {
+        "partner": "Germany",
+        "share": 0.0558
+      },
+      {
+        "partner": "United States",
+        "share": 0.0266
+      },
+      {
+        "partner": "Canada",
+        "share": 0.0232
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0117
+      },
+      {
+        "partner": "Belgium",
+        "share": 0.009
+      },
+      {
+        "partner": "Denmark",
+        "share": 0.0087
+      },
+      {
+        "partner": "Poland",
+        "share": 0.0073
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0.0071
+      },
+      {
+        "partner": "Austria",
+        "share": 0.0056
+      },
+      {
+        "partner": "Mexico",
+        "share": 0.0041
+      },
+      {
+        "partner": "France",
+        "share": 0.0039
+      },
+      {
+        "partner": "Ireland",
+        "share": 0.0038
+      },
+      {
+        "partner": "Sweden",
+        "share": 0.0018
+      },
+      {
+        "partner": "Chile",
+        "share": 0.0016
+      },
+      {
+        "partner": "Finland",
+        "share": 0.0014
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0.0012
+      },
+      {
+        "partner": "Russia",
+        "share": 0.0008
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.0007
+      },
+      {
+        "partner": "Hong Kong SAR",
+        "share": 0.0004
+      },
+      {
+        "partner": "Malaysia",
+        "share": 0.0003
+      },
+      {
+        "partner": "New Zealand",
+        "share": 0
+      }
+    ],
+    "2021": [
+      {
+        "partner": "Brazil",
+        "share": 0.5526
+      },
+      {
+        "partner": "Australia",
+        "share": 0.1322
+      },
+      {
+        "partner": "Germany",
+        "share": 0.1031
+      },
+      {
+        "partner": "Spain",
+        "share": 0.0636
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0.0504
+      },
+      {
+        "partner": "United States",
+        "share": 0.02
+      },
+      {
+        "partner": "Canada",
+        "share": 0.0179
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0.0126
+      },
+      {
+        "partner": "Poland",
+        "share": 0.0123
+      },
+      {
+        "partner": "Belgium",
+        "share": 0.0067
+      },
+      {
+        "partner": "Mexico",
+        "share": 0.0057
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0036
+      },
+      {
+        "partner": "Chile",
+        "share": 0.0032
+      },
+      {
+        "partner": "Ireland",
+        "share": 0.0028
+      },
+      {
+        "partner": "France",
+        "share": 0.0022
+      },
+      {
+        "partner": "Finland",
+        "share": 0.002
+      },
+      {
+        "partner": "Denmark",
+        "share": 0.0019
+      },
+      {
+        "partner": "Sweden",
+        "share": 0.0018
+      },
+      {
+        "partner": "Hungary",
+        "share": 0.0016
+      },
+      {
+        "partner": "Austria",
+        "share": 0.0016
+      },
+      {
+        "partner": "Hong Kong SAR",
+        "share": 0.0012
+      },
+      {
+        "partner": "Thailand",
+        "share": 0.0006
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.0003
+      },
+      {
+        "partner": "Malaysia",
+        "share": 0.0002
+      },
+      {
+        "partner": "Italy",
+        "share": 0
+      },
+      {
+        "partner": "South Korea",
+        "share": 0
+      }
+    ],
+    "2022": [
+      {
+        "partner": "Brazil",
+        "share": 0.6182
+      },
+      {
+        "partner": "Germany",
+        "share": 0.1285
+      },
+      {
+        "partner": "Australia",
+        "share": 0.089
+      },
+      {
+        "partner": "Spain",
+        "share": 0.0557
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0.0347
+      },
+      {
+        "partner": "Canada",
+        "share": 0.0234
+      },
+      {
+        "partner": "United States",
+        "share": 0.0132
+      },
+      {
+        "partner": "Mexico",
+        "share": 0.0064
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0.0051
+      },
+      {
+        "partner": "Chile",
+        "share": 0.0036
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0033
+      },
+      {
+        "partner": "Hungary",
+        "share": 0.0028
+      },
+      {
+        "partner": "Russia",
+        "share": 0.0025
+      },
+      {
+        "partner": "Belgium",
+        "share": 0.0025
+      },
+      {
+        "partner": "France",
+        "share": 0.0023
+      },
+      {
+        "partner": "Denmark",
+        "share": 0.0022
+      },
+      {
+        "partner": "Finland",
+        "share": 0.0015
+      },
+      {
+        "partner": "Sweden",
+        "share": 0.001
+      },
+      {
+        "partner": "Austria",
+        "share": 0.0009
+      },
+      {
+        "partner": "Ireland",
+        "share": 0.0009
+      },
+      {
+        "partner": "Poland",
+        "share": 0.0008
+      },
+      {
+        "partner": "Malaysia",
+        "share": 0.0008
+      },
+      {
+        "partner": "Thailand",
+        "share": 0.0003
+      },
+      {
+        "partner": "Ukraine",
+        "share": 0.0003
+      },
+      {
+        "partner": "Italy",
+        "share": 0
+      }
+    ],
+    "2023": [
+      {
+        "partner": "Brazil",
+        "share": 0.5884
+      },
+      {
+        "partner": "Australia",
+        "share": 0.1503
+      },
+      {
+        "partner": "Germany",
+        "share": 0.0924
+      },
+      {
+        "partner": "Spain",
+        "share": 0.0478
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0.0414
+      },
+      {
+        "partner": "Canada",
+        "share": 0.0157
+      },
+      {
+        "partner": "Mexico",
+        "share": 0.0137
+      },
+      {
+        "partner": "United States",
+        "share": 0.0122
+      },
+      {
+        "partner": "Russia",
+        "share": 0.0105
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0.007
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0039
+      },
+      {
+        "partner": "Chile",
+        "share": 0.0023
+      },
+      {
+        "partner": "Denmark",
+        "share": 0.0023
+      },
+      {
+        "partner": "Poland",
+        "share": 0.002
+      },
+      {
+        "partner": "Austria",
+        "share": 0.0013
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0.0012
+      },
+      {
+        "partner": "Hong Kong SAR",
+        "share": 0.0011
+      },
+      {
+        "partner": "Sweden",
+        "share": 0.0011
+      },
+      {
+        "partner": "Finland",
+        "share": 0.001
+      },
+      {
+        "partner": "Belgium",
+        "share": 0.001
+      },
+      {
+        "partner": "Italy",
+        "share": 0.0009
+      },
+      {
+        "partner": "France",
+        "share": 0.0007
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.0004
+      },
+      {
+        "partner": "Hungary",
+        "share": 0.0004
+      },
+      {
+        "partner": "Argentina",
+        "share": 0.0004
+      },
+      {
+        "partner": "Romania",
+        "share": 0.0003
+      },
+      {
+        "partner": "South Korea",
+        "share": 0.0002
+      },
+      {
+        "partner": "Ireland",
+        "share": 0.0002
+      },
+      {
+        "partner": "Switzerland",
+        "share": 0
+      },
+      {
+        "partner": "Colombia",
+        "share": 0
+      }
+    ]
+  },
+  "Rice": {
+    "2010": [
+      {
+        "partner": "Thailand",
+        "share": 0.5358
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0.2545
+      },
+      {
+        "partner": "India",
+        "share": 0.1493
+      },
+      {
+        "partner": "United States",
+        "share": 0.0197
+      },
+      {
+        "partner": "Pakistan",
+        "share": 0.011
+      },
+      {
+        "partner": "Myanmar",
+        "share": 0.0086
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.0086
+      },
+      {
+        "partner": "Australia",
+        "share": 0.0062
+      },
+      {
+        "partner": "Cambodia",
+        "share": 0.0013
+      },
+      {
+        "partner": "Indonesia",
+        "share": 0.0011
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0011
+      },
+      {
+        "partner": "Sri Lanka",
+        "share": 0.0008
+      },
+      {
+        "partner": "Italy",
+        "share": 0.0007
+      },
+      {
+        "partner": "South Korea",
+        "share": 0.0004
+      },
+      {
+        "partner": "United Arab Emirates",
+        "share": 0.0004
+      },
+      {
+        "partner": "Bangladesh",
+        "share": 0.0004
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0.0002
+      },
+      {
+        "partner": "Spain",
+        "share": 0
+      }
+    ],
+    "2011": [
+      {
+        "partner": "Thailand",
+        "share": 0.5029
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0.2646
+      },
+      {
+        "partner": "India",
+        "share": 0.1682
+      },
+      {
+        "partner": "Myanmar",
+        "share": 0.0225
+      },
+      {
+        "partner": "United States",
+        "share": 0.0223
+      },
+      {
+        "partner": "Pakistan",
+        "share": 0.0063
+      },
+      {
+        "partner": "Australia",
+        "share": 0.0061
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.0018
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0016
+      },
+      {
+        "partner": "Cambodia",
+        "share": 0.0012
+      },
+      {
+        "partner": "Indonesia",
+        "share": 0.0008
+      },
+      {
+        "partner": "Italy",
+        "share": 0.0006
+      },
+      {
+        "partner": "Bangladesh",
+        "share": 0.0004
+      },
+      {
+        "partner": "South Korea",
+        "share": 0.0003
+      },
+      {
+        "partner": "Sri Lanka",
+        "share": 0.0002
+      },
+      {
+        "partner": "Bhutan",
+        "share": 0.0001
+      },
+      {
+        "partner": "Uruguay",
+        "share": 0.0001
+      },
+      {
+        "partner": "United Arab Emirates",
+        "share": 0
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0
+      }
+    ],
+    "2012": [
+      {
+        "partner": "Thailand",
+        "share": 0.3579
+      },
+      {
+        "partner": "India",
+        "share": 0.3108
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0.2408
+      },
+      {
+        "partner": "Myanmar",
+        "share": 0.0342
+      },
+      {
+        "partner": "United States",
+        "share": 0.0251
+      },
+      {
+        "partner": "Cambodia",
+        "share": 0.0093
+      },
+      {
+        "partner": "Australia",
+        "share": 0.0084
+      },
+      {
+        "partner": "Pakistan",
+        "share": 0.0078
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0018
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.0011
+      },
+      {
+        "partner": "Bangladesh",
+        "share": 0.001
+      },
+      {
+        "partner": "Indonesia",
+        "share": 0.0008
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0.0005
+      },
+      {
+        "partner": "Italy",
+        "share": 0.0005
+      },
+      {
+        "partner": "South Korea",
+        "share": 0.0001
+      },
+      {
+        "partner": "Spain",
+        "share": 0
+      },
+      {
+        "partner": "Sri Lanka",
+        "share": 0
+      }
+    ],
+    "2013": [
+      {
+        "partner": "India",
+        "share": 0.3523
+      },
+      {
+        "partner": "Thailand",
+        "share": 0.297
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0.2671
+      },
+      {
+        "partner": "United States",
+        "share": 0.0248
+      },
+      {
+        "partner": "Pakistan",
+        "share": 0.0225
+      },
+      {
+        "partner": "Myanmar",
+        "share": 0.0155
+      },
+      {
+        "partner": "Cambodia",
+        "share": 0.0074
+      },
+      {
+        "partner": "Australia",
+        "share": 0.0061
+      },
+      {
+        "partner": "Indonesia",
+        "share": 0.003
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0021
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0.0007
+      },
+      {
+        "partner": "Italy",
+        "share": 0.0006
+      },
+      {
+        "partner": "Bangladesh",
+        "share": 0.0004
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.0003
+      },
+      {
+        "partner": "Philippines",
+        "share": 0.0001
+      },
+      {
+        "partner": "Laos",
+        "share": 0.0001
+      },
+      {
+        "partner": "South Korea",
+        "share": 0.0001
+      },
+      {
+        "partner": "Hong Kong SAR",
+        "share": 0.0001
+      },
+      {
+        "partner": "Spain",
+        "share": 0
+      },
+      {
+        "partner": "Turkey",
+        "share": 0
+      }
+    ],
+    "2014": [
+      {
+        "partner": "India",
+        "share": 0.3892
+      },
+      {
+        "partner": "Thailand",
+        "share": 0.3162
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0.2262
+      },
+      {
+        "partner": "United States",
+        "share": 0.0179
+      },
+      {
+        "partner": "Pakistan",
+        "share": 0.0162
+      },
+      {
+        "partner": "Myanmar",
+        "share": 0.0154
+      },
+      {
+        "partner": "Cambodia",
+        "share": 0.0068
+      },
+      {
+        "partner": "Australia",
+        "share": 0.0065
+      },
+      {
+        "partner": "Japan",
+        "share": 0.002
+      },
+      {
+        "partner": "Malaysia",
+        "share": 0.0006
+      },
+      {
+        "partner": "Indonesia",
+        "share": 0.0006
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.0006
+      },
+      {
+        "partner": "Bangladesh",
+        "share": 0.0005
+      },
+      {
+        "partner": "Italy",
+        "share": 0.0004
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0.0004
+      },
+      {
+        "partner": "Germany",
+        "share": 0.0002
+      },
+      {
+        "partner": "South Korea",
+        "share": 0.0001
+      },
+      {
+        "partner": "Hong Kong SAR",
+        "share": 0
+      },
+      {
+        "partner": "Spain",
+        "share": 0
+      },
+      {
+        "partner": "Switzerland",
+        "share": 0
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0
+      },
+      {
+        "partner": "Mexico",
+        "share": 0
+      }
+    ],
+    "2015": [
+      {
+        "partner": "India",
+        "share": 0.43
+      },
+      {
+        "partner": "Thailand",
+        "share": 0.2975
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0.2127
+      },
+      {
+        "partner": "United States",
+        "share": 0.0159
+      },
+      {
+        "partner": "Cambodia",
+        "share": 0.0141
+      },
+      {
+        "partner": "Myanmar",
+        "share": 0.0098
+      },
+      {
+        "partner": "Pakistan",
+        "share": 0.0076
+      },
+      {
+        "partner": "Australia",
+        "share": 0.0069
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0024
+      },
+      {
+        "partner": "Indonesia",
+        "share": 0.001
+      },
+      {
+        "partner": "Bangladesh",
+        "share": 0.0007
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0.0005
+      },
+      {
+        "partner": "Italy",
+        "share": 0.0004
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.0003
+      },
+      {
+        "partner": "South Korea",
+        "share": 0.0001
+      },
+      {
+        "partner": "Spain",
+        "share": 0
+      },
+      {
+        "partner": "Malaysia",
+        "share": 0
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0
+      }
+    ],
+    "2016": [
+      {
+        "partner": "Thailand",
+        "share": 0.3875
+      },
+      {
+        "partner": "India",
+        "share": 0.3418
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0.2206
+      },
+      {
+        "partner": "United States",
+        "share": 0.0164
+      },
+      {
+        "partner": "Cambodia",
+        "share": 0.0122
+      },
+      {
+        "partner": "Australia",
+        "share": 0.0087
+      },
+      {
+        "partner": "Pakistan",
+        "share": 0.0034
+      },
+      {
+        "partner": "Myanmar",
+        "share": 0.0034
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0033
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0.0007
+      },
+      {
+        "partner": "Bangladesh",
+        "share": 0.0006
+      },
+      {
+        "partner": "Malaysia",
+        "share": 0.0004
+      },
+      {
+        "partner": "Indonesia",
+        "share": 0.0004
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.0002
+      },
+      {
+        "partner": "Italy",
+        "share": 0.0002
+      },
+      {
+        "partner": "South Korea",
+        "share": 0.0001
+      },
+      {
+        "partner": "Spain",
+        "share": 0
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0
+      },
+      {
+        "partner": "United Arab Emirates",
+        "share": 0
+      },
+      {
+        "partner": "Turkey",
+        "share": 0
+      }
+    ],
+    "2017": [
+      {
+        "partner": "Thailand",
+        "share": 0.3955
+      },
+      {
+        "partner": "India",
+        "share": 0.3079
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0.2296
+      },
+      {
+        "partner": "United States",
+        "share": 0.0209
+      },
+      {
+        "partner": "Cambodia",
+        "share": 0.0174
+      },
+      {
+        "partner": "Australia",
+        "share": 0.0084
+      },
+      {
+        "partner": "Myanmar",
+        "share": 0.0081
+      },
+      {
+        "partner": "Pakistan",
+        "share": 0.0057
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0034
+      },
+      {
+        "partner": "Bangladesh",
+        "share": 0.0008
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.0006
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0.0005
+      },
+      {
+        "partner": "Indonesia",
+        "share": 0.0003
+      },
+      {
+        "partner": "South Korea",
+        "share": 0.0003
+      },
+      {
+        "partner": "Italy",
+        "share": 0.0002
+      },
+      {
+        "partner": "Malaysia",
+        "share": 0.0001
+      },
+      {
+        "partner": "Russia",
+        "share": 0.0001
+      },
+      {
+        "partner": "Cabo Verde",
+        "share": 0.0001
+      },
+      {
+        "partner": "Spain",
+        "share": 0.0001
+      },
+      {
+        "partner": "Kyrgyzstan",
+        "share": 0.0001
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0
+      },
+      {
+        "partner": "Turkey",
+        "share": 0
+      },
+      {
+        "partner": "Greece",
+        "share": 0
+      },
+      {
+        "partner": "Qatar",
+        "share": 0
+      }
+    ],
+    "2018": [
+      {
+        "partner": "Thailand",
+        "share": 0.3752
+      },
+      {
+        "partner": "India",
+        "share": 0.2822
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0.2745
+      },
+      {
+        "partner": "Cambodia",
+        "share": 0.0222
+      },
+      {
+        "partner": "United States",
+        "share": 0.013
+      },
+      {
+        "partner": "Pakistan",
+        "share": 0.0105
+      },
+      {
+        "partner": "Australia",
+        "share": 0.0099
+      },
+      {
+        "partner": "Myanmar",
+        "share": 0.006
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0039
+      },
+      {
+        "partner": "Bangladesh",
+        "share": 0.0008
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0.0005
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.0004
+      },
+      {
+        "partner": "Indonesia",
+        "share": 0.0004
+      },
+      {
+        "partner": "South Korea",
+        "share": 0.0003
+      },
+      {
+        "partner": "Italy",
+        "share": 0.0002
+      },
+      {
+        "partner": "Spain",
+        "share": 0.0001
+      },
+      {
+        "partner": "Turkey",
+        "share": 0
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0
+      },
+      {
+        "partner": "Russia",
+        "share": 0
+      },
+      {
+        "partner": "Sri Lanka",
+        "share": 0
+      }
+    ],
+    "2019": [
+      {
+        "partner": "Vietnam",
+        "share": 0.2992
+      },
+      {
+        "partner": "India",
+        "share": 0.2936
+      },
+      {
+        "partner": "Thailand",
+        "share": 0.2885
+      },
+      {
+        "partner": "Pakistan",
+        "share": 0.0332
+      },
+      {
+        "partner": "Myanmar",
+        "share": 0.0312
+      },
+      {
+        "partner": "Cambodia",
+        "share": 0.0269
+      },
+      {
+        "partner": "United States",
+        "share": 0.0107
+      },
+      {
+        "partner": "Australia",
+        "share": 0.0077
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0047
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0.0018
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.0009
+      },
+      {
+        "partner": "Bangladesh",
+        "share": 0.0005
+      },
+      {
+        "partner": "South Korea",
+        "share": 0.0004
+      },
+      {
+        "partner": "Indonesia",
+        "share": 0.0004
+      },
+      {
+        "partner": "Italy",
+        "share": 0.0002
+      },
+      {
+        "partner": "Spain",
+        "share": 0.0001
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0
+      },
+      {
+        "partner": "Turkey",
+        "share": 0
+      },
+      {
+        "partner": "Switzerland",
+        "share": 0
+      },
+      {
+        "partner": "Hong Kong SAR",
+        "share": 0
+      },
+      {
+        "partner": "Fiji",
+        "share": 0
+      },
+      {
+        "partner": "South Africa",
+        "share": 0
+      }
+    ],
+    "2020": [
+      {
+        "partner": "Thailand",
+        "share": 0.4218
+      },
+      {
+        "partner": "India",
+        "share": 0.2212
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0.1865
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.0505
+      },
+      {
+        "partner": "Cambodia",
+        "share": 0.0331
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0.0251
+      },
+      {
+        "partner": "Myanmar",
+        "share": 0.0181
+      },
+      {
+        "partner": "United States",
+        "share": 0.0131
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0118
+      },
+      {
+        "partner": "Pakistan",
+        "share": 0.0083
+      },
+      {
+        "partner": "Australia",
+        "share": 0.0069
+      },
+      {
+        "partner": "South Korea",
+        "share": 0.0014
+      },
+      {
+        "partner": "Bangladesh",
+        "share": 0.0008
+      },
+      {
+        "partner": "Italy",
+        "share": 0.0006
+      },
+      {
+        "partner": "Indonesia",
+        "share": 0.0004
+      },
+      {
+        "partner": "Spain",
+        "share": 0.0002
+      },
+      {
+        "partner": "Philippines",
+        "share": 0.0001
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0.0001
+      },
+      {
+        "partner": "Malaysia",
+        "share": 0
+      },
+      {
+        "partner": "Turkey",
+        "share": 0
+      },
+      {
+        "partner": "Portugal",
+        "share": 0
+      },
+      {
+        "partner": "Papua New Guinea",
+        "share": 0
+      },
+      {
+        "partner": "Sri Lanka",
+        "share": 0
+      }
+    ],
+    "2021": [
+      {
+        "partner": "India",
+        "share": 0.3725
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0.3021
+      },
+      {
+        "partner": "Thailand",
+        "share": 0.2776
+      },
+      {
+        "partner": "Cambodia",
+        "share": 0.0159
+      },
+      {
+        "partner": "Myanmar",
+        "share": 0.0066
+      },
+      {
+        "partner": "United States",
+        "share": 0.0065
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0054
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0.0042
+      },
+      {
+        "partner": "Pakistan",
+        "share": 0.0041
+      },
+      {
+        "partner": "Australia",
+        "share": 0.0024
+      },
+      {
+        "partner": "Bangladesh",
+        "share": 0.0009
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.0009
+      },
+      {
+        "partner": "South Korea",
+        "share": 0.0002
+      },
+      {
+        "partner": "Italy",
+        "share": 0.0002
+      },
+      {
+        "partner": "Hong Kong SAR",
+        "share": 0.0002
+      },
+      {
+        "partner": "Indonesia",
+        "share": 0.0001
+      },
+      {
+        "partner": "Spain",
+        "share": 0.0001
+      },
+      {
+        "partner": "Sri Lanka",
+        "share": 0.0001
+      },
+      {
+        "partner": "Malaysia",
+        "share": 0
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0
+      },
+      {
+        "partner": "Turkey",
+        "share": 0
+      },
+      {
+        "partner": "Israel",
+        "share": 0
+      },
+      {
+        "partner": "Papua New Guinea",
+        "share": 0
+      },
+      {
+        "partner": "Uruguay",
+        "share": 0
+      }
+    ],
+    "2022": [
+      {
+        "partner": "India",
+        "share": 0.4122
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0.2766
+      },
+      {
+        "partner": "Thailand",
+        "share": 0.253
+      },
+      {
+        "partner": "Cambodia",
+        "share": 0.0194
+      },
+      {
+        "partner": "Pakistan",
+        "share": 0.0112
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0063
+      },
+      {
+        "partner": "Myanmar",
+        "share": 0.0055
+      },
+      {
+        "partner": "United States",
+        "share": 0.0053
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0.0042
+      },
+      {
+        "partner": "Australia",
+        "share": 0.0035
+      },
+      {
+        "partner": "Bangladesh",
+        "share": 0.0008
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.0007
+      },
+      {
+        "partner": "Canada",
+        "share": 0.0003
+      },
+      {
+        "partner": "Hong Kong SAR",
+        "share": 0.0002
+      },
+      {
+        "partner": "South Korea",
+        "share": 0.0002
+      },
+      {
+        "partner": "Italy",
+        "share": 0.0002
+      },
+      {
+        "partner": "Spain",
+        "share": 0.0001
+      },
+      {
+        "partner": "Tunisia",
+        "share": 0.0001
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0.0001
+      },
+      {
+        "partner": "Malaysia",
+        "share": 0
+      },
+      {
+        "partner": "Brunei",
+        "share": 0
+      },
+      {
+        "partner": "Sri Lanka",
+        "share": 0
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0
+      },
+      {
+        "partner": "Portugal",
+        "share": 0
+      },
+      {
+        "partner": "Turkey",
+        "share": 0
+      }
+    ],
+    "2023": [
+      {
+        "partner": "India",
+        "share": 0.4297
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0.286
+      },
+      {
+        "partner": "Thailand",
+        "share": 0.2295
+      },
+      {
+        "partner": "Cambodia",
+        "share": 0.0229
+      },
+      {
+        "partner": "Pakistan",
+        "share": 0.0113
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0047
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0.0044
+      },
+      {
+        "partner": "Myanmar",
+        "share": 0.0042
+      },
+      {
+        "partner": "Australia",
+        "share": 0.0028
+      },
+      {
+        "partner": "United States",
+        "share": 0.0023
+      },
+      {
+        "partner": "Bangladesh",
+        "share": 0.0009
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.0007
+      },
+      {
+        "partner": "Italy",
+        "share": 0.0002
+      },
+      {
+        "partner": "South Korea",
+        "share": 0.0001
+      },
+      {
+        "partner": "Hong Kong SAR",
+        "share": 0.0001
+      },
+      {
+        "partner": "Spain",
+        "share": 0.0001
+      },
+      {
+        "partner": "Malaysia",
+        "share": 0
+      },
+      {
+        "partner": "Sri Lanka",
+        "share": 0
+      },
+      {
+        "partner": "Turkey",
+        "share": 0
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0
+      },
+      {
+        "partner": "Germany",
+        "share": 0
+      },
+      {
+        "partner": "Fiji",
+        "share": 0
+      },
+      {
+        "partner": "Iran",
+        "share": 0
+      }
+    ]
+  },
+  "Vegetables": {
+    "2010": [
+      {
+        "partner": "Malaysia",
+        "share": 0.5013
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.2324
+      },
+      {
+        "partner": "India",
+        "share": 0.0694
+      },
+      {
+        "partner": "Indonesia",
+        "share": 0.0466
+      },
+      {
+        "partner": "Australia",
+        "share": 0.0449
+      },
+      {
+        "partner": "United States",
+        "share": 0.0228
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0.0228
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0.0226
+      },
+      {
+        "partner": "Thailand",
+        "share": 0.0199
+      },
+      {
+        "partner": "New Zealand",
+        "share": 0.0072
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0.0035
+      },
+      {
+        "partner": "Pakistan",
+        "share": 0.0029
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0015
+      },
+      {
+        "partner": "Philippines",
+        "share": 0.0012
+      },
+      {
+        "partner": "Bangladesh",
+        "share": 0.0003
+      },
+      {
+        "partner": "South Korea",
+        "share": 0.0002
+      },
+      {
+        "partner": "Kenya",
+        "share": 0.0002
+      },
+      {
+        "partner": "Hong Kong SAR",
+        "share": 0.0001
+      },
+      {
+        "partner": "Myanmar",
+        "share": 0.0001
+      },
+      {
+        "partner": "France",
+        "share": 0.0001
+      },
+      {
+        "partner": "Spain",
+        "share": 0.0001
+      },
+      {
+        "partner": "Italy",
+        "share": 0
+      },
+      {
+        "partner": "Germany",
+        "share": 0
+      },
+      {
+        "partner": "South Africa",
+        "share": 0
+      },
+      {
+        "partner": "Sri Lanka",
+        "share": 0
+      },
+      {
+        "partner": "Belgium",
+        "share": 0
+      }
+    ],
+    "2011": [
+      {
+        "partner": "Malaysia",
+        "share": 0.4875
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.2668
+      },
+      {
+        "partner": "India",
+        "share": 0.0654
+      },
+      {
+        "partner": "Australia",
+        "share": 0.0423
+      },
+      {
+        "partner": "Indonesia",
+        "share": 0.0417
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0.0213
+      },
+      {
+        "partner": "Thailand",
+        "share": 0.0212
+      },
+      {
+        "partner": "United States",
+        "share": 0.019
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0.0125
+      },
+      {
+        "partner": "Pakistan",
+        "share": 0.006
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0.0046
+      },
+      {
+        "partner": "New Zealand",
+        "share": 0.0044
+      },
+      {
+        "partner": "Hong Kong SAR",
+        "share": 0.0027
+      },
+      {
+        "partner": "Philippines",
+        "share": 0.0018
+      },
+      {
+        "partner": "Japan",
+        "share": 0.001
+      },
+      {
+        "partner": "South Korea",
+        "share": 0.0006
+      },
+      {
+        "partner": "Egypt",
+        "share": 0.0004
+      },
+      {
+        "partner": "Bangladesh",
+        "share": 0.0002
+      },
+      {
+        "partner": "Kenya",
+        "share": 0.0002
+      },
+      {
+        "partner": "France",
+        "share": 0.0002
+      },
+      {
+        "partner": "Italy",
+        "share": 0.0001
+      },
+      {
+        "partner": "Belgium",
+        "share": 0.0001
+      },
+      {
+        "partner": "South Africa",
+        "share": 0
+      },
+      {
+        "partner": "Bulgaria",
+        "share": 0
+      },
+      {
+        "partner": "Germany",
+        "share": 0
+      },
+      {
+        "partner": "Turkey",
+        "share": 0
+      },
+      {
+        "partner": "Israel",
+        "share": 0
+      }
+    ],
+    "2012": [
+      {
+        "partner": "Malaysia",
+        "share": 0.4947
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.2247
+      },
+      {
+        "partner": "India",
+        "share": 0.0825
+      },
+      {
+        "partner": "Indonesia",
+        "share": 0.0481
+      },
+      {
+        "partner": "Australia",
+        "share": 0.0431
+      },
+      {
+        "partner": "United States",
+        "share": 0.0234
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0.0226
+      },
+      {
+        "partner": "Thailand",
+        "share": 0.0209
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0.0204
+      },
+      {
+        "partner": "New Zealand",
+        "share": 0.0066
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0.0034
+      },
+      {
+        "partner": "Hong Kong SAR",
+        "share": 0.0026
+      },
+      {
+        "partner": "Belgium",
+        "share": 0.0016
+      },
+      {
+        "partner": "Philippines",
+        "share": 0.0012
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0009
+      },
+      {
+        "partner": "Pakistan",
+        "share": 0.0008
+      },
+      {
+        "partner": "Bangladesh",
+        "share": 0.0007
+      },
+      {
+        "partner": "Sri Lanka",
+        "share": 0.0004
+      },
+      {
+        "partner": "Italy",
+        "share": 0.0003
+      },
+      {
+        "partner": "France",
+        "share": 0.0002
+      },
+      {
+        "partner": "Egypt",
+        "share": 0.0002
+      },
+      {
+        "partner": "Spain",
+        "share": 0.0001
+      },
+      {
+        "partner": "United Arab Emirates",
+        "share": 0.0001
+      },
+      {
+        "partner": "Kenya",
+        "share": 0.0001
+      },
+      {
+        "partner": "South Korea",
+        "share": 0.0001
+      },
+      {
+        "partner": "Germany",
+        "share": 0.0001
+      },
+      {
+        "partner": "South Africa",
+        "share": 0
+      },
+      {
+        "partner": "Oman",
+        "share": 0
+      },
+      {
+        "partner": "Turkey",
+        "share": 0
+      },
+      {
+        "partner": "Morocco",
+        "share": 0
+      },
+      {
+        "partner": "Israel",
+        "share": 0
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0
+      },
+      {
+        "partner": "Denmark",
+        "share": 0
+      }
+    ],
+    "2013": [
+      {
+        "partner": "Malaysia",
+        "share": 0.491
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.232
+      },
+      {
+        "partner": "India",
+        "share": 0.0768
+      },
+      {
+        "partner": "Indonesia",
+        "share": 0.0455
+      },
+      {
+        "partner": "Australia",
+        "share": 0.0451
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0.0251
+      },
+      {
+        "partner": "Thailand",
+        "share": 0.0209
+      },
+      {
+        "partner": "United States",
+        "share": 0.0179
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0.016
+      },
+      {
+        "partner": "New Zealand",
+        "share": 0.0095
+      },
+      {
+        "partner": "Myanmar",
+        "share": 0.0059
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0.0042
+      },
+      {
+        "partner": "Belgium",
+        "share": 0.0021
+      },
+      {
+        "partner": "Pakistan",
+        "share": 0.0017
+      },
+      {
+        "partner": "Philippines",
+        "share": 0.0016
+      },
+      {
+        "partner": "Hong Kong SAR",
+        "share": 0.0015
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0009
+      },
+      {
+        "partner": "Bangladesh",
+        "share": 0.0005
+      },
+      {
+        "partner": "Sri Lanka",
+        "share": 0.0005
+      },
+      {
+        "partner": "Italy",
+        "share": 0.0004
+      },
+      {
+        "partner": "Spain",
+        "share": 0.0002
+      },
+      {
+        "partner": "France",
+        "share": 0.0002
+      },
+      {
+        "partner": "South Korea",
+        "share": 0.0001
+      },
+      {
+        "partner": "Kenya",
+        "share": 0.0001
+      },
+      {
+        "partner": "Tanzania",
+        "share": 0.0001
+      },
+      {
+        "partner": "Germany",
+        "share": 0.0001
+      },
+      {
+        "partner": "Israel",
+        "share": 0.0001
+      },
+      {
+        "partner": "United Arab Emirates",
+        "share": 0
+      },
+      {
+        "partner": "South Africa",
+        "share": 0
+      },
+      {
+        "partner": "Turkey",
+        "share": 0
+      },
+      {
+        "partner": "Egypt",
+        "share": 0
+      },
+      {
+        "partner": "Denmark",
+        "share": 0
+      },
+      {
+        "partner": "Morocco",
+        "share": 0
+      },
+      {
+        "partner": "Greece",
+        "share": 0
+      }
+    ],
+    "2014": [
+      {
+        "partner": "Malaysia",
+        "share": 0.4998
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.2347
+      },
+      {
+        "partner": "India",
+        "share": 0.0807
+      },
+      {
+        "partner": "Australia",
+        "share": 0.0469
+      },
+      {
+        "partner": "Indonesia",
+        "share": 0.0318
+      },
+      {
+        "partner": "Thailand",
+        "share": 0.0247
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0.0232
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0.0177
+      },
+      {
+        "partner": "United States",
+        "share": 0.0157
+      },
+      {
+        "partner": "New Zealand",
+        "share": 0.0067
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0.0052
+      },
+      {
+        "partner": "Pakistan",
+        "share": 0.0037
+      },
+      {
+        "partner": "Myanmar",
+        "share": 0.0032
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0013
+      },
+      {
+        "partner": "Philippines",
+        "share": 0.0011
+      },
+      {
+        "partner": "South Korea",
+        "share": 0.0007
+      },
+      {
+        "partner": "Bangladesh",
+        "share": 0.0006
+      },
+      {
+        "partner": "Hong Kong SAR",
+        "share": 0.0005
+      },
+      {
+        "partner": "Belgium",
+        "share": 0.0005
+      },
+      {
+        "partner": "Spain",
+        "share": 0.0004
+      },
+      {
+        "partner": "France",
+        "share": 0.0003
+      },
+      {
+        "partner": "Italy",
+        "share": 0.0002
+      },
+      {
+        "partner": "Kenya",
+        "share": 0.0001
+      },
+      {
+        "partner": "Germany",
+        "share": 0.0001
+      },
+      {
+        "partner": "South Africa",
+        "share": 0.0001
+      },
+      {
+        "partner": "Israel",
+        "share": 0.0001
+      },
+      {
+        "partner": "Sri Lanka",
+        "share": 0.0001
+      },
+      {
+        "partner": "Papua New Guinea",
+        "share": 0
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0
+      },
+      {
+        "partner": "Morocco",
+        "share": 0
+      },
+      {
+        "partner": "Turkey",
+        "share": 0
+      },
+      {
+        "partner": "Denmark",
+        "share": 0
+      },
+      {
+        "partner": "Oman",
+        "share": 0
+      },
+      {
+        "partner": "Egypt",
+        "share": 0
+      },
+      {
+        "partner": "Nepal",
+        "share": 0
+      },
+      {
+        "partner": "Sweden",
+        "share": 0
+      },
+      {
+        "partner": "Greece",
+        "share": 0
+      },
+      {
+        "partner": "Mexico",
+        "share": 0
+      },
+      {
+        "partner": "Tonga",
+        "share": 0
+      },
+      {
+        "partner": "Switzerland",
+        "share": 0
+      },
+      {
+        "partner": "Austria",
+        "share": 0
+      },
+      {
+        "partner": "Poland",
+        "share": 0
+      },
+      {
+        "partner": "Tunisia",
+        "share": 0
+      },
+      {
+        "partner": "United Arab Emirates",
+        "share": 0
+      }
+    ],
+    "2015": [
+      {
+        "partner": "Malaysia",
+        "share": 0.4902
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.2331
+      },
+      {
+        "partner": "India",
+        "share": 0.0709
+      },
+      {
+        "partner": "Australia",
+        "share": 0.0585
+      },
+      {
+        "partner": "Indonesia",
+        "share": 0.0369
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0.0246
+      },
+      {
+        "partner": "Thailand",
+        "share": 0.0216
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0.0205
+      },
+      {
+        "partner": "Pakistan",
+        "share": 0.0106
+      },
+      {
+        "partner": "United States",
+        "share": 0.0098
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0.0063
+      },
+      {
+        "partner": "New Zealand",
+        "share": 0.006
+      },
+      {
+        "partner": "Myanmar",
+        "share": 0.0047
+      },
+      {
+        "partner": "Philippines",
+        "share": 0.0021
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0016
+      },
+      {
+        "partner": "South Korea",
+        "share": 0.0009
+      },
+      {
+        "partner": "Bangladesh",
+        "share": 0.0005
+      },
+      {
+        "partner": "Egypt",
+        "share": 0.0003
+      },
+      {
+        "partner": "Israel",
+        "share": 0.0002
+      },
+      {
+        "partner": "France",
+        "share": 0.0001
+      },
+      {
+        "partner": "Kenya",
+        "share": 0.0001
+      },
+      {
+        "partner": "Italy",
+        "share": 0.0001
+      },
+      {
+        "partner": "Belgium",
+        "share": 0.0001
+      },
+      {
+        "partner": "Hong Kong SAR",
+        "share": 0.0001
+      },
+      {
+        "partner": "Spain",
+        "share": 0
+      },
+      {
+        "partner": "Sweden",
+        "share": 0
+      },
+      {
+        "partner": "Germany",
+        "share": 0
+      },
+      {
+        "partner": "Cambodia",
+        "share": 0
+      },
+      {
+        "partner": "Morocco",
+        "share": 0
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0
+      },
+      {
+        "partner": "Denmark",
+        "share": 0
+      },
+      {
+        "partner": "Turkey",
+        "share": 0
+      },
+      {
+        "partner": "Canada",
+        "share": 0
+      },
+      {
+        "partner": "South Africa",
+        "share": 0
+      },
+      {
+        "partner": "Nepal",
+        "share": 0
+      },
+      {
+        "partner": "Sri Lanka",
+        "share": 0
+      },
+      {
+        "partner": "Belarus",
+        "share": 0
+      },
+      {
+        "partner": "Ireland",
+        "share": 0
+      },
+      {
+        "partner": "New Caledonia",
+        "share": 0
+      },
+      {
+        "partner": "United Arab Emirates",
+        "share": 0
+      },
+      {
+        "partner": "Russia",
+        "share": 0
+      },
+      {
+        "partner": "Tonga",
+        "share": 0
+      },
+      {
+        "partner": "Mexico",
+        "share": 0
+      },
+      {
+        "partner": "Oman",
+        "share": 0
+      }
+    ],
+    "2016": [
+      {
+        "partner": "Malaysia",
+        "share": 0.5023
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.2038
+      },
+      {
+        "partner": "India",
+        "share": 0.107
+      },
+      {
+        "partner": "Australia",
+        "share": 0.0602
+      },
+      {
+        "partner": "Indonesia",
+        "share": 0.0358
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0.0234
+      },
+      {
+        "partner": "Thailand",
+        "share": 0.0181
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0.0179
+      },
+      {
+        "partner": "United States",
+        "share": 0.0083
+      },
+      {
+        "partner": "New Zealand",
+        "share": 0.0069
+      },
+      {
+        "partner": "Pakistan",
+        "share": 0.0039
+      },
+      {
+        "partner": "Myanmar",
+        "share": 0.0039
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0.0023
+      },
+      {
+        "partner": "Bangladesh",
+        "share": 0.0016
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0016
+      },
+      {
+        "partner": "Philippines",
+        "share": 0.0012
+      },
+      {
+        "partner": "Spain",
+        "share": 0.0006
+      },
+      {
+        "partner": "France",
+        "share": 0.0002
+      },
+      {
+        "partner": "South Korea",
+        "share": 0.0002
+      },
+      {
+        "partner": "Italy",
+        "share": 0.0001
+      },
+      {
+        "partner": "Kenya",
+        "share": 0.0001
+      },
+      {
+        "partner": "Cambodia",
+        "share": 0.0001
+      },
+      {
+        "partner": "South Africa",
+        "share": 0
+      },
+      {
+        "partner": "Israel",
+        "share": 0
+      },
+      {
+        "partner": "Germany",
+        "share": 0
+      },
+      {
+        "partner": "Belgium",
+        "share": 0
+      },
+      {
+        "partner": "Hong Kong SAR",
+        "share": 0
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0
+      },
+      {
+        "partner": "Denmark",
+        "share": 0
+      },
+      {
+        "partner": "Greece",
+        "share": 0
+      },
+      {
+        "partner": "Mexico",
+        "share": 0
+      },
+      {
+        "partner": "Egypt",
+        "share": 0
+      },
+      {
+        "partner": "Nepal",
+        "share": 0
+      },
+      {
+        "partner": "Canada",
+        "share": 0
+      },
+      {
+        "partner": "Tunisia",
+        "share": 0
+      },
+      {
+        "partner": "Tonga",
+        "share": 0
+      },
+      {
+        "partner": "Switzerland",
+        "share": 0
+      },
+      {
+        "partner": "Turkey",
+        "share": 0
+      },
+      {
+        "partner": "Uzbekistan",
+        "share": 0
+      },
+      {
+        "partner": "Ireland",
+        "share": 0
+      },
+      {
+        "partner": "Oman",
+        "share": 0
+      },
+      {
+        "partner": "United Arab Emirates",
+        "share": 0
+      },
+      {
+        "partner": "Serbia",
+        "share": 0
+      },
+      {
+        "partner": "Belarus",
+        "share": 0
+      },
+      {
+        "partner": "New Caledonia",
+        "share": 0
+      },
+      {
+        "partner": "Hungary",
+        "share": 0
+      },
+      {
+        "partner": "Chile",
+        "share": 0
+      },
+      {
+        "partner": "Ecuador",
+        "share": 0
+      },
+      {
+        "partner": "Portugal",
+        "share": 0
+      },
+      {
+        "partner": "Morocco",
+        "share": 0
+      },
+      {
+        "partner": "Austria",
+        "share": 0
+      }
+    ],
+    "2017": [
+      {
+        "partner": "Malaysia",
+        "share": 0.5044
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.2219
+      },
+      {
+        "partner": "India",
+        "share": 0.0933
+      },
+      {
+        "partner": "Australia",
+        "share": 0.0594
+      },
+      {
+        "partner": "Indonesia",
+        "share": 0.0308
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0.0227
+      },
+      {
+        "partner": "Thailand",
+        "share": 0.0221
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0.021
+      },
+      {
+        "partner": "United States",
+        "share": 0.0075
+      },
+      {
+        "partner": "New Zealand",
+        "share": 0.0035
+      },
+      {
+        "partner": "Pakistan",
+        "share": 0.0032
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0.0026
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0017
+      },
+      {
+        "partner": "Myanmar",
+        "share": 0.0015
+      },
+      {
+        "partner": "Philippines",
+        "share": 0.0014
+      },
+      {
+        "partner": "Bangladesh",
+        "share": 0.0009
+      },
+      {
+        "partner": "Spain",
+        "share": 0.0004
+      },
+      {
+        "partner": "South Korea",
+        "share": 0.0003
+      },
+      {
+        "partner": "France",
+        "share": 0.0003
+      },
+      {
+        "partner": "Italy",
+        "share": 0.0002
+      },
+      {
+        "partner": "South Africa",
+        "share": 0.0002
+      },
+      {
+        "partner": "Kenya",
+        "share": 0.0001
+      },
+      {
+        "partner": "Belgium",
+        "share": 0.0001
+      },
+      {
+        "partner": "Egypt",
+        "share": 0.0001
+      },
+      {
+        "partner": "Hong Kong SAR",
+        "share": 0.0001
+      },
+      {
+        "partner": "Germany",
+        "share": 0.0001
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0
+      },
+      {
+        "partner": "Mexico",
+        "share": 0
+      },
+      {
+        "partner": "Israel",
+        "share": 0
+      },
+      {
+        "partner": "Greece",
+        "share": 0
+      },
+      {
+        "partner": "Tunisia",
+        "share": 0
+      },
+      {
+        "partner": "Turkey",
+        "share": 0
+      },
+      {
+        "partner": "Denmark",
+        "share": 0
+      },
+      {
+        "partner": "Canada",
+        "share": 0
+      },
+      {
+        "partner": "Argentina",
+        "share": 0
+      },
+      {
+        "partner": "Poland",
+        "share": 0
+      },
+      {
+        "partner": "Sweden",
+        "share": 0
+      },
+      {
+        "partner": "Nepal",
+        "share": 0
+      },
+      {
+        "partner": "United Arab Emirates",
+        "share": 0
+      },
+      {
+        "partner": "Norway",
+        "share": 0
+      },
+      {
+        "partner": "Portugal",
+        "share": 0
+      },
+      {
+        "partner": "Finland",
+        "share": 0
+      },
+      {
+        "partner": "Oman",
+        "share": 0
+      },
+      {
+        "partner": "Sri Lanka",
+        "share": 0
+      },
+      {
+        "partner": "Ecuador",
+        "share": 0
+      },
+      {
+        "partner": "New Caledonia",
+        "share": 0
+      },
+      {
+        "partner": "Mauritius",
+        "share": 0
+      },
+      {
+        "partner": "Chile",
+        "share": 0
+      },
+      {
+        "partner": "Morocco",
+        "share": 0
+      }
+    ],
+    "2018": [
+      {
+        "partner": "Malaysia",
+        "share": 0.5062
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.2143
+      },
+      {
+        "partner": "India",
+        "share": 0.0907
+      },
+      {
+        "partner": "Australia",
+        "share": 0.0643
+      },
+      {
+        "partner": "Indonesia",
+        "share": 0.0324
+      },
+      {
+        "partner": "Thailand",
+        "share": 0.024
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0.0233
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0.0166
+      },
+      {
+        "partner": "United States",
+        "share": 0.0084
+      },
+      {
+        "partner": "Pakistan",
+        "share": 0.007
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0.0032
+      },
+      {
+        "partner": "New Zealand",
+        "share": 0.0029
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0022
+      },
+      {
+        "partner": "Myanmar",
+        "share": 0.0014
+      },
+      {
+        "partner": "Bangladesh",
+        "share": 0.0009
+      },
+      {
+        "partner": "Philippines",
+        "share": 0.0006
+      },
+      {
+        "partner": "Italy",
+        "share": 0.0004
+      },
+      {
+        "partner": "France",
+        "share": 0.0003
+      },
+      {
+        "partner": "South Korea",
+        "share": 0.0002
+      },
+      {
+        "partner": "Kenya",
+        "share": 0.0001
+      },
+      {
+        "partner": "Belgium",
+        "share": 0.0001
+      },
+      {
+        "partner": "Spain",
+        "share": 0.0001
+      },
+      {
+        "partner": "Germany",
+        "share": 0.0001
+      },
+      {
+        "partner": "Egypt",
+        "share": 0.0001
+      },
+      {
+        "partner": "Hong Kong SAR",
+        "share": 0.0001
+      },
+      {
+        "partner": "South Africa",
+        "share": 0
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0
+      },
+      {
+        "partner": "Israel",
+        "share": 0
+      },
+      {
+        "partner": "Argentina",
+        "share": 0
+      },
+      {
+        "partner": "Greece",
+        "share": 0
+      },
+      {
+        "partner": "Uzbekistan",
+        "share": 0
+      },
+      {
+        "partner": "Tunisia",
+        "share": 0
+      },
+      {
+        "partner": "Sri Lanka",
+        "share": 0
+      },
+      {
+        "partner": "Turkey",
+        "share": 0
+      },
+      {
+        "partner": "Nepal",
+        "share": 0
+      },
+      {
+        "partner": "Denmark",
+        "share": 0
+      },
+      {
+        "partner": "Qatar",
+        "share": 0
+      },
+      {
+        "partner": "Finland",
+        "share": 0
+      },
+      {
+        "partner": "Ukraine",
+        "share": 0
+      },
+      {
+        "partner": "Morocco",
+        "share": 0
+      },
+      {
+        "partner": "Canada",
+        "share": 0
+      },
+      {
+        "partner": "Portugal",
+        "share": 0
+      },
+      {
+        "partner": "Oman",
+        "share": 0
+      },
+      {
+        "partner": "Ecuador",
+        "share": 0
+      },
+      {
+        "partner": "Iran",
+        "share": 0
+      },
+      {
+        "partner": "Peru",
+        "share": 0
+      },
+      {
+        "partner": "Togo",
+        "share": 0
+      }
+    ],
+    "2019": [
+      {
+        "partner": "Malaysia",
+        "share": 0.5015
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.2325
+      },
+      {
+        "partner": "India",
+        "share": 0.0838
+      },
+      {
+        "partner": "Australia",
+        "share": 0.06
+      },
+      {
+        "partner": "Indonesia",
+        "share": 0.03
+      },
+      {
+        "partner": "Thailand",
+        "share": 0.0237
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0.0236
+      },
+      {
+        "partner": "Pakistan",
+        "share": 0.0132
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0.0123
+      },
+      {
+        "partner": "United States",
+        "share": 0.0046
+      },
+      {
+        "partner": "New Zealand",
+        "share": 0.0028
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0.0026
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0024
+      },
+      {
+        "partner": "Myanmar",
+        "share": 0.0017
+      },
+      {
+        "partner": "South Korea",
+        "share": 0.0016
+      },
+      {
+        "partner": "Philippines",
+        "share": 0.0011
+      },
+      {
+        "partner": "Bangladesh",
+        "share": 0.0007
+      },
+      {
+        "partner": "Egypt",
+        "share": 0.0005
+      },
+      {
+        "partner": "Italy",
+        "share": 0.0004
+      },
+      {
+        "partner": "France",
+        "share": 0.0003
+      },
+      {
+        "partner": "Kenya",
+        "share": 0.0001
+      },
+      {
+        "partner": "Spain",
+        "share": 0.0001
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0.0001
+      },
+      {
+        "partner": "Israel",
+        "share": 0.0001
+      },
+      {
+        "partner": "Germany",
+        "share": 0.0001
+      },
+      {
+        "partner": "Hong Kong SAR",
+        "share": 0.0001
+      },
+      {
+        "partner": "Belgium",
+        "share": 0.0001
+      },
+      {
+        "partner": "South Africa",
+        "share": 0
+      },
+      {
+        "partner": "Greece",
+        "share": 0
+      },
+      {
+        "partner": "Uzbekistan",
+        "share": 0
+      },
+      {
+        "partner": "Sri Lanka",
+        "share": 0
+      },
+      {
+        "partner": "Argentina",
+        "share": 0
+      },
+      {
+        "partner": "Nepal",
+        "share": 0
+      },
+      {
+        "partner": "Georgia",
+        "share": 0
+      },
+      {
+        "partner": "Papua New Guinea",
+        "share": 0
+      },
+      {
+        "partner": "Canada",
+        "share": 0
+      },
+      {
+        "partner": "Denmark",
+        "share": 0
+      },
+      {
+        "partner": "Turkey",
+        "share": 0
+      },
+      {
+        "partner": "Latvia",
+        "share": 0
+      },
+      {
+        "partner": "Ukraine",
+        "share": 0
+      },
+      {
+        "partner": "Oman",
+        "share": 0
+      },
+      {
+        "partner": "Peru",
+        "share": 0
+      },
+      {
+        "partner": "Poland",
+        "share": 0
+      },
+      {
+        "partner": "Switzerland",
+        "share": 0
+      },
+      {
+        "partner": "Malawi",
+        "share": 0
+      }
+    ],
+    "2020": [
+      {
+        "partner": "Malaysia",
+        "share": 0.3994
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.2271
+      },
+      {
+        "partner": "Australia",
+        "share": 0.0928
+      },
+      {
+        "partner": "Thailand",
+        "share": 0.073
+      },
+      {
+        "partner": "India",
+        "share": 0.0383
+      },
+      {
+        "partner": "Indonesia",
+        "share": 0.0374
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0.0288
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0.024
+      },
+      {
+        "partner": "Japan",
+        "share": 0.022
+      },
+      {
+        "partner": "Pakistan",
+        "share": 0.0198
+      },
+      {
+        "partner": "United States",
+        "share": 0.0084
+      },
+      {
+        "partner": "New Zealand",
+        "share": 0.0061
+      },
+      {
+        "partner": "Myanmar",
+        "share": 0.0058
+      },
+      {
+        "partner": "South Korea",
+        "share": 0.0034
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0.0027
+      },
+      {
+        "partner": "Philippines",
+        "share": 0.0021
+      },
+      {
+        "partner": "France",
+        "share": 0.002
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0.0013
+      },
+      {
+        "partner": "Egypt",
+        "share": 0.0012
+      },
+      {
+        "partner": "Italy",
+        "share": 0.0006
+      },
+      {
+        "partner": "Greece",
+        "share": 0.0005
+      },
+      {
+        "partner": "Israel",
+        "share": 0.0005
+      },
+      {
+        "partner": "Hong Kong SAR",
+        "share": 0.0005
+      },
+      {
+        "partner": "Bangladesh",
+        "share": 0.0005
+      },
+      {
+        "partner": "Spain",
+        "share": 0.0004
+      },
+      {
+        "partner": "Turkey",
+        "share": 0.0003
+      },
+      {
+        "partner": "Kenya",
+        "share": 0.0003
+      },
+      {
+        "partner": "Belgium",
+        "share": 0.0003
+      },
+      {
+        "partner": "United Arab Emirates",
+        "share": 0.0002
+      },
+      {
+        "partner": "South Africa",
+        "share": 0.0002
+      },
+      {
+        "partner": "Tunisia",
+        "share": 0.0001
+      },
+      {
+        "partner": "Georgia",
+        "share": 0
+      },
+      {
+        "partner": "Timor-Leste",
+        "share": 0
+      },
+      {
+        "partner": "Poland",
+        "share": 0
+      },
+      {
+        "partner": "Germany",
+        "share": 0
+      },
+      {
+        "partner": "Mauritius",
+        "share": 0
+      },
+      {
+        "partner": "Lebanon",
+        "share": 0
+      },
+      {
+        "partner": "Nepal",
+        "share": 0
+      },
+      {
+        "partner": "Lithuania",
+        "share": 0
+      },
+      {
+        "partner": "Canada",
+        "share": 0
+      },
+      {
+        "partner": "Sri Lanka",
+        "share": 0
+      },
+      {
+        "partner": "Latvia",
+        "share": 0
+      },
+      {
+        "partner": "Cambodia",
+        "share": 0
+      },
+      {
+        "partner": "Ecuador",
+        "share": 0
+      },
+      {
+        "partner": "Bhutan",
+        "share": 0
+      },
+      {
+        "partner": "Morocco",
+        "share": 0
+      },
+      {
+        "partner": "Mexico",
+        "share": 0
+      }
+    ],
+    "2021": [
+      {
+        "partner": "Malaysia",
+        "share": 0.5071
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.2206
+      },
+      {
+        "partner": "Australia",
+        "share": 0.0556
+      },
+      {
+        "partner": "India",
+        "share": 0.0531
+      },
+      {
+        "partner": "Pakistan",
+        "share": 0.0362
+      },
+      {
+        "partner": "Thailand",
+        "share": 0.0345
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0.0272
+      },
+      {
+        "partner": "Indonesia",
+        "share": 0.0251
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0.0134
+      },
+      {
+        "partner": "New Zealand",
+        "share": 0.0072
+      },
+      {
+        "partner": "Myanmar",
+        "share": 0.0045
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0039
+      },
+      {
+        "partner": "Bangladesh",
+        "share": 0.0037
+      },
+      {
+        "partner": "United States",
+        "share": 0.0022
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0.0017
+      },
+      {
+        "partner": "South Korea",
+        "share": 0.0008
+      },
+      {
+        "partner": "Israel",
+        "share": 0.0006
+      },
+      {
+        "partner": "Turkey",
+        "share": 0.0005
+      },
+      {
+        "partner": "Egypt",
+        "share": 0.0005
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0.0003
+      },
+      {
+        "partner": "Philippines",
+        "share": 0.0003
+      },
+      {
+        "partner": "France",
+        "share": 0.0002
+      },
+      {
+        "partner": "Italy",
+        "share": 0.0002
+      },
+      {
+        "partner": "Belgium",
+        "share": 0.0002
+      },
+      {
+        "partner": "Greece",
+        "share": 0.0002
+      },
+      {
+        "partner": "Kenya",
+        "share": 0.0001
+      },
+      {
+        "partner": "Spain",
+        "share": 0.0001
+      },
+      {
+        "partner": "South Africa",
+        "share": 0
+      },
+      {
+        "partner": "Hong Kong SAR",
+        "share": 0
+      },
+      {
+        "partner": "Tunisia",
+        "share": 0
+      },
+      {
+        "partner": "Germany",
+        "share": 0
+      },
+      {
+        "partner": "Georgia",
+        "share": 0
+      },
+      {
+        "partner": "Sri Lanka",
+        "share": 0
+      },
+      {
+        "partner": "Cambodia",
+        "share": 0
+      },
+      {
+        "partner": "Ireland",
+        "share": 0
+      },
+      {
+        "partner": "Mexico",
+        "share": 0
+      },
+      {
+        "partner": "Maldives",
+        "share": 0
+      },
+      {
+        "partner": "Denmark",
+        "share": 0
+      },
+      {
+        "partner": "Hungary",
+        "share": 0
+      },
+      {
+        "partner": "Ecuador",
+        "share": 0
+      },
+      {
+        "partner": "Austria",
+        "share": 0
+      },
+      {
+        "partner": "Sweden",
+        "share": 0
+      },
+      {
+        "partner": "Bhutan",
+        "share": 0
+      }
+    ],
+    "2022": [
+      {
+        "partner": "Malaysia",
+        "share": 0.5068
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.2312
+      },
+      {
+        "partner": "India",
+        "share": 0.0853
+      },
+      {
+        "partner": "Australia",
+        "share": 0.0462
+      },
+      {
+        "partner": "Thailand",
+        "share": 0.0301
+      },
+      {
+        "partner": "Indonesia",
+        "share": 0.027
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0.0242
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0.0154
+      },
+      {
+        "partner": "Pakistan",
+        "share": 0.0124
+      },
+      {
+        "partner": "Myanmar",
+        "share": 0.0064
+      },
+      {
+        "partner": "New Zealand",
+        "share": 0.0037
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0033
+      },
+      {
+        "partner": "Bangladesh",
+        "share": 0.0012
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0.0011
+      },
+      {
+        "partner": "United States",
+        "share": 0.001
+      },
+      {
+        "partner": "Egypt",
+        "share": 0.0008
+      },
+      {
+        "partner": "Israel",
+        "share": 0.0006
+      },
+      {
+        "partner": "South Africa",
+        "share": 0.0006
+      },
+      {
+        "partner": "Philippines",
+        "share": 0.0005
+      },
+      {
+        "partner": "South Korea",
+        "share": 0.0005
+      },
+      {
+        "partner": "Hong Kong SAR",
+        "share": 0.0003
+      },
+      {
+        "partner": "France",
+        "share": 0.0003
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0.0003
+      },
+      {
+        "partner": "Italy",
+        "share": 0.0003
+      },
+      {
+        "partner": "Belgium",
+        "share": 0.0002
+      },
+      {
+        "partner": "Turkey",
+        "share": 0.0002
+      },
+      {
+        "partner": "Spain",
+        "share": 0.0002
+      },
+      {
+        "partner": "Greece",
+        "share": 0.0001
+      },
+      {
+        "partner": "Kenya",
+        "share": 0.0001
+      },
+      {
+        "partner": "Morocco",
+        "share": 0
+      },
+      {
+        "partner": "Sri Lanka",
+        "share": 0
+      },
+      {
+        "partner": "Germany",
+        "share": 0
+      },
+      {
+        "partner": "Georgia",
+        "share": 0
+      },
+      {
+        "partner": "Azerbaijan",
+        "share": 0
+      },
+      {
+        "partner": "Mexico",
+        "share": 0
+      },
+      {
+        "partner": "Canada",
+        "share": 0
+      },
+      {
+        "partner": "United Arab Emirates",
+        "share": 0
+      },
+      {
+        "partner": "Peru",
+        "share": 0
+      },
+      {
+        "partner": "Bhutan",
+        "share": 0
+      }
+    ],
+    "2023": [
+      {
+        "partner": "Malaysia",
+        "share": 0.5265
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.2366
+      },
+      {
+        "partner": "India",
+        "share": 0.0853
+      },
+      {
+        "partner": "Australia",
+        "share": 0.0444
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0.0241
+      },
+      {
+        "partner": "Thailand",
+        "share": 0.0239
+      },
+      {
+        "partner": "Indonesia",
+        "share": 0.0226
+      },
+      {
+        "partner": "Pakistan",
+        "share": 0.0134
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0.0068
+      },
+      {
+        "partner": "New Zealand",
+        "share": 0.0043
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0032
+      },
+      {
+        "partner": "Myanmar",
+        "share": 0.0032
+      },
+      {
+        "partner": "Bangladesh",
+        "share": 0.0015
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0.001
+      },
+      {
+        "partner": "United States",
+        "share": 0.0009
+      },
+      {
+        "partner": "Hong Kong SAR",
+        "share": 0.0006
+      },
+      {
+        "partner": "South Korea",
+        "share": 0.0003
+      },
+      {
+        "partner": "France",
+        "share": 0.0003
+      },
+      {
+        "partner": "Israel",
+        "share": 0.0003
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0.0001
+      },
+      {
+        "partner": "Greece",
+        "share": 0.0001
+      },
+      {
+        "partner": "Philippines",
+        "share": 0.0001
+      },
+      {
+        "partner": "Spain",
+        "share": 0.0001
+      },
+      {
+        "partner": "Kenya",
+        "share": 0.0001
+      },
+      {
+        "partner": "Venezuela",
+        "share": 0.0001
+      },
+      {
+        "partner": "Italy",
+        "share": 0.0001
+      },
+      {
+        "partner": "Egypt",
+        "share": 0.0001
+      },
+      {
+        "partner": "Belgium",
+        "share": 0
+      },
+      {
+        "partner": "Denmark",
+        "share": 0
+      },
+      {
+        "partner": "Turkey",
+        "share": 0
+      },
+      {
+        "partner": "Germany",
+        "share": 0
+      },
+      {
+        "partner": "Sri Lanka",
+        "share": 0
+      },
+      {
+        "partner": "Morocco",
+        "share": 0
+      },
+      {
+        "partner": "South Africa",
+        "share": 0
+      },
+      {
+        "partner": "Mexico",
+        "share": 0
+      },
+      {
+        "partner": "Bhutan",
+        "share": 0
+      },
+      {
+        "partner": "Ethiopia",
+        "share": 0
+      },
+      {
+        "partner": "Azerbaijan",
+        "share": 0
+      },
+      {
+        "partner": "Peru",
+        "share": 0
+      },
+      {
+        "partner": "Tunisia",
+        "share": 0
+      },
+      {
+        "partner": "Switzerland",
+        "share": 0
+      },
+      {
+        "partner": "Poland",
+        "share": 0
+      },
+      {
+        "partner": "Bulgaria",
+        "share": 0
+      },
+      {
+        "partner": "Finland",
+        "share": 0
+      },
+      {
+        "partner": "Portugal",
+        "share": 0
+      },
+      {
+        "partner": "Ireland",
+        "share": 0
+      },
+      {
+        "partner": "Norway",
+        "share": 0
+      }
+    ]
+  },
+  "Wheat": {
+    "2010": [
+      {
+        "partner": "Australia",
+        "share": 0.5447
+      },
+      {
+        "partner": "United States",
+        "share": 0.3979
+      },
+      {
+        "partner": "Canada",
+        "share": 0.0393
+      },
+      {
+        "partner": "Malaysia",
+        "share": 0.0128
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0042
+      },
+      {
+        "partner": "India",
+        "share": 0.0008
+      },
+      {
+        "partner": "United Arab Emirates",
+        "share": 0.0001
+      },
+      {
+        "partner": "Indonesia",
+        "share": 0
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0
+      }
+    ],
+    "2011": [
+      {
+        "partner": "Australia",
+        "share": 0.584
+      },
+      {
+        "partner": "United States",
+        "share": 0.332
+      },
+      {
+        "partner": "Canada",
+        "share": 0.058
+      },
+      {
+        "partner": "Malaysia",
+        "share": 0.0164
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0081
+      },
+      {
+        "partner": "Sri Lanka",
+        "share": 0.0012
+      },
+      {
+        "partner": "India",
+        "share": 0.0003
+      },
+      {
+        "partner": "South Africa",
+        "share": 0
+      },
+      {
+        "partner": "Indonesia",
+        "share": 0
+      },
+      {
+        "partner": "South Korea",
+        "share": 0
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0
+      }
+    ],
+    "2012": [
+      {
+        "partner": "Australia",
+        "share": 0.5847
+      },
+      {
+        "partner": "United States",
+        "share": 0.3228
+      },
+      {
+        "partner": "Canada",
+        "share": 0.0581
+      },
+      {
+        "partner": "Malaysia",
+        "share": 0.0151
+      },
+      {
+        "partner": "Kazakhstan",
+        "share": 0.0096
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0086
+      },
+      {
+        "partner": "Turkey",
+        "share": 0.0006
+      },
+      {
+        "partner": "Indonesia",
+        "share": 0.0002
+      },
+      {
+        "partner": "India",
+        "share": 0.0001
+      },
+      {
+        "partner": "Philippines",
+        "share": 0.0001
+      }
+    ],
+    "2013": [
+      {
+        "partner": "Australia",
+        "share": 0.5088
+      },
+      {
+        "partner": "United States",
+        "share": 0.4211
+      },
+      {
+        "partner": "Canada",
+        "share": 0.0526
+      },
+      {
+        "partner": "Malaysia",
+        "share": 0.0157
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0012
+      },
+      {
+        "partner": "India",
+        "share": 0.0004
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0.0001
+      },
+      {
+        "partner": "Turkey",
+        "share": 0
+      }
+    ],
+    "2014": [
+      {
+        "partner": "Australia",
+        "share": 0.5629
+      },
+      {
+        "partner": "United States",
+        "share": 0.357
+      },
+      {
+        "partner": "Canada",
+        "share": 0.0639
+      },
+      {
+        "partner": "Malaysia",
+        "share": 0.013
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0026
+      },
+      {
+        "partner": "France",
+        "share": 0.0003
+      },
+      {
+        "partner": "India",
+        "share": 0.0002
+      },
+      {
+        "partner": "Germany",
+        "share": 0.0001
+      },
+      {
+        "partner": "Italy",
+        "share": 0
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0
+      },
+      {
+        "partner": "South Korea",
+        "share": 0
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0
+      }
+    ],
+    "2015": [
+      {
+        "partner": "Australia",
+        "share": 0.5805
+      },
+      {
+        "partner": "United States",
+        "share": 0.3314
+      },
+      {
+        "partner": "Canada",
+        "share": 0.0697
+      },
+      {
+        "partner": "Malaysia",
+        "share": 0.0153
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0021
+      },
+      {
+        "partner": "France",
+        "share": 0.0006
+      },
+      {
+        "partner": "India",
+        "share": 0.0002
+      },
+      {
+        "partner": "Indonesia",
+        "share": 0.0001
+      },
+      {
+        "partner": "Italy",
+        "share": 0.0001
+      },
+      {
+        "partner": "Spain",
+        "share": 0
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0
+      },
+      {
+        "partner": "Slovenia",
+        "share": 0
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0
+      },
+      {
+        "partner": "South Korea",
+        "share": 0
+      },
+      {
+        "partner": "Denmark",
+        "share": 0
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0
+      }
+    ],
+    "2016": [
+      {
+        "partner": "Australia",
+        "share": 0.5866
+      },
+      {
+        "partner": "United States",
+        "share": 0.3288
+      },
+      {
+        "partner": "Canada",
+        "share": 0.0664
+      },
+      {
+        "partner": "Malaysia",
+        "share": 0.0131
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0035
+      },
+      {
+        "partner": "France",
+        "share": 0.0007
+      },
+      {
+        "partner": "India",
+        "share": 0.0005
+      },
+      {
+        "partner": "South Korea",
+        "share": 0.0002
+      },
+      {
+        "partner": "Indonesia",
+        "share": 0.0001
+      },
+      {
+        "partner": "Italy",
+        "share": 0
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0
+      },
+      {
+        "partner": "Bolivia",
+        "share": 0
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0
+      }
+    ],
+    "2017": [
+      {
+        "partner": "Australia",
+        "share": 0.6033
+      },
+      {
+        "partner": "United States",
+        "share": 0.3408
+      },
+      {
+        "partner": "Canada",
+        "share": 0.037
+      },
+      {
+        "partner": "Malaysia",
+        "share": 0.014
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0046
+      },
+      {
+        "partner": "India",
+        "share": 0.0003
+      },
+      {
+        "partner": "Italy",
+        "share": 0
+      },
+      {
+        "partner": "Philippines",
+        "share": 0
+      },
+      {
+        "partner": "France",
+        "share": 0
+      },
+      {
+        "partner": "Bangladesh",
+        "share": 0
+      },
+      {
+        "partner": "Bolivia",
+        "share": 0
+      },
+      {
+        "partner": "Turkey",
+        "share": 0
+      },
+      {
+        "partner": "South Korea",
+        "share": 0
+      },
+      {
+        "partner": "Germany",
+        "share": 0
+      },
+      {
+        "partner": "Spain",
+        "share": 0
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0
+      }
+    ],
+    "2018": [
+      {
+        "partner": "Australia",
+        "share": 0.57
+      },
+      {
+        "partner": "United States",
+        "share": 0.3184
+      },
+      {
+        "partner": "Canada",
+        "share": 0.0919
+      },
+      {
+        "partner": "Malaysia",
+        "share": 0.0132
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0046
+      },
+      {
+        "partner": "France",
+        "share": 0.0015
+      },
+      {
+        "partner": "India",
+        "share": 0.0002
+      },
+      {
+        "partner": "Italy",
+        "share": 0
+      },
+      {
+        "partner": "South Korea",
+        "share": 0
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0
+      },
+      {
+        "partner": "Portugal",
+        "share": 0
+      },
+      {
+        "partner": "Denmark",
+        "share": 0
+      },
+      {
+        "partner": "New Zealand",
+        "share": 0
+      },
+      {
+        "partner": "Germany",
+        "share": 0
+      },
+      {
+        "partner": "Azerbaijan",
+        "share": 0
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0
+      },
+      {
+        "partner": "Thailand",
+        "share": 0
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0
+      },
+      {
+        "partner": "Greece",
+        "share": 0
+      },
+      {
+        "partner": "Pakistan",
+        "share": 0
+      },
+      {
+        "partner": "Philippines",
+        "share": 0
+      },
+      {
+        "partner": "South Africa",
+        "share": 0
+      }
+    ],
+    "2019": [
+      {
+        "partner": "Australia",
+        "share": 0.5178
+      },
+      {
+        "partner": "United States",
+        "share": 0.3398
+      },
+      {
+        "partner": "Canada",
+        "share": 0.1196
+      },
+      {
+        "partner": "Malaysia",
+        "share": 0.0149
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0062
+      },
+      {
+        "partner": "France",
+        "share": 0.0016
+      },
+      {
+        "partner": "India",
+        "share": 0.0002
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0
+      },
+      {
+        "partner": "Germany",
+        "share": 0
+      },
+      {
+        "partner": "South Korea",
+        "share": 0
+      },
+      {
+        "partner": "Belgium",
+        "share": 0
+      },
+      {
+        "partner": "Egypt",
+        "share": 0
+      },
+      {
+        "partner": "Bangladesh",
+        "share": 0
+      },
+      {
+        "partner": "Saudi Arabia",
+        "share": 0
+      },
+      {
+        "partner": "Italy",
+        "share": 0
+      },
+      {
+        "partner": "Thailand",
+        "share": 0
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0
+      }
+    ],
+    "2020": [
+      {
+        "partner": "Australia",
+        "share": 0.5406
+      },
+      {
+        "partner": "United States",
+        "share": 0.3317
+      },
+      {
+        "partner": "Canada",
+        "share": 0.1032
+      },
+      {
+        "partner": "Malaysia",
+        "share": 0.0154
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0056
+      },
+      {
+        "partner": "France",
+        "share": 0.0027
+      },
+      {
+        "partner": "India",
+        "share": 0.0006
+      },
+      {
+        "partner": "Germany",
+        "share": 0.0001
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0
+      },
+      {
+        "partner": "Italy",
+        "share": 0
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0
+      },
+      {
+        "partner": "Israel",
+        "share": 0
+      },
+      {
+        "partner": "South Korea",
+        "share": 0
+      },
+      {
+        "partner": "Bangladesh",
+        "share": 0
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0
+      },
+      {
+        "partner": "Indonesia",
+        "share": 0
+      },
+      {
+        "partner": "Turkey",
+        "share": 0
+      },
+      {
+        "partner": "New Zealand",
+        "share": 0
+      }
+    ],
+    "2021": [
+      {
+        "partner": "Australia",
+        "share": 0.5573
+      },
+      {
+        "partner": "United States",
+        "share": 0.3304
+      },
+      {
+        "partner": "Canada",
+        "share": 0.085
+      },
+      {
+        "partner": "Malaysia",
+        "share": 0.0166
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0076
+      },
+      {
+        "partner": "France",
+        "share": 0.0026
+      },
+      {
+        "partner": "Sri Lanka",
+        "share": 0.0002
+      },
+      {
+        "partner": "India",
+        "share": 0.0002
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0.0001
+      },
+      {
+        "partner": "Bangladesh",
+        "share": 0
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0
+      },
+      {
+        "partner": "Thailand",
+        "share": 0
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0
+      },
+      {
+        "partner": "Italy",
+        "share": 0
+      },
+      {
+        "partner": "Germany",
+        "share": 0
+      },
+      {
+        "partner": "South Korea",
+        "share": 0
+      },
+      {
+        "partner": "Mexico",
+        "share": 0
+      },
+      {
+        "partner": "Denmark",
+        "share": 0
+      }
+    ],
+    "2022": [
+      {
+        "partner": "Australia",
+        "share": 0.585
+      },
+      {
+        "partner": "United States",
+        "share": 0.2751
+      },
+      {
+        "partner": "Canada",
+        "share": 0.1088
+      },
+      {
+        "partner": "Malaysia",
+        "share": 0.0209
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0067
+      },
+      {
+        "partner": "France",
+        "share": 0.0031
+      },
+      {
+        "partner": "Sri Lanka",
+        "share": 0.0003
+      },
+      {
+        "partner": "India",
+        "share": 0.0001
+      },
+      {
+        "partner": "Estonia",
+        "share": 0
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0
+      },
+      {
+        "partner": "Philippines",
+        "share": 0
+      },
+      {
+        "partner": "Bangladesh",
+        "share": 0
+      },
+      {
+        "partner": "Pakistan",
+        "share": 0
+      },
+      {
+        "partner": "Italy",
+        "share": 0
+      },
+      {
+        "partner": "Taiwan",
+        "share": 0
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0
+      },
+      {
+        "partner": "South Korea",
+        "share": 0
+      },
+      {
+        "partner": "Germany",
+        "share": 0
+      },
+      {
+        "partner": "Israel",
+        "share": 0
+      },
+      {
+        "partner": "Thailand",
+        "share": 0
+      }
+    ],
+    "2023": [
+      {
+        "partner": "Australia",
+        "share": 0.5787
+      },
+      {
+        "partner": "United States",
+        "share": 0.2353
+      },
+      {
+        "partner": "Canada",
+        "share": 0.1684
+      },
+      {
+        "partner": "Malaysia",
+        "share": 0.0143
+      },
+      {
+        "partner": "France",
+        "share": 0.0015
+      },
+      {
+        "partner": "Japan",
+        "share": 0.0015
+      },
+      {
+        "partner": "Sri Lanka",
+        "share": 0.0003
+      },
+      {
+        "partner": "Italy",
+        "share": 0
+      },
+      {
+        "partner": "United Kingdom",
+        "share": 0
+      },
+      {
+        "partner": "India",
+        "share": 0
+      },
+      {
+        "partner": "Vietnam",
+        "share": 0
+      },
+      {
+        "partner": "Philippines",
+        "share": 0
+      },
+      {
+        "partner": "Germany",
+        "share": 0
+      },
+      {
+        "partner": "Bangladesh",
+        "share": 0
+      },
+      {
+        "partner": "China (mainland)",
+        "share": 0
+      },
+      {
+        "partner": "Netherlands",
+        "share": 0
+      },
+      {
+        "partner": "Estonia",
+        "share": 0
+      },
+      {
+        "partner": "New Zealand",
+        "share": 0
+      },
+      {
+        "partner": "Bulgaria",
+        "share": 0
+      },
+      {
+        "partner": "Thailand",
+        "share": 0
+      },
+      {
+        "partner": "Ukraine",
+        "share": 0
+      }
+    ]
+  }
+}
