@@ -181,11 +181,73 @@ export const DASHBOARDS = {
     },
     {
       slug: "2",
-      title: "Dashboard 2",
-      description: "",
+      navTitle: "Dashboard 2",
+      title: "Does higher self-sufficiency mean more food per person?",
+      description:
+        "Compare how much of each country's food supply is produced domestically with how many calories each person has available, then see where one country sits against the world.",
       src: "https://public.tableau.com/views/Dashboard2_17935305135460/Dashboard",
       width: "1000px",
       height: "827px",
+      overview: {
+        eyebrow: "Dashboard 02 · Self-sufficiency and food supply",
+        meta: ["Up to 178 countries", "2010–2023", "National food availability"],
+      },
+      navigationIntro:
+        "Follow this sequence to compare countries without losing track of your selections.",
+      navigation: [
+        {
+          title: "Choose a year",
+          text: "Use the Year slider to update the scatterplot and histogram. The line chart always shows 2010–2023.",
+        },
+        {
+          title: "Zoom to a region",
+          text: "Pick a region to focus the scatterplot, or keep (All) to see every country.",
+        },
+        {
+          title: "Select a country",
+          text: "Click a dot on the scatterplot to compare that country with the global average.",
+        },
+        {
+          title: "Hover for detail",
+          text: "Hover for exact values. Use Reset dashboard to clear selections.",
+        },
+      ],
+      analysis: {
+        intro:
+          "Use the three views together: see the pattern, compare one country, then place it in the global distribution.",
+        items: [
+          {
+            label: "01 · Scatterplot",
+            title: "Self-sufficiency vs. food supply",
+            text: "Each dot is a country in the selected year. Left to right is self-sufficiency (SSR); bottom to top is food supply per person per day. Colour shows income group; the larger dot is Hong Kong, the case-study proxy.",
+            callout: {
+              title: "Reading the SSR = 100 line",
+              sides: [
+                {
+                  label: "Left of the line (SSR below 100)",
+                  text: "Production is lower than domestic supply, so imports fill the gap. The further left, the more a country relies on trade.",
+                },
+                {
+                  label: "Right of the line (SSR above 100)",
+                  text: "Production exceeds domestic supply, so the country has a surplus, usually exported. The further right, the larger the surplus.",
+                },
+              ],
+            },
+          },
+          {
+            label: "02 · Country vs world",
+            title: "Selected country vs. global average",
+            text: "Click a dot to draw that country against the grey global averages. The top panel tracks SSR and the bottom tracks kcal per person per day, 2010–2023. A country whose SSR is below the global line but whose kcal is at or above it is meeting its needs largely through trade. Look at the direction over time as well as the gap.",
+          },
+          {
+            label: "03 · Histogram",
+            title: "Spread of self-sufficiency",
+            text: "Bars count countries in each SSR band for the selected year. Most countries fall below 100, and a long tail to the right are net producers. The highlighted bar is Hong Kong (proxy), in the lowest band.",
+          },
+        ],
+        takeaway:
+          "Self-sufficiency shows where food comes from, not whether supply is sufficient, diverse or evenly distributed. Food supply per person is a national average and says nothing about who can access it.",
+      },
     },
     {
       slug: "3",
