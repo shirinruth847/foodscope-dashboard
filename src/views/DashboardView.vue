@@ -103,7 +103,7 @@ const navigationSteps = computed(() => dashboard.value?.navigation ?? defaultNav
         <h2 id="analysis-title">How to read each view</h2>
         <p v-if="dashboard.analysis">{{ dashboard.analysis.intro }}</p>
       </div>
-      <div v-if="dashboard.analysis" class="analysis-grid">
+      <div v-if="dashboard.analysis" class="analysis-grid" :class="{ 'analysis-grid--two': dashboard.slug === '4' }">
         <article v-for="item in dashboard.analysis.items" :key="item.title" class="analysis-card">
           <p class="analysis-card__label">{{ item.label }}</p>
           <h3>{{ item.title }}</h3>
@@ -285,6 +285,10 @@ const navigationSteps = computed(() => dashboard.value?.navigation ?? defaultNav
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 14px;
+}
+
+.analysis-grid--two {
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .analysis-card h3 {
