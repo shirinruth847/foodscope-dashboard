@@ -85,9 +85,9 @@ export const FINDINGS = {
       placeholder: true,
     },
     {
-      tag: "Availability",
-      text: "Finding to be added: how self-sufficiency relates to food supply per capita across countries.",
-      placeholder: true,
+      tag: "Food categories & self-sufficiency",
+      text: "A high national self-sufficiency ratio can hide large gaps. A country can be a surplus producer overall and still import most of its cereals, sugar or any other food group.",
+      placeholder: false,
     },
     {
       tag: "Income",
