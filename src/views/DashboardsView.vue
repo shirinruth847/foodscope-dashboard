@@ -2,8 +2,13 @@
 import { DASHBOARDS } from '../content/site'
 
 // Tableau Public serves a static image for every published view, filed under
-// the first two letters of the workbook name.
+// the first two letters of the workbook name or shared-view ID.
 function previewUrl(src) {
+  const shared = src.match(/^https:\/\/public\.tableau\.com\/shared\/([^/?#]+)/)
+  if (shared) {
+    const id = shared[1]
+    return `https://public.tableau.com/static/images/${id.slice(0, 2)}/${id}/1.png`
+  }
   const match = src.match(/^https:\/\/public\.tableau\.com\/views\/([^/]+)\/([^/?#]+)/)
   if (!match) return null
   const [, workbook, sheet] = match

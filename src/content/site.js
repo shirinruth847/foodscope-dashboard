@@ -91,8 +91,8 @@ export const FINDINGS = {
     },
     {
       tag: "Supply structure",
-      text: "Finding to be added: how the food-supply structure differs between comparable countries.",
-      placeholder: true,
+      text: "Singapore sources its food imports more widely than most comparable economies, but a few foods still depend almost entirely on one supplier, most of all live chickens from Malaysia.",
+      placeholder: false,
     },
     {
       tag: "Singapore",
@@ -284,7 +284,7 @@ export const DASHBOARDS = {
       navTitle: "Dashboard 4",
       title: "If a country doesn’t grow its food, where does its food supply come from?",
       description: "",
-      src: "https://public.tableau.com/views/D4_17949258250760/Dashboard2",
+      src: "https://public.tableau.com/shared/MPPSXQ5KH",
       width: "1000px",
       height: "827px",
       mobileHeight: "1127px",
