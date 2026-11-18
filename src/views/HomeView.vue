@@ -5,8 +5,8 @@ const storySteps = [
   { number: '01', path: '/dashboards/1', label: 'Global view', title: 'Map self-sufficiency' },
   { number: '02', path: '/dashboards/2', label: 'Relationship', title: 'Compare food supply' },
   { number: '03', path: '/dashboards/3', label: 'Food groups', title: 'Look inside the ratio' },
-  { number: '04', path: '/dashboards/4', label: 'Singapore', title: 'Examine food imports' },
-  { number: '05', path: '/dashboards/5', label: 'Income', title: 'Compare by income' },
+  { number: '04', path: '/dashboards/4', label: 'Income', title: 'Compare by income' },
+  { number: '05', path: '/dashboards/5', label: 'Singapore', title: 'Examine food imports' },
   { number: '06', path: '/dashboards/6', label: '2035 targets', title: 'Track local production' },
 ]
 

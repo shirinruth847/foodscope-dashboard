@@ -22,7 +22,7 @@ const segments = computed(() => {
     { partner: 'Others', share: suppliers.slice(3).reduce((total, supplier) => total + supplier.share, 0) },
   ]
 })
-const segmentColours = ['var(--d4-supplier-1)', 'var(--d4-supplier-2)', 'var(--d4-supplier-3)', 'var(--d4-supplier-other)']
+const segmentColours = ['var(--d5-supplier-1)', 'var(--d5-supplier-2)', 'var(--d5-supplier-3)', 'var(--d5-supplier-other)']
 const barLabel = computed(() => segments.value.map((segment) => `${segment.partner}: ${formatShare(segment.share)}%`).join('; '))
 
 function answer(option) {
@@ -143,8 +143,8 @@ h3 { max-width: 34ch; font-size: clamp(25px, 2.7vw, 36px); }
 .quiz-options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; max-width: 760px; margin-top: 25px; }
 .quiz-option { display: flex; justify-content: space-between; align-items: center; gap: 12px; min-height: 58px; padding: 12px 18px; border-color: var(--line); background: #fff; color: var(--forest); text-align: left; }
 .quiz-option:not(:disabled):hover { border-color: var(--forest); background: var(--sage-tint); }
-.quiz-option.is-correct { border-color: var(--d4-correct); background: var(--d4-correct-tint); color: var(--d4-correct); }
-.quiz-option.is-wrong { border-color: var(--d4-wrong); background: var(--d4-wrong-tint); color: var(--d4-wrong); }
+.quiz-option.is-correct { border-color: var(--d5-correct); background: var(--d5-correct-tint); color: var(--d5-correct); }
+.quiz-option.is-wrong { border-color: var(--d5-wrong); background: var(--d5-wrong-tint); color: var(--d5-wrong); }
 .answer-mark { font-size: 13px; font-weight: bold; }
 .quiz-result { margin-top: 28px; padding-top: 25px; border-top: 1px solid var(--line); }
 .answer-kicker { color: var(--ink-soft); font-size: 14px; }

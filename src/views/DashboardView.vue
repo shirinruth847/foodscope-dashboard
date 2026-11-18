@@ -5,7 +5,7 @@ import TableauEmbed from '../components/TableauEmbed.vue'
 import TradeContextChart from '../components/TradeContextChart.vue'
 import Dashboard3Embed from '../components/Dashboard3Embed.vue'
 
-const Dashboard4Story = defineAsyncComponent(() => import('../features/dashboard4/Dashboard4Story.vue'))
+const Dashboard5Story = defineAsyncComponent(() => import('../features/dashboard5/Dashboard5Story.vue'))
 
 const props = defineProps({
   slug: { type: String, required: true },
@@ -25,7 +25,7 @@ const analysis = {
   '1': 'Use the map and ranking to compare how much food supply is associated with domestic production across countries. Singapore is a useful contrast: a low self-sufficiency ratio does not by itself mean low national food availability.',
   '2': 'Read this view as change over time. Keep the country and food category consistent so you can distinguish a sustained pattern from a single-year movement.',
   '3': 'Compare food categories rather than treating self-sufficiency as one overall condition. Domestic production can be stronger for some foods while other categories rely more heavily on imports.',
-  '5': 'Compare countries with the same year and category selections. Differences in supply structure can explain why similar self-sufficiency levels do not produce identical outcomes.',
+  '4': 'Compare self-sufficiency and food supply within income groups, then examine their relationship with GDP per capita.',
   '6': 'Use this view to place Singapore’s local production beside its 2035 fibre and protein targets. The target definitions are narrower than the former “30 by 30” framing, so the measures are not directly interchangeable.',
 }
 
@@ -34,7 +34,7 @@ const navigationSteps = computed(() => dashboard.value?.navigation ?? defaultNav
 </script>
 
 <template>
-  <Dashboard4Story v-if="dashboard?.slug === '4'" :dashboard="dashboard" />
+  <Dashboard5Story v-if="dashboard?.slug === '5'" :dashboard="dashboard" />
   <main v-else-if="dashboard" class="dashboard-page">
     <header id="overview" class="dashboard-intro">
       <p class="dashboard-intro__breadcrumb">

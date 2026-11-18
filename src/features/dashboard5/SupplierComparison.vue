@@ -11,7 +11,7 @@ const plotLeft = 215
 const plotWidth = 550
 const ticks = [0, 25, 50, 75, 100]
 const x = (share) => plotLeft + share * plotWidth
-const colour = (row) => `var(--d4-${row.colour})`
+const colour = (row) => `var(--d5-${row.colour})`
 
 const rows = computed(() => compareSuppliers(props.data).map((row, index) => {
   const y = 145 + index * 70
@@ -69,7 +69,7 @@ function explore(row) {
             <line :x1="row.startX" :y1="row.y" :x2="row.endX" :y2="row.y" :stroke="colour(row)" stroke-width="2.5" />
             <line v-if="row.shortChange && row.direction" :x1="row.startX" :y1="row.arrowY" :x2="row.base" :y2="row.arrowY" :stroke="colour(row)" stroke-width="2.5" />
             <path v-if="row.direction" class="change-arrow-head" :d="row.arrowHead" :fill="colour(row)" />
-            <circle class="point-2010" :cx="row.startX" :cy="row.y" r="6" fill="var(--d4-2010)" />
+            <circle class="point-2010" :cx="row.startX" :cy="row.y" r="6" fill="var(--d5-2010)" />
             <circle class="point-2023" :cx="row.endX" :cy="row.y" r="7" :fill="colour(row)" stroke="var(--paper)" stroke-width="2" />
             <text x="805" :y="row.y - 3" font-size="16">{{ row.values }}</text>
             <text x="805" :y="row.y + 18" font-size="12">{{ row.classification }}</text>
@@ -115,10 +115,10 @@ function explore(row) {
 .comparison-intro { color: var(--ink-soft); font-size: 19px; }
 .chart-legend { display: flex; flex-wrap: wrap; gap: 10px 24px; margin-block: 24px 12px; font-size: 13px; }
 .legend-dot { display: inline-block; width: 11px; height: 11px; margin-right: 7px; border-radius: 50%; }
-.dot-2010 { background: var(--d4-2010); }
-.dot-diversified { background: var(--d4-diversified); }
-.dot-concentrated { background: var(--d4-concentrated); }
-.dot-unchanged { background: var(--d4-unchanged); }
+.dot-2010 { background: var(--d5-2010); }
+.dot-diversified { background: var(--d5-diversified); }
+.dot-concentrated { background: var(--d5-concentrated); }
+.dot-unchanged { background: var(--d5-unchanged); }
 .chart-instruction { color: var(--ink-soft); font-size: 13px; }
 .chart-region { margin-top: 20px; overflow-x: auto; border: 1px solid var(--line); border-radius: var(--radius-sm); background: var(--paper); }
 .chart-canvas { position: relative; min-width: 850px; }

@@ -1,9 +1,10 @@
-# Dashboard 4: isolated story experiment
+# Singapore imports: standalone story reference
 
 This folder preserves the standalone experiment for reference. The integrated
-version now lives at `/dashboards/4`, with its source under
-`src/features/dashboard4/`; see that folder's README for the integration map.
+version now lives at `/dashboards/5`, with its source under
+`src/features/dashboard5/`; see that folder's README for the integration map.
 This prototype remains independent of the main app.
+Its original `dashboard4-story` directory and `d4_*` filenames are retained as reference paths.
 
 ## Preview
 
@@ -13,7 +14,7 @@ http://localhost:5173/dashboard4-story/d4_story.html
 
 Vite serves this folder directly and copies it into the production build. The
 prototype is deliberately not added to the existing navigation. Removing this
-folder removes only the standalone reference; the main Dashboard 4 is independent.
+folder removes only the standalone reference; the main Dashboard 5 is independent.
 
 ## File map
 
@@ -91,7 +92,7 @@ Quiz and chart links can still jump directly to a food/year. Matching examples
 are selected automatically; other selections show a brief exploration message
 and clear the pressed buttons. This keeps the text aligned with the dashboard.
 
-The integrated Vue version is in `src/features/dashboard4/`. It renders native
+The integrated Vue version is in `src/features/dashboard5/`. It renders native
 Vue components and reuses the app's shared embed with lifecycle cleanup. This
 standalone document stays independent; do not mount it inside the Vue page,
 which would create a second embed.

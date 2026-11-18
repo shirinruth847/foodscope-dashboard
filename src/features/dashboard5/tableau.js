@@ -37,7 +37,7 @@ export function createDashboardController(viz, { onStatus = () => {} } = {}) {
         success = false
         current.clear()
         expectedChanges.clear()
-        console.warn('[D4 story] Could not change Tableau parameters.', error)
+        console.warn('[D5 story] Could not change Tableau parameters.', error)
         onStatus('selection-error', job)
       }
       job.resolve(success && !destroyed)
@@ -73,7 +73,7 @@ export function createDashboardController(viz, { onStatus = () => {} } = {}) {
       // Don't overwrite a newer manual parameter event with an older snapshot.
       if (readRevision === revision) parameters.forEach((parameter) => current.set(parameter.name, parameterValue(parameter.name, parameter.currentValue.value)))
     } catch (error) {
-      console.warn('[D4 story] Initial parameters unavailable; queued selections will still be applied.', error)
+      console.warn('[D5 story] Initial parameters unavailable; queued selections will still be applied.', error)
     }
     if (destroyed) return
     ready = true
@@ -95,7 +95,7 @@ export function createDashboardController(viz, { onStatus = () => {} } = {}) {
       }
       if (!running) onStatus('manual', { commodity: current.get('p_Commodity'), year: current.get('p_Year') })
     } catch (error) {
-      console.warn('[D4 story] Could not read the changed parameter.', error)
+      console.warn('[D5 story] Could not read the changed parameter.', error)
     }
   })
   // The shared TableauEmbed emits load after FirstInteractive has fired.

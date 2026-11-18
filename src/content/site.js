@@ -85,19 +85,19 @@ export const FINDINGS = {
       placeholder: true,
     },
     {
-      tag: "Availability",
-      text: "Finding to be added: how self-sufficiency relates to food supply per capita across countries.",
+      tag: "Food categories & self-sufficiency",
+      text: "A high national self-sufficiency ratio can hide large gaps. A country can be a surplus producer overall and still import most of its cereals, sugar or any other food group.",
+      placeholder: false,
+    },
+    {
+      tag: "Income",
+      text: "Finding to be added: how income relates to food self-sufficiency and food availability.",
       placeholder: true,
     },
     {
       tag: "Supply structure",
       text: "Singapore sources its food imports more widely than most comparable economies, but a few foods still depend almost entirely on one supplier, most of all live chickens from Malaysia.",
       placeholder: false,
-    },
-    {
-      tag: "Singapore",
-      text: "Finding to be added: where Singapore sits relative to its global peers.",
-      placeholder: true,
     },
     {
       tag: "2035 targets",
@@ -282,16 +282,6 @@ export const DASHBOARDS = {
     {
       slug: "4",
       navTitle: "Dashboard 4",
-      title: "If a country doesn’t grow its food, where does its food supply come from?",
-      description: "",
-      src: "https://public.tableau.com/shared/MPPSXQ5KH",
-      width: "1000px",
-      height: "827px",
-      mobileHeight: "1127px",
-    },
-    {
-      slug: "5",
-      navTitle: "Dashboard 5",
       title: "Does income explain self-sufficiency?",
       description:
         "Wealthier countries can afford to import, so any link between producing your own food and having enough of it might simply reflect national income. These four views hold income constant.",
@@ -299,7 +289,7 @@ export const DASHBOARDS = {
       width: "1200px",
       height: "827px",
       overview: {
-        eyebrow: "Dashboard 05 · Income comparison",
+        eyebrow: "Dashboard 04 · Income comparison",
         meta: ["2023 snapshot", "By World Bank income group"],
       },
       navigation: [
@@ -348,6 +338,16 @@ export const DASHBOARDS = {
         takeaway:
           "Income shapes how easily a country imports, but it does not determine how much of its own food it grows.",
       },
+    },
+    {
+      slug: "5",
+      navTitle: "Dashboard 5",
+      title: "If a country doesn’t grow its food, where does its food supply come from?",
+      description: "Self-sufficiency shows how much a country imports, but not from where. Trace Singapore’s suppliers for each food, and see how much it relies on its largest one compared with similar economies.",
+      src: "https://public.tableau.com/shared/MPPSXQ5KH",
+      width: "1000px",
+      height: "827px",
+      mobileHeight: "1127px",
     },
     {
       slug: "6",

@@ -78,10 +78,10 @@ onBeforeUnmount(() => controller?.destroy())
 </script>
 
 <template>
-  <main class="d4-story">
+  <main class="d5-story">
     <header id="overview" class="story-intro">
-      <p class="breadcrumb"><RouterLink to="/dashboards">Explore Dashboards</RouterLink><span aria-hidden="true">/</span>Dashboard 04</p>
-      <p class="eyebrow">Dashboard 04 · Follow the food</p>
+      <p class="breadcrumb"><RouterLink to="/dashboards">Explore Dashboards</RouterLink><span aria-hidden="true">/</span>Dashboard 05</p>
+      <p class="eyebrow">Dashboard 05 · Follow the food</p>
       <h1>{{ dashboard.title }}</h1>
       <p class="lede">Follow Singapore’s imports, from familiar foods to surprising suppliers. Make three guesses, explore the map, then see what changed over time.</p>
       <nav class="journey-nav" aria-label="On this dashboard">
@@ -157,19 +157,19 @@ onBeforeUnmount(() => controller?.destroy())
 </template>
 
 <style scoped>
-.d4-story {
-  --d4-correct: #2e7d32;
-  --d4-correct-tint: #edf5eb;
-  --d4-wrong: #a93632;
-  --d4-wrong-tint: #fbeceb;
-  --d4-diversified: #2e7d32;
-  --d4-concentrated: #e07b00;
-  --d4-unchanged: #757575;
-  --d4-2010: #b4b5af;
-  --d4-supplier-1: #234f40;
-  --d4-supplier-2: #547c89;
-  --d4-supplier-3: #a68343;
-  --d4-supplier-other: #a6aaa2;
+.d5-story {
+  --d5-correct: #2e7d32;
+  --d5-correct-tint: #edf5eb;
+  --d5-wrong: #a93632;
+  --d5-wrong-tint: #fbeceb;
+  --d5-diversified: #2e7d32;
+  --d5-concentrated: #e07b00;
+  --d5-unchanged: #757575;
+  --d5-2010: #b4b5af;
+  --d5-supplier-1: #234f40;
+  --d5-supplier-2: #547c89;
+  --d5-supplier-3: #a68343;
+  --d5-supplier-other: #a6aaa2;
   width: 100%;
   min-width: 0;
   max-width: 1280px;

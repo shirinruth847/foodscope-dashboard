@@ -1,38 +1,39 @@
-# Dashboard 4: integrated story
+# Dashboard 5: integrated story
 
-The main `/dashboards/4` page contains the quiz, three selectable explanations,
+The main `/dashboards/5` page contains the quiz, three selectable explanations,
 one shared Tableau embed and the static supplier-share comparison chart.
-The standalone reference remains at `/dashboard4-story/d4_story.html`.
+The standalone reference remains at `/dashboard4-story/d4_story.html` (its original reference path).
 
 ## File map
 
 | File | Responsibility |
 | --- | --- |
-| `Dashboard4Story.vue` | Page, scoped theme, current selection and embed connection |
+| `Dashboard5Story.vue` | Page, scoped theme, current selection and embed connection |
 | `ImportQuiz.vue` | Three questions, answer feedback, supplier bars and score |
 | `SupplierComparison.vue` | Static SVG chart, keyboard row controls and accessible table |
 | `data.js` | Quiz/story copy, percentages, supplier counts, classifications and sorting |
 | `supplier-shares.json` | Exact copy of the supplied Singapore supplier-share dataset |
 | `tableau.js` | Parameter queue, deduplication, manual-change notifications and cleanup |
 
-The only existing app file changed is `src/views/DashboardView.vue`. It lazily
-loads `Dashboard4Story.vue` for slug `4`; the existing template serves the other
-dashboards. The router, sidebar, global styles and shared Tableau embed are
-unchanged. Each new component's styles are scoped; extra colour tokens inherit
-from the Dashboard 4 page only. No packages were added.
+`src/views/DashboardView.vue` lazily loads `Dashboard5Story.vue` for slug `5`;
+the existing template serves the other dashboards. Numbering and findings are
+configured in `src/content/site.js`, and homepage story links in `HomeView.vue`.
+The router, sidebar, global styles and shared Tableau embed are unchanged.
+Each component's styles are scoped; extra colour tokens inherit from the
+Dashboard 5 page only. No packages were added.
 
 ## Tableau lifecycle
 
 `TableauEmbed.vue` owns the one visualization, lazy loading, reset button, error
 fallback, retry and responsive dimensions. The URL and dimensions come from
-Dashboard 4's existing `DASHBOARDS` entry in `src/content/site.js`.
+Dashboard 5's existing `DASHBOARDS` entry in `src/content/site.js`.
 
 The story stores the latest selection even before the lazy embed loads. Its
 `load` event provides the ready visualization to `createDashboardController()`;
 FirstInteractive has already fired, so the controller starts immediately.
 The controller then applies the pending food/year, with numeric years, and
 observes manual changes including resets. A retry reconnects a new controller
-and reapplies the latest selection. Leaving Dashboard 4 destroys its listeners.
+and reapplies the latest selection. Leaving Dashboard 5 destroys its listeners.
 
 The quiz, explanations and local chart remain usable if Tableau fails. Every
 selector uses the same visualization; scrolling never changes its selection.
