@@ -29,7 +29,7 @@ const ICONS = {
   problem: 'M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14ZM21 21l-4.35-4.35',
   findings: 'M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.6.4 1 1.1 1 1.8V16h5v-.3c0-.7.4-1.4 1-1.8A6 6 0 0 0 12 3Z',
   dashboards: 'M4 4h7v7H4zM13 4h7v4h-7zM13 10h7v10h-7zM4 13h7v7H4z',
-  recommendations: 'M5 21V4m0 0h11l-2 4 2 4H5',
+  conclusion: 'M5 21V4m0 0h11l-2 4 2 4H5',
 }
 </script>
 

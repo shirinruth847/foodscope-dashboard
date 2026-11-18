@@ -40,10 +40,10 @@ export const NAV = [
     summary: "Six interactive Tableau dashboards to explore the data yourself.",
   },
   {
-    id: "recommendations",
-    label: "Recommendations",
-    path: "/recommendations",
-    summary: "What the findings suggest for policymakers and planners.",
+    id: "conclusion",
+    label: "Conclusion",
+    path: "/conclusion",
+    summary: "The overall answer, Singapore’s position and the limits of interpretation.",
   },
 ];
 
@@ -408,24 +408,62 @@ export const DASHBOARDS = {
   ],
 };
 
-export const RECOMMENDATIONS = {
-  title: "Recommendations",
-  intro: "What our findings suggest for policymakers and planners.",
+export const CONCLUSION = {
+  title: "Conclusion",
+  intro: "Across 178 countries, higher self-sufficiency is not consistently associated with more food available per person.",
   items: [
     {
-      title: "Recommendation 1",
-      text: "To be added once the findings are final.",
-      placeholder: true,
+      kicker: "Bottom line",
+      title: "The overall answer",
+      text: "Producing more food domestically does not automatically mean more food is available. Trade can support high availability in import-dependent countries, while high self-sufficiency does not guarantee an adequate or diverse supply.",
+      placeholder: false,
     },
     {
-      title: "Recommendation 2",
-      text: "To be added once the findings are final.",
-      placeholder: true,
+      kicker: "Food groups",
+      title: "One ratio cannot show the whole food system",
+      text: "An overall self-sufficiency ratio can hide large gaps between food groups. A country may export a surplus overall while importing most of particular foods.",
+      placeholder: false,
     },
     {
-      title: "Recommendation 3",
-      text: "To be added once the findings are final.",
-      placeholder: true,
+      kicker: "Singapore",
+      title: "Explore Singapore’s food resilience",
+      lenses: [
+        {
+          id: "imports",
+          label: "Import network",
+          title: "Trade is part of food resilience",
+          text: "Singapore’s low self-sufficiency does not mean low food availability. Imports are its main supply source, so resilience depends on a broad supplier network and close attention to foods concentrated in one country.",
+          link: "/dashboards/5",
+          linkLabel: "Explore Singapore’s suppliers",
+        },
+        {
+          id: "production",
+          label: "Local production",
+          title: "Local food complements trade",
+          text: "Local farms cannot replace imports, but they can strengthen supply for selected foods and preserve production capacity during disruptions. The value of local production depends on what is produced, not only how much.",
+          link: "/dashboards/6",
+          linkLabel: "Explore local production",
+        },
+        {
+          id: "targets",
+          label: "2035 targets",
+          title: "The two targets face different gaps",
+          text: "Protein is closer to its target, but progress relies heavily on eggs. Fibre is further away and requires reversing the decline in vegetable production.",
+          link: "/dashboards/6",
+          linkLabel: "See progress towards 2035",
+        },
+      ],
+      placeholder: false,
+    },
+    {
+      kicker: "Interpretation",
+      title: "Three distinctions matter",
+      points: [
+        "Origin ≠ adequacy — self-sufficiency shows where supply comes from.",
+        "Association ≠ causation — patterns do not prove cause and effect.",
+        "Availability ≠ access — national supply does not show distribution.",
+      ],
+      placeholder: false,
     },
   ],
 };

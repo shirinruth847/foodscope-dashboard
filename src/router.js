@@ -25,7 +25,8 @@ const router = createRouter({
       props: true,
       beforeEnter: (to) => DASHBOARDS.items.some((d) => d.slug === to.params.slug) || '/dashboards',
     },
-    { path: '/recommendations', name: 'recommendations', component: RecommendationsView, meta: { title: label('recommendations') } },
+    { path: '/conclusion', name: 'conclusion', component: RecommendationsView, meta: { title: label('conclusion') } },
+    { path: '/recommendations', redirect: '/conclusion' },
     { path: '/:pathMatch(.*)*', redirect: '/' },
   ],
   scrollBehavior(to, from, savedPosition) {
