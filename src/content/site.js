@@ -132,6 +132,30 @@ export const DASHBOARDS = {
         eyebrow: "Dashboard 01 · Global overview",
         meta: ["178 countries", "2010–2023", "National food availability"],
       },
+      metric: {
+        eyebrow: "01 · Understand the measure",
+        title: "What is the self-sufficiency ratio (SSR)?",
+        text: "SSR estimates how much of a country’s domestic food supply is covered by its own production. It compares food produced locally with the amount available for domestic use.",
+        numerator: "Domestic production",
+        denominator: "Domestic production + imports − exports",
+        example: "Example: if production is 80, imports are 30 and exports are 10, SSR = 80 ÷ (80 + 30 − 10) × 100 = 80%.",
+        bands: [
+          {
+            value: "Below 100%",
+            text: "Domestic production is lower than domestic supply, so imports help fill the gap.",
+          },
+          {
+            value: "At 100%",
+            text: "Domestic production is equal to domestic supply.",
+          },
+          {
+            value: "Above 100%",
+            text: "Production exceeds domestic supply, usually indicating a surplus available for export.",
+          },
+        ],
+        note: "SSR measures the origin of supply—not whether food is adequate, diverse, affordable or evenly distributed.",
+        source: "Standard SSR formula; data from FAOSTAT Food Balance Sheets.",
+      },
       navigation: [
         {
           title: "Choose a year",

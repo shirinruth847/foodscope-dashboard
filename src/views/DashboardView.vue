@@ -50,6 +50,39 @@ const navigationSteps = computed(() => dashboard.value?.navigation ?? defaultNav
       </ul>
     </header>
 
+    <section v-if="dashboard.metric" id="metric" class="dashboard-section metric-section" aria-labelledby="metric-title">
+      <div class="section-heading">
+        <p class="section-kicker">{{ dashboard.metric.eyebrow }}</p>
+        <h2 id="metric-title">{{ dashboard.metric.title }}</h2>
+        <p>{{ dashboard.metric.text }}</p>
+      </div>
+
+      <div class="metric-card">
+        <div class="metric-formula" aria-label="Self-sufficiency ratio equals domestic production divided by domestic production plus imports minus exports, multiplied by 100">
+          <span class="metric-formula__name">SSR</span>
+          <span aria-hidden="true">=</span>
+          <span class="metric-fraction">
+            <span>{{ dashboard.metric.numerator }}</span>
+            <span>{{ dashboard.metric.denominator }}</span>
+          </span>
+          <span aria-hidden="true">× 100</span>
+        </div>
+        <p class="metric-example">{{ dashboard.metric.example }}</p>
+      </div>
+
+      <div class="metric-bands" aria-label="How to interpret SSR values">
+        <article v-for="band in dashboard.metric.bands" :key="band.value">
+          <strong>{{ band.value }}</strong>
+          <p>{{ band.text }}</p>
+        </article>
+      </div>
+
+      <aside class="metric-note">
+        <p>{{ dashboard.metric.note }}</p>
+        <span>{{ dashboard.metric.source }}</span>
+      </aside>
+    </section>
+
     <section id="how-to-use" class="dashboard-section" aria-labelledby="how-to-use-title">
       <div class="section-heading">
         <p class="section-kicker">02 · Navigate</p>
@@ -233,6 +266,109 @@ const navigationSteps = computed(() => dashboard.value?.navigation ?? defaultNav
   margin-top: 10px;
   color: var(--ink-soft);
   font-size: 18px;
+}
+
+.metric-section {
+  max-width: 1040px;
+}
+
+.metric-card {
+  padding: clamp(24px, 4vw, 38px);
+  border-radius: var(--radius);
+  background: linear-gradient(145deg, var(--forest), var(--forest-deep));
+  color: var(--cream);
+  box-shadow: var(--shadow);
+}
+
+.metric-formula {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(10px, 2vw, 20px);
+  font-family: var(--font-display);
+  font-size: clamp(20px, 3vw, 31px);
+  line-height: 1.25;
+  text-align: center;
+}
+
+.metric-formula__name {
+  color: #d6b76f;
+  font-weight: 700;
+}
+
+.metric-fraction {
+  display: grid;
+  min-width: min(100%, 430px);
+}
+
+.metric-fraction span {
+  padding: 7px 16px;
+}
+
+.metric-fraction span:first-child {
+  border-bottom: 1px solid rgb(246 241 230 / 65%);
+}
+
+.metric-example {
+  max-width: 72ch;
+  margin: 24px auto 0;
+  padding-top: 18px;
+  border-top: 1px solid rgb(246 241 230 / 18%);
+  color: rgb(246 241 230 / 82%);
+  font-size: 15px;
+  text-align: center;
+}
+
+.metric-bands {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.metric-bands article {
+  padding: 20px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--paper);
+}
+
+.metric-bands strong {
+  color: var(--wheat);
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.metric-bands p {
+  margin-top: 7px;
+  color: var(--ink-soft);
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.metric-note {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin-top: 12px;
+  padding: 16px 18px;
+  border-left: 3px solid var(--wheat);
+  background: var(--wheat-tint);
+}
+
+.metric-note p {
+  color: var(--forest);
+  font-weight: 600;
+}
+
+.metric-note span {
+  flex: 0 0 260px;
+  color: var(--ink-muted);
+  font-size: 13px;
+  font-style: italic;
+  text-align: right;
 }
 
 .navigation-steps {
@@ -429,7 +565,8 @@ const navigationSteps = computed(() => dashboard.value?.navigation ?? defaultNav
 @media (max-width: 850px) {
   .navigation-steps,
   .analysis-grid,
-  .significance {
+  .significance,
+  .metric-bands {
     grid-template-columns: 1fr;
   }
 
@@ -440,6 +577,16 @@ const navigationSteps = computed(() => dashboard.value?.navigation ?? defaultNav
   .takeaway {
     grid-template-columns: 1fr;
     gap: 6px;
+  }
+
+  .metric-note {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .metric-note span {
+    flex-basis: auto;
+    text-align: left;
   }
 }
 
