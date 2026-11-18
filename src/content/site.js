@@ -76,8 +76,8 @@ export const FINDINGS = {
   items: [
     {
       tag: "Self-sufficiency",
-      text: "Finding to be added: how self-sufficiency and import dependency have changed since 2010.",
-      placeholder: true,
+      text: "Food self-sufficiency varies widely: some countries produce more than their domestic supply, while others depend heavily on imports. The ratio shows where food comes from, not whether enough food is available.",
+      placeholder: false,
     },
     {
       tag: "Food categories",
