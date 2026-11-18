@@ -343,7 +343,7 @@ export const DASHBOARDS = {
       slug: "5",
       navTitle: "Dashboard 5",
       title: "If a country doesn’t grow its food, where does its food supply come from?",
-      description: "",
+      description: "Self-sufficiency shows how much a country imports, but not from where. Trace Singapore’s suppliers for each food, and see how much it relies on its largest one compared with similar economies.",
       src: "https://public.tableau.com/shared/MPPSXQ5KH",
       width: "1000px",
       height: "827px",
