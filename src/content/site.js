@@ -91,8 +91,8 @@ export const FINDINGS = {
     },
     {
       tag: "Income",
-      text: "Finding to be added: how income relates to food self-sufficiency and food availability.",
-      placeholder: true,
+      text: "Income does not predict self-sufficiency: it varies as widely within income groups as between them. The link between growing your own food and having enough of it is strongest where food is scarcest.",
+      placeholder: false,
     },
     {
       tag: "Supply structure",
@@ -101,8 +101,8 @@ export const FINDINGS = {
     },
     {
       tag: "2035 targets",
-      text: "Finding to be added: Singapore’s local production against its 2035 fibre and protein targets.",
-      placeholder: true,
+      text: "Singapore’s two 2035 targets are moving in opposite directions. Protein is close at 25% against a 30% goal, carried by eggs, while fibre sits at 8% against 20% as vegetable output falls.",
+      placeholder: false,
     },
   ],
 };
