@@ -80,9 +80,9 @@ export const FINDINGS = {
       placeholder: false,
     },
     {
-      tag: "Food categories",
-      text: "Finding to be added: which food categories countries produce domestically versus import.",
-      placeholder: true,
+      tag: "Self-sufficiency & food supply",
+      text: "Growing your own food does not mean having more of it. Countries with low self-sufficiency can still have a high food supply per person, and some countries that produce more than they use have a low one.",
+      placeholder: false,
     },
     {
       tag: "Food categories & self-sufficiency",
