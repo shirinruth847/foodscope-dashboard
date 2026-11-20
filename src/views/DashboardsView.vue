@@ -9,7 +9,7 @@ function previewUrl(src) {
     const id = shared[1]
     return `https://public.tableau.com/static/images/${id.slice(0, 2)}/${id}/1.png`
   }
-  const match = src.match(/^https:\/\/public\.tableau\.com\/views\/([^/]+)\/([^/?#]+)/)
+  const match = src?.match(/^https:\/\/public\.tableau\.com\/views\/([^/]+)\/([^/?#]+)/)
   if (!match) return null
   const [, workbook, sheet] = match
   return `https://public.tableau.com/static/images/${workbook.slice(0, 2)}/${workbook}/${sheet}/1.png`
@@ -33,9 +33,9 @@ function previewUrl(src) {
               <path d="M14 32v-8M22 32V18M30 32v-11M38 32v-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
             </svg>
             <img
-              v-if="previewUrl(d.src)"
+              v-if="d.preview || previewUrl(d.src)"
               class="tile__preview"
-              :src="previewUrl(d.src)"
+              :src="d.preview || previewUrl(d.src)"
               alt=""
               loading="lazy"
               @error="$event.target.style.display = 'none'"

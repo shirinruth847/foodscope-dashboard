@@ -122,6 +122,7 @@ export const DASHBOARDS = {
     {
       slug: "1",
       navTitle: "Dashboard 1",
+      preview: "/images/previews/db1.webp",
       title: "Global food self-sufficiency",
       description:
         "See how much of each country’s food supply was produced domestically, then compare its position with countries at both ends of the global range.",
@@ -206,6 +207,7 @@ export const DASHBOARDS = {
     {
       slug: "2",
       navTitle: "Dashboard 2",
+      preview: "/images/previews/db2.webp",
       title: "Does higher self-sufficiency mean more food per person?",
       description:
         "Compare how much of each country's food supply is produced domestically with how many calories each person has available, then see where one country sits against the world.",
@@ -276,6 +278,7 @@ export const DASHBOARDS = {
     {
       slug: "3",
       navTitle: "Dashboard 3",
+      preview: "/images/previews/db3.webp",
       title: "Deep dive into self-sufficiency by food groups",
       description: "A country's overall self-sufficiency ratio can look strong while individual food groups depend heavily on imports. Choose a country and year to see where its food is produced at home and where it is imported.",
       src: "https://public.tableau.com/views/Dashboard3_17947413071250/Dashboard1",
@@ -306,6 +309,7 @@ export const DASHBOARDS = {
     {
       slug: "4",
       navTitle: "Dashboard 4",
+      preview: "/images/previews/db4.webp",
       title: "Does income explain self-sufficiency?",
       description:
         "Wealthier countries can afford to import, so any link between producing your own food and having enough of it might simply reflect national income. These four views hold income constant.",
@@ -366,6 +370,7 @@ export const DASHBOARDS = {
     {
       slug: "5",
       navTitle: "Dashboard 5",
+      preview: "/images/previews/db5.webp",
       title: "If a country doesn’t grow its food, where does its food supply come from?",
       description: "Self-sufficiency shows how much a country imports, but not from where. Trace Singapore’s suppliers for each food, and see how much it relies on its largest one compared with similar economies.",
       src: "https://public.tableau.com/shared/MPPSXQ5KH",
@@ -376,6 +381,7 @@ export const DASHBOARDS = {
     {
       slug: "6",
       navTitle: "Dashboard 6",
+      preview: "/images/previews/db6.webp",
       title: "Is Singapore on track for its 2035 targets?",
       description:
         "Singapore imports more than 90% of its food. Under Singapore Food Story 2, local farms are meant to supply 20% of its fibre and 30% of its protein by 2035.",
